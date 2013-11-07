@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>YouTube XML 字幕转 SRT | Crexyer's Blog 在线工具</title>
+<link href="../css/bootstrap.css" rel="stylesheet">
+<link href="../css/bootstrap-theme.css" rel="stylesheet">
+<link href="../css/custom.css" rel="stylesheet">
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/modernizr.js"></script>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43111893-3', 'crexyer.com');
+	ga('send', 'pageview');
+</script>
+</head>
+<body>
+<script type="text/javascript">
+	function showTips() {
+		document.getElementById("info").innerHTML = "<strong>使用说明</strong>" + "<br>将 XML 数据复制到网页的输入框中点击转换即可获得 SRT 格式的字幕。建议将网页的源代码复制过来而不是浏览器直接展示的内容，否则可能导致无法正确解析。需要注意的是不一定每个视频都带有对应语言的字幕，请自行判断。<br><br><strong>YouTube 字幕可以按照以下方法获取</strong><br>视频地址：<br>https://www.youtube.com/watch?v=<span class=\"text-primary\">&lt;视频 ID&gt;</strong></span><br>那么字幕地址为：<br>https://video.google.com/timedtext?lang=<span class=\"text-primary\">&lt;语言 ID&gt;</span>&v=<span class=\"text-primary\">&lt;视频 ID&gt;</span><br>其中语言 ID 可以为 en、zh-TW、zh-CN 等，分别对应英文、繁体中文、简体中文。<br><br><strong>举例说明</strong><br>视频地址：https://www.youtube.com/watch?v=9pmPa_KxsAM<br>语言 ID：en<br>字幕地址：https://video.google.com/timedtext?lang=en&v=9pmPa_KxsAM";
+		$('#dialogue').modal('show');
+	}
+	function convertFormat() {
+		var xml = document.getElementById("xml").value;
+		var regex = new RegExp("<text start=\"([\\S]*?)\" dur=\"([\\S]*?)\">[\\n]*([\\S\\s]*?)[\\n]*</text>", "ig");
+		var result = xml.match(regex);
+		if (result === null) {
+			document.getElementById("info").innerHTML = "XML 中不包含字幕信息";
+			$('#dialogue').modal('show');
+			$('#dialogue').on('hidden.bs.modal', function() {
+ 				document.getElementById("xml").focus();
+ 			});
+			return false;
+		}
+		var srt = "";
+		for (var count = 0; count < result.length; ++count) {
+			srt += (count + 1) + "\n";
+			srt += formatTime(getData(result[count], 1)) + " --> " + formatTime(parseFloat(getData(result[count], 1)) + parseFloat(getData(result[count], 2))) + "\n";
+			srt += getData(result[count], 3);
+			srt += (count == result.length - 1) ? "" : "\n\n";
+		}
+		document.getElementById("srt").value = htmlDecode(srt);
+		document.getElementById("srt").select();
+	}
+	function formatTime(second) {
+		return [Math.floor(second / 60 / 60), Math.floor(second / 60 % 60), (second % 60).toFixed(3)].join(":").replace(/\b(\d)\b/g, "0$1").replace(/\./g, ",");
+	}
+	function getData(text, position) {
+		if (text.match("<text start=\"([\\S]*?)\" dur=\"([\\S]*?)\">[\\n]*([\\S\\s]*?)[\\n]*</text>") === null) {
+			return "";
+		} else {
+			switch (position) {
+			case 1:
+				return RegExp.$1;
+			case 2:
+				return RegExp.$2;
+			case 3:
+				return RegExp.$3;
+			default:
+				return "";
+			}
+		}
+	}
+	function htmlDecode(str) {
+		str = str.replace(/&amp;/g, "&");
+		str = str.replace(/&lt;/g, "<");
+		str = str.replace(/&gt;/g, ">");
+		str = str.replace(/&nbsp;/g, " ");
+		str = str.replace(/&quot;/g, "\"");
+		str = str.replace(/&copy;/g, "©");
+		str = str.replace(/&reg;/g, "®");
+		str = str.replace(/&#39;/g, "'");
+		str = str.replace(/&times;/g, "×");
+		str = str.replace(/&divide;/g, "÷");
+		return str;
+	}
+	function clearXML() {
+		document.getElementById("xml").value = "";
+		document.getElementById("srt").value = "";
+	}
+</script>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+		<span class="sr-only">下拉导航</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+	</div>
+	<div class="collapse navbar-collapse navbar-ex1-collapse">
+		<ul class="nav navbar-nav">
+			<li><a href="http://www.crexyer.com/"><span class="glyphicon glyphicon-home"></span> Crexyer's Blog</a></li>
+			<li class="active"><a href="../"><span class="glyphicon glyphicon-wrench"></span> 在线工具</a></li>
+			<li><a href="../history.html"><span class="glyphicon glyphicon-time"></span> 更新日志</a></li>
+		</ul>
+	</div>
+</div>
+</nav>
+<div class="jumbotron">
+	<div class="container">
+		<h1>YouTube XML 字幕转 SRT</h1>
+		<p>
+			转换 YouTube XML 字幕转换为本地播放器支持的 SRT，采用 JavaScript 正则表达式进行处理，快速高效。
+		</p>
+	</div>
+</div>
+<div class="container">
+	<script>
+		if (Modernizr.canvas == false) {
+			document.writeln("<div class=\"alert alert-danger fade in\"><button class=\"close\" data-dismiss=\"alert\">×</button><b>警告：</b>您当前的浏览器不支持 HTML5 功能，可能无法正常使用在线工具，建议更换或升级浏览器。</div>");
+		}
+	</script>
+	<div class="form-horizontal" role="form">
+		<div class="form-group">
+			<label class="col-sm-2 control-label">XML 字幕</label>
+			<div class="col-sm-10">
+				<textarea class="form-control" rows="9" id="xml"></textarea>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-sm-offset-2 col-sm-10">
+				<button class="btn btn-primary" onclick="convertFormat()">转换格式</button>
+				<button class="btn btn-default" onclick="clearXML()">清空数据</button>
+				<button class="btn btn-default" onclick="showTips()">使用说明</button>
+			</div>
+		</div>
+		<div class="form-group" id="result">
+			<label class="col-sm-2 control-label">SRT 字幕</label>
+			<div class="col-sm-10">
+				<textarea class="form-control" rows="9" id="srt"></textarea>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<footer>
+	<p>
+		&copy; Crexyer &middot; 使用 <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 构建 &middot; 更新日期 2013-10-13 &middot; 托管于 <a href="http://sae.sina.com.cn/" target="_blank">Sina App Engine</a> &middot; <a href="http://www.crexyer.com/archives/270" target="_blank">意见反馈</a> 
+	</p>
+	</footer>
+</div>
+<div id="dialogue" class="modal fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 id="title" class="modal-title">提示</h4>
+			</div>
+			<div class="modal-body">
+				<p id="info">
+				</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>正则表达式调试 | Crexyer's Blog 在线工具</title>
+<link href="../css/bootstrap.css" rel="stylesheet">
+<link href="../css/bootstrap-theme.css" rel="stylesheet">
+<link href="../css/custom.css" rel="stylesheet">
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/modernizr.js"></script>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43111893-3', 'crexyer.com');
+	ga('send', 'pageview');
+</script>
+</head>
+<body>
+<script type="text/javascript">
+	function isValidFields() {
+		var textSour = document.getElementById("textSour");
+		var textPattern = document.getElementById("textPattern");
+		if (textSour.value === null || textSour.value == "") {
+ 		document.getElementById("info").innerHTML = "请输入源文本";
+ 		$('#dialogue').modal('show');
+ 		$('#dialogue').on('hidden.bs.modal', function() {
+ 			textSour.focus();
+ 		});
+ 		return false;
+ 	}
+ 	if (textPattern.value === null || textPattern.value == "") {
+ 		document.getElementById('info').innerHTML = "请输入正则表达式";
+ 		$('#dialogue').modal('show');
+ 		$('#dialogue').on('hidden.bs.modal', function() {
+ 			textPattern.focus();
+ 		});
+ 		return false;
+ 	}
+ 	return true;
+ }
+	function onMatch() {
+		if (!isValidFields()) {
+		return false;
+	}
+ 	document.getElementById("textMatchResult").value = "";
+ 	document.getElementById("ResultCount").innerHTML = "";
+ 	var regex = buildRegex();
+ 	var result = document.getElementById("textSour").value.match(regex);
+ 	if (result === null) {
+ 		document.getElementById("ResultCount").innerHTML = "没有匹配";
+ 		return false;
+ 	}
+ 	if (optionGlobal) {
+ 		document.getElementById('ResultCount').innerHTML = result.length + " 处匹配";
+ 		var textMatchResult = "";
+ 		for (var Count = 0; Count < result.length; ++Count) {
+ 			textMatchResult = textMatchResult + result[Count];
+ 			textMatchResult = (Count == result.length - 1) ? textMatchResult : textMatchResult + "\n";
+ 		}
+ 		document.getElementById("textMatchResult").value = textMatchResult;
+ 	}
+ }
+	function buildRegex() {
+ 		var option = "";
+ 		if (document.getElementById("optionGlobal").checked) {
+ 			option = "g";
+ 		}
+ 		if (document.getElementById("optionIgnoreCase").checked) {
+ 			option = option + "i";
+ 		}
+ 		return new RegExp(document.getElementById("textPattern").value, option);
+ 	}
+	function onReplace() {
+ 		if (!isValidFields()) {
+ 			return false;
+ 		}
+ 		var textSour = document.getElementById("textSour").value;
+ 		var Regex = buildRegex();
+ 		document.getElementById("textReplaceResult").value = textSour.replace(Regex, document.getElementById("textReplace").value);
+	}
+	function clearMatch() {
+		document.getElementById("textSour").value = "";
+		document.getElementById("textPattern").value = "";
+		document.getElementById("textMatchResult").value = "";
+		document.getElementById("ResultCount").innerHTML = "";
+	}
+	function clearReplace() {
+		document.getElementById("textReplace").value = "";
+		document.getElementById("textReplaceResult").value = "";
+	}
+</script>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+		<span class="sr-only">下拉导航</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+	</div>
+	<div class="collapse navbar-collapse navbar-ex1-collapse">
+		<ul class="nav navbar-nav">
+			<li><a href="http://www.crexyer.com/"><span class="glyphicon glyphicon-home"></span> Crexyer's Blog</a></li>
+			<li class="active"><a href="../"><span class="glyphicon glyphicon-wrench"></span> 在线工具</a></li>
+			<li><a href="../history.html"><span class="glyphicon glyphicon-time"></span> 更新日志</a></li>
+		</ul>
+	</div>
+</div>
+</nav>
+<div class="jumbotron">
+	<div class="container">
+		<h1>正则表达式调试</h1>
+		<p>
+			调试正则表达式和进行文本替换，完全在线进行操作，不需要安装软件。本工具使用 JavaScript RegExp 对象。
+		</p>
+	</div>
+</div>
+<div class="container">
+	<script>
+		if (Modernizr.canvas == false) {
+			document.writeln("<div class=\"alert alert-danger fade in\"><button class=\"close\" data-dismiss=\"alert\">×</button><b>警告：</b>您当前的浏览器不支持 HTML5 功能，可能无法正常使用在线工具，建议更换或升级浏览器。</div>");
+		}
+	</script>
+	<div class="form-horizontal" role="form">
+		<div class="form-group">
+			<label class="col-sm-2 control-label">源文本</label>
+			<div class="col-sm-10">
+				<textarea class="form-control" rows="9" id="textSour"></textarea>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label">正则表达式</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" id="textPattern">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label">匹配结果</label>
+			<div class="col-sm-10">
+				<span id="ResultCount" class="help-block"></span>
+				<textarea class="form-control" rows="9" id="textMatchResult"></textarea>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-sm-offset-2 col-sm-10">
+				<button class="btn btn-primary" onclick="onMatch()">测试匹配</button>
+				<button class="btn btn-default" onclick="clearMatch()">清空匹配</button>
+				<div class="btn-group" data-toggle="buttons">
+					<label class="btn btn-success active">
+						<input type="checkbox" id="optionGlobal">全局搜索
+					</label>
+					<label class="btn btn-success active">
+    				<input type="checkbox" id="optionIgnoreCase">忽略大小写
+    			</label>
+				</div>
+				<script>
+					document.getElementById("optionGlobal").checked = true;
+					document.getElementById("optionIgnoreCase").checked = true;
+				</script>
+				<a href="http://deerchao.net/tutorials/regex/regex.htm" class="btn btn-default" target="_blank">使用教程</a>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label">替换文本</label>
+			<div class="col-sm-10">
+				<textarea class="form-control" rows="4" id="textReplace"></textarea>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label">替换结果</label>
+			<div class="col-sm-10">
+				<textarea class="form-control" rows="9" id="textReplaceResult"></textarea>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-sm-offset-2 col-sm-10">
+				<button class="btn btn-primary" onclick="onReplace()">执行替换</button>
+				<button class="btn btn-default" onclick="clearReplace()">清空替换</button>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<footer>
+	<p>
+		&copy; Crexyer &middot; 使用 <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 构建 &middot; 更新日期 2013-11-02 &middot; 托管于 <a href="http://sae.sina.com.cn/" target="_blank">Sina App Engine</a> &middot; <a href="http://www.crexyer.com/archives/270" target="_blank">意见反馈</a> 
+	</p>
+	</footer>
+</div>
+<div id="dialogue" class="modal fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 id="title" class="modal-title">提示</h4>
+			</div>
+			<div class="modal-body">
+				<p id="info">
+				</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
