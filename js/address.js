@@ -6646,13 +6646,19 @@
 	};
 	//省
 	var province = address[code.substring(0, 2) + "0000"];
-	var province = (province == null) ? "未知地区" : province;
+	if (province == null) {
+		province = "未知地区"
+	};
 	//市
 	var city = address[code.substring(0, 4) + "00"];
-	var city = (city == null) ? "未知地区" : city;
+	if (city == null) {
+		city = "未知地区"
+	};
 	//县
 	var county = address[code];
-	var county = (county == null) ? "未知地区" : county;
+	if (county == null) {
+		county = "未知地区"
+	};
 	if (province == city) {
 		return province;
 	} else if (city == county) {
