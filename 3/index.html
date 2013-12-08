@@ -14,24 +14,19 @@
 	ga('send', 'pageview');
 </script>
 </head>
-<body onload="loadQR()">
+<body>
 <script type="text/javascript">
 	function showTips() {
 		document.getElementById('info').innerHTML = "此工具支持生成四种类型的二维码：文本、网址、名片、短信，选择相应的标签并填写信息即可快速生成。<br><br>如果想保存二维码，右键单击二维码选择另存为即可。<br><br>输入的文本长度不能过长，否则可能会影响识别效果或者无法生成。";
 		$('#dialogue').modal('show');
-	}
-	function loadQR(now) {
-		if (document.getElementById('canvasImg').src == "" || now == true) {
-			jqueryQR("http://www.crexyer.com/");
-		}
 	}
 	function jqueryQR(text) {
 		$("#qrCodeCanvas").empty();
 		str = toUtf8(text);
 		$("#qrCodeCanvas").qrcode({
 			render: "canvas",
-			width: 360,
-			height: 360,
+			width: 318,
+			height: 318,
 			text: str
 		});
 		getImage();
@@ -232,7 +227,7 @@
 		</div>
 		<div class="col-lg-4">
 				<div class="tab-container">
-							<img id="canvasImg" style="max-width: 100%;">
+							<img id="canvasImg" style="max-width: 100%;" src="">
 							<div id="qrCodeCanvas" style="display: none;"></div>
 				</div>
 		</div>
@@ -270,5 +265,8 @@
 <script src="../js/theme.js" type="text/javascript"></script>
 <script src="../js/jquery.qrcode.js" type="text/javascript"></script>
 <script src="../js/qrcode.js" type="text/javascript"></script>
+<script>
+	jqueryQR("http://www.crexyer.com/");
+</script>
 </body>
 </html>
