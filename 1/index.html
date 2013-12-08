@@ -3,13 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>百度网盘直链地址获取 | Crexyer's Blog 在线工具</title>
-<link href="../css/bootstrap.css" rel="stylesheet">
-<link href="../css/bootstrap-theme.css" rel="stylesheet">
-<link href="../css/custom.css" rel="stylesheet">
-<script src="../js/jquery.js"></script>
-<script src="../js/bootstrap.js"></script>
-<script src="../js/modernizr.js"></script>
+<title>VirusTotal 在线病毒扫描 | Crexyer's Blog 在线工具</title>
+<link href="../css/theme.css" rel="stylesheet">
 <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -20,131 +15,6 @@
 </script>
 </head>
 <body>
-<script type="text/javascript">
-	var baseURL = "http://getfile.duapp.com/";
-
-	function getRequestURL() {
-		var originURL = document.getElementById("originURL").value;
-		//获取参数
-		var file = getFile(originURL);
-		var uk = getQueryStringRegExp(originURL, "uk");
-		var shareid = getQueryStringRegExp(originURL, "shareid");
-		//判断是否为旧版地址格式
-		if (file != "") {
-			//新版地址格式
-			return "file=" + file;
-		} else if (uk != "" && shareid != "") {
-			//旧版地址格式
-			return "uk=" + uk + "&shareid=" + shareid;
-		} else {
-			//都不正确
-			return "";
-		}
-	}
-
-	function isValidString(szStr) {
-		voidChar = "\\\/";
-		for (i = 0; i < voidChar.length; i++) {
-			aChar = voidChar.substring(i, i + 1);
-			if (szStr.indexOf(aChar) > -1) {
-				return false;
-			}
-		}
-		return true;
-	}
-
-	function getURL() {
-		var filename = document.getElementById("filename").value;
-		//判断文件名是否合法
-		if (isValidString(filename) == false) {
-			document.getElementById("title").innerHTML = "提示";
-			document.getElementById("info").innerHTML = "文件名中不能含有以下字符：<br>\/ \\";
-			$('#dialogue').modal('show');
-			$('#dialogue').on('hidden.bs.modal', function() {
-				document.getElementById("filename").select();
-			});
-			return false;
-		}
-		if (getRequestURL() == "") {
-			document.getElementById("title").innerHTML = "提示";
-			document.getElementById("info").innerHTML = "请输入正确的地址格式，例如下面的格式：<br>http://pan.baidu.com/s/1n81ky<br>http://pan.baidu.com/share/link?shareid=498673&uk=3145124";
-			$('#dialogue').modal('show');
-			$('#dialogue').on('hidden.bs.modal', function() {
-				document.getElementById("originURL").select();
-			});
-			return false;
-		}
-		document.getElementById("progress").className = "progress progress-striped active";
-		//是否设置文件名称
-		if (filename == "") {
-			$.ajax({
-				url: baseURL + "info.php?" + getRequestURL(),
-				dataType: "jsonp",
-				jsonp: "jsonpcallback",
-				timeout: 3000,
-				success: function(data, status) {
-					setNewURL(data.filename);
-					setFocus();
-				},
-				error: function(XHR, textStatus, errorThrown) {
-					setNewURL("");
-					setFocus();
-				}
-			});
-		} else {
-			setNewURL(filename);
-			setFocus();
-		}
-	};
-
-	function getFile(URL) {
-		var reg = new RegExp("http://pan.baidu.com/s/(.*)", "i");
-		if (reg.test(URL)) return URL.match(reg)[1];
-		return "";
-	};
-
-	function getQueryStringRegExp(URL, name) {
-		var reg = new RegExp("(^|\\?|&)" + name + "=([^&]*)(\\s|&|$)", "i");
-		if (reg.test(URL)) return unescape(RegExp.$2.replace(/\+/g, " "));
-		return "";
-	};
-
-	function clearURL() {
-		document.getElementById("originURL").value = "";
-		document.getElementById("filename").value = "";
-		document.getElementById("newURL").value = "";
-		document.getElementById("md5").value = "";
-	};
-
-	function showTips() {
-		document.getElementById("title").innerHTML = "使用说明";
-		document.getElementById("info").innerHTML = "输入原始地址后点击按钮即可获取直链，原始地址格式应该和下面的类似：<br>http://pan.baidu.com/s/1n81ky<br>http://pan.baidu.com/share/link?shareid=498673&uk=3145124<br><br>文件名称可以手动填写，它将作为直链地址的一部分，如果不填写的话将自动获取文件的原始名称。<br><br>基于功能的考虑，直链地址只支持单文件外链，即外链地址中只能包含一个文件，不支持多个文件和文件夹。<br><br>直链地址解析服务托管于 BAE，高速稳定，可以保证直链的长期使用。";
-		$('#dialogue').modal('show');
-	}
-
-	function setFocus() {
-		document.getElementById("newURL").select();
-		document.getElementById("progress").className = "progress progress-striped active hide";
-	}
-
-	function setNewURL(filename) {
-		var originURL = document.getElementById("originURL").value;
-		//获取参数
-		var file = getFile(originURL);
-		var uk = getQueryStringRegExp(originURL, "uk");
-		var shareid = getQueryStringRegExp(originURL, "shareid");
-		if (file != "") {
-			//新版地址格式
-			document.getElementById("newURL").value = (filename === null || filename == "") ? baseURL + file + "/download" : baseURL + file + "/" + filename;
-		} else if (uk != "" && shareid != "") {
-			//旧版地址格式
-			document.getElementById("newURL").value = (filename === null || filename == "") ? baseURL + uk + "/" + shareid + "/download" : baseURL + uk + "/" + shareid + "/" + filename;
-		} else {
-			//都不正确
-			document.getElementById("newURL").value = "参数错误";
-		}
-	}
-</script>
 <nav class="navbar navbar-inverse navbar-fixed-top">
 <div class="container">
 	<div class="navbar-header">
@@ -154,66 +24,53 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 		</button>
+		<a class="navbar-brand" href="http://www.crexyer.com"><span class="glyphicon glyphicon-home"></span> Crexyer&#039;s Blog</a>
 	</div>
 	<div class="collapse navbar-collapse navbar-ex1-collapse">
 		<ul class="nav navbar-nav">
-			<li><a href="http://www.crexyer.com/"><span class="glyphicon glyphicon-home"></span> Crexyer's Blog</a></li>
-			<li class="active"><a href="../"><span class="glyphicon glyphicon-wrench"></span> 在线工具</a></li>
-			<li><a href="../history.html"><span class="glyphicon glyphicon-time"></span> 更新日志</a></li>
+			<li class="active"><a href="../">在线工具</a></li>
+			<li><a href="../history.html">更新日志</a></li>
 		</ul>
 	</div>
 </div>
 </nav>
 <div class="jumbotron">
 	<div class="container">
-		<h1>百度网盘直链地址获取</h1>
+		<h1>VirusTotal 在线病毒扫描</h1>
 		<p>
-			方便地获取百度网盘文件的直链地址，支持各种文件格式，可以作为音乐、图片、视频外链，并且不受流量限制。
+			VirusTotal 是一个免费的病毒，蠕虫，木马和各种恶意软件分析服务，可以针对可疑文件和网址进行快速检测。
 		</p>
 	</div>
 </div>
 <div class="container">
-	<script>
-		if (Modernizr.canvas == false) {
-			document.writeln("<div class=\"alert alert-danger fade in\"><button class=\"close\" data-dismiss=\"alert\">×</button><b>警告：</b>您当前的浏览器不支持 HTML5 功能，可能无法正常使用在线工具，建议更换或升级浏览器。</div>");
-		}
-	</script>
-	<div class="form-horizontal" role="form">
-		<div class="form-group">
-			<label class="col-sm-2 control-label">原始地址</label>
-			<div class="col-sm-10">
-				<input type="text" class="form-control" id="originURL" placeholder="http://pan.baidu.com/s/1n81ky">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-2 control-label">文件名称</label>
-			<div class="col-sm-10">
-				<input type="text" class="form-control" id="filename" placeholder="可选，留空将自动获取">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-2 control-label">直链地址</label>
-			<div class="col-sm-10">
-				<input type="text" class="form-control" id="newURL" placeholder="点击按钮获取直链地址">
-			</div>
-		</div>
-		<div class="form-group">
-			<div class="col-sm-offset-2 col-sm-10">
-				<button class="btn btn-primary" onclick="getURL()">获取直链</button>
-				<button class="btn btn-default" onclick="clearURL()">清空数据</button>
-				<button class="btn btn-default" onclick="showTips()">使用说明</button>
-			</div>
-		</div>
-		<div id="progress" class="progress progress-striped active hide">
-			<div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-			</div>
-		</div>
+  <div class="alert alert-danger fade in hide" id="alert-HTML5">
+		<button class="close" data-dismiss="alert">×</button>
+  	你的浏览器不支持 HTML5，请升级或更换浏览器以获得更好的浏览体验。
+  </div>
+	<div class="tab-container">
+		<p>
+			<img src="virustotal.png">
+		</p>
+		<p>
+			此工具为 VirusTotal 的直接访问链接，点击将跳转到 VirusTotal 网站。
+		</p>
+		<p>
+			搜索数据库可以搜索已有的在线数据，查找依据是文件的哈希值。
+		</p>
+		<p>
+			<a href="https://www.virustotal.com/zh-cn/" target="_blank" class="btn btn-primary"><span class="glyphicon glyphicon-file"></span> 扫描文件</a>
+			<a href="https://www.virustotal.com/zh-cn/#url" target="_blank" class="btn btn-primary"><span class="glyphicon glyphicon-globe"></span> 扫描网址</a>
+			<a href="https://www.virustotal.com/zh-cn/#search" target="_blank" class="btn btn-primary"><span class="glyphicon glyphicon-cloud"></span> 搜索数据库</a>
+		</p>
 	</div>
 	<hr>
 	<footer>
-	<p>
-		&copy; Crexyer &middot; 使用 <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 构建 &middot; 更新日期 2013-11-09 &middot; 托管于 <a href="https://github.com/" target="_blank">GitHub</a> &middot; <a href="http://www.crexyer.com/archives/270" target="_blank">意见反馈</a> 
-	</p>
+		<ul>
+			<li>&copy; Crexyer</li>
+			<li>使用 <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 构建</li>
+			<li>托管于 <a href="https://github.com/" target="_blank">GitHub</a></li>
+			<li><a href="http://www.crexyer.com/archives/270" target="_blank">意见反馈</a> </li>
+		</ul>
 	</footer>
 </div>
 <div id="dialogue" class="modal fade">
@@ -233,5 +90,9 @@
 		</div>
 	</div>
 </div>
+<script src="../js/jquery.js" type="text/javascript"></script>
+<script src="../js/bootstrap.js" type="text/javascript"></script>
+<script src="../js/modernizr.js" type="text/javascript"></script>
+<script src="../js/theme.js" type="text/javascript"></script>
 </body>
 </html>

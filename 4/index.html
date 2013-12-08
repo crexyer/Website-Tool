@@ -4,12 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>网盘资源搜索 | Crexyer's Blog 在线工具</title>
-<link href="../css/bootstrap.css" rel="stylesheet">
-<link href="../css/bootstrap-theme.css" rel="stylesheet">
-<link href="../css/custom.css" rel="stylesheet">
-<script src="../js/jquery.js"></script>
-<script src="../js/bootstrap.js"></script>
-<script src="../js/modernizr.js"></script>
+<link href="../css/theme.css" rel="stylesheet">
 <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -34,7 +29,7 @@
  	return true;
  }
  function showTips() {
- 	document.getElementById("info").innerHTML = "输入关键词后点击回车键可以快速打开搜索页面。<br><br>搜索资源时尽量带上文件的扩展名，如果搜索电影可以再加上 720p 等关键词，这些都可以增加搜索结果的相关度。<br><br>由于所有的内容均来自于网络，下载后请自行杀毒。<br><br>搜索页面调用 Google 自定义搜索，采用 https 加密传输，保护您的隐私。";
+ 	document.getElementById("info").innerHTML = "<p>输入关键词后点击回车键可以快速打开搜索页面。</p><p>搜索资源时尽量带上文件的扩展名，如果搜索电影可以再加上 720p 等关键词，这些都可以增加搜索结果的相关度。</p><p>由于所有的内容均来自于网络，下载后请自行杀毒。</p><p>搜索页面调用 Google 自定义搜索，采用 https 加密传输，保护您的隐私。</p>";
  	$('#dialogue').modal('show');
  }
 </script>
@@ -47,12 +42,12 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 		</button>
+		<a class="navbar-brand" href="http://www.crexyer.com"><span class="glyphicon glyphicon-home"></span> Crexyer&#039;s Blog</a>
 	</div>
 	<div class="collapse navbar-collapse navbar-ex1-collapse">
 		<ul class="nav navbar-nav">
-			<li><a href="http://www.crexyer.com/"><span class="glyphicon glyphicon-home"></span> Crexyer's Blog</a></li>
-			<li class="active"><a href="../"><span class="glyphicon glyphicon-wrench"></span> 在线工具</a></li>
-			<li><a href="../history.html"><span class="glyphicon glyphicon-time"></span> 更新日志</a></li>
+			<li class="active"><a href="../">在线工具</a></li>
+			<li><a href="../history.html">更新日志</a></li>
 		</ul>
 	</div>
 </div>
@@ -66,11 +61,11 @@
 	</div>
 </div>
 <div class="container">
-	<script>
-		if (Modernizr.canvas == false) {
-			document.writeln("<div class=\"alert alert-danger fade in\"><button class=\"close\" data-dismiss=\"alert\">×</button><b>警告：</b>您当前的浏览器不支持 HTML5 功能，可能无法正常使用在线工具，建议更换或升级浏览器。</div>");
-		}
-	</script>
+  <div class="alert alert-danger fade in hide" id="alert-HTML5">
+		<button class="close" data-dismiss="alert">×</button>
+  	你的浏览器不支持 HTML5，请升级或更换浏览器以获得更好的浏览体验。
+  </div>
+	<div class="tab-container">
 	<form class="form-horizontal" role="form" target="_blank" action="https://www.google.com/cse" onsubmit="return check()">
 		<div class="form-group">
 			<label class="col-sm-2 control-label">输资源名称</label>
@@ -89,11 +84,15 @@
 			</div>
 		</div>
 	</form>
+</div>
 	<hr>
 	<footer>
-	<p>
-		&copy; Crexyer &middot; 使用 <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 构建 &middot; 更新日期 2013-10-13 &middot; 托管于 <a href="https://github.com/" target="_blank">GitHub</a> &middot; <a href="http://www.crexyer.com/archives/270" target="_blank">意见反馈</a> 
-	</p>
+		<ul>
+			<li>&copy; Crexyer</li>
+			<li>使用 <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 构建</li>
+			<li>托管于 <a href="https://github.com/" target="_blank">GitHub</a></li>
+			<li><a href="http://www.crexyer.com/archives/270" target="_blank">意见反馈</a> </li>
+		</ul>
 	</footer>
 </div>
 <div id="dialogue" class="modal fade">
@@ -103,15 +102,16 @@
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<h4 id="title" class="modal-title">提示</h4>
 			</div>
-			<div class="modal-body">
-				<p id="info">
-				</p>
-			</div>
+			<div class="modal-body" id="info"></div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
 			</div>
 		</div>
 	</div>
 </div>
+<script src="../js/jquery.js" type="text/javascript"></script>
+<script src="../js/bootstrap.js" type="text/javascript"></script>
+<script src="../js/modernizr.js" type="text/javascript"></script>
+<script src="../js/theme.js" type="text/javascript"></script>
 </body>
 </html>
