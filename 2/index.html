@@ -20,7 +20,7 @@
 		var textSour = document.getElementById("textSour");
 		var textPattern = document.getElementById("textPattern");
 		if (textSour.value === null || textSour.value == "") {
- 		document.getElementById("info").innerHTML = "请输入源文本";
+ 		document.getElementById("info").innerHTML = "<p>请输入源文本</p>";
  		$('#dialogue').modal('show');
  		$('#dialogue').on('hidden.bs.modal', function() {
  			textSour.focus();
@@ -28,7 +28,7 @@
  		return false;
  	}
  	if (textPattern.value === null || textPattern.value == "") {
- 		document.getElementById('info').innerHTML = "请输入正则表达式";
+ 		document.getElementById('info').innerHTML = "<p>请输入正则表达式</p>";
  		$('#dialogue').modal('show');
  		$('#dialogue').on('hidden.bs.modal', function() {
  			textPattern.focus();
@@ -116,10 +116,10 @@
 	</div>
 </div>
 <div class="container">
-  <div class="alert alert-danger fade in hide" id="alert-HTML5">
+	<div class="alert alert-danger fade in hide" id="alert-HTML5">
 		<button class="close" data-dismiss="alert">×</button>
   	你的浏览器不支持 HTML5，请升级或更换浏览器以获得更好的浏览体验。
-  </div>
+	</div>
 	<div class="tab-container">
 		<div class="form-horizontal" role="form">
 			<div class="form-group">
@@ -147,11 +147,11 @@
 					<button class="btn btn-default" onclick="clearMatch()">清空匹配</button>
 					<div class="btn-group" data-toggle="buttons">
 						<label class="btn btn-default active">
-							<input type="checkbox" id="optionGlobal">全局搜索
+						<input type="checkbox" id="optionGlobal">全局搜索
 						</label>
 						<label class="btn btn-default active">
-	    				<input type="checkbox" id="optionIgnoreCase">忽略大小写
-	    			</label>
+						<input type="checkbox" id="optionIgnoreCase">忽略大小写
+						</label>
 					</div>
 					<script>
 						document.getElementById("optionGlobal").checked = true;
@@ -182,12 +182,12 @@
 	</div>
 	<hr>
 	<footer>
-		<ul>
-			<li>&copy; Crexyer</li>
-			<li>使用 <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 构建</li>
-			<li>托管于 <a href="https://github.com/" target="_blank">GitHub</a></li>
-			<li><a href="http://www.crexyer.com/archives/270" target="_blank">意见反馈</a> </li>
-		</ul>
+	<ul>
+		<li>&copy; Crexyer</li>
+		<li>使用 <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 构建</li>
+		<li>托管于 <a href="https://github.com/" target="_blank">GitHub</a></li>
+		<li><a href="http://www.crexyer.com/archives/270" target="_blank">意见反馈</a></li>
+	</ul>
 	</footer>
 </div>
 <div id="dialogue" class="modal fade">
@@ -197,10 +197,7 @@
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<h4 id="title" class="modal-title">提示</h4>
 			</div>
-			<div class="modal-body">
-				<p id="info">
-				</p>
-			</div>
+			<div class="modal-body" id="info"></div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
 			</div>

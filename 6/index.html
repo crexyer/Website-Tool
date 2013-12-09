@@ -17,7 +17,7 @@
 <body>
 <script type="text/javascript">
 	function showTips() {
-		document.getElementById("info").innerHTML = "<strong>使用说明</strong>" + "<br>将 XML 数据复制到网页的输入框中点击转换即可获得 SRT 格式的字幕。建议将网页的源代码复制过来而不是浏览器直接展示的内容，否则可能导致无法正确解析。需要注意的是不一定每个视频都带有对应语言的字幕，请自行判断。<br><br><strong>YouTube 字幕可以按照以下方法获取</strong><br>视频地址：<br>https://www.youtube.com/watch?v=<span class=\"text-primary\">&lt;视频 ID&gt;</strong></span><br>那么字幕地址为：<br>https://video.google.com/timedtext?lang=<span class=\"text-primary\">&lt;语言 ID&gt;</span>&v=<span class=\"text-primary\">&lt;视频 ID&gt;</span><br>其中语言 ID 可以为 en、zh-TW、zh-CN 等，分别对应英文、繁体中文、简体中文。<br><br><strong>举例说明</strong><br>视频地址：https://www.youtube.com/watch?v=9pmPa_KxsAM<br>语言 ID：en<br>字幕地址：https://video.google.com/timedtext?lang=en&v=9pmPa_KxsAM";
+		document.getElementById("info").innerHTML = "<p><strong>使用说明</strong></p><p>将 XML 数据复制到网页的输入框中点击转换即可获得 SRT 格式的字幕。建议将网页的源代码复制过来而不是浏览器直接展示的内容，否则可能导致无法正确解析。需要注意的是不一定每个视频都带有对应语言的字幕，请自行判断。</p><p><strong>YouTube 字幕可以按照以下方法获取</strong></p><p>视频地址：https://www.youtube.com/watch?v=<span class=\"text-primary\">&lt;视频 ID&gt;</span><br>那么字幕地址为：https://video.google.com/timedtext?lang=<span class=\"text-primary\">&lt;语言 ID&gt;</span>&v=<span class=\"text-primary\">&lt;视频 ID&gt;</span><br>其中语言 ID 可以为 en、zh-TW、zh-CN 等，分别对应英文、繁体中文、简体中文。</p><p><strong>举例说明</strong></p><p>视频地址：https://www.youtube.com/watch?v=9pmPa_KxsAM<br>语言 ID：en<br>字幕地址：https://video.google.com/timedtext?lang=en&v=9pmPa_KxsAM</p>";
 		$('#dialogue').modal('show');
 	}
 	function convertFormat() {
@@ -25,7 +25,7 @@
 		var regex = new RegExp("<text start=\"([\\S]*?)\" dur=\"([\\S]*?)\">[\\n]*([\\S\\s]*?)[\\n]*</text>", "ig");
 		var result = xml.match(regex);
 		if (result === null) {
-			document.getElementById("info").innerHTML = "XML 中不包含字幕信息";
+			document.getElementById("info").innerHTML = "<p>XML 中不包含字幕信息</p>";
 			$('#dialogue').modal('show');
 			$('#dialogue').on('hidden.bs.modal', function() {
  				document.getElementById("xml").focus();
@@ -107,41 +107,41 @@
 	</div>
 </div>
 <div class="container">
-  <div class="alert alert-danger fade in hide" id="alert-HTML5">
+	<div class="alert alert-danger fade in hide" id="alert-HTML5">
 		<button class="close" data-dismiss="alert">×</button>
   	你的浏览器不支持 HTML5，请升级或更换浏览器以获得更好的浏览体验。
-  </div>
+	</div>
 	<div class="tab-container">
-	<div class="form-horizontal" role="form">
-		<div class="form-group">
-			<label class="col-sm-2 control-label">XML 字幕</label>
-			<div class="col-sm-10">
-				<textarea class="form-control" rows="9" id="xml"></textarea>
+		<div class="form-horizontal" role="form">
+			<div class="form-group">
+				<label class="col-sm-2 control-label">XML 字幕</label>
+				<div class="col-sm-10">
+					<textarea class="form-control" rows="9" id="xml"></textarea>
+				</div>
 			</div>
-		</div>
-		<div class="form-group">
-			<div class="col-sm-offset-2 col-sm-10">
-				<button class="btn btn-primary" onclick="convertFormat()">转换格式</button>
-				<button class="btn btn-default" onclick="clearXML()">清空数据</button>
-				<button class="btn btn-default" onclick="showTips()">使用说明</button>
+			<div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<button class="btn btn-primary" onclick="convertFormat()">转换格式</button>
+					<button class="btn btn-default" onclick="clearXML()">清空数据</button>
+					<button class="btn btn-default" onclick="showTips()">使用说明</button>
+				</div>
 			</div>
-		</div>
-		<div class="form-group" id="result">
-			<label class="col-sm-2 control-label">SRT 字幕</label>
-			<div class="col-sm-10">
-				<textarea class="form-control" rows="9" id="srt"></textarea>
+			<div class="form-group" id="result">
+				<label class="col-sm-2 control-label">SRT 字幕</label>
+				<div class="col-sm-10">
+					<textarea class="form-control" rows="9" id="srt"></textarea>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
 	<hr>
 	<footer>
-		<ul>
-			<li>&copy; Crexyer</li>
-			<li>使用 <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 构建</li>
-			<li>托管于 <a href="https://github.com/" target="_blank">GitHub</a></li>
-			<li><a href="http://www.crexyer.com/archives/270" target="_blank">意见反馈</a> </li>
-		</ul>
+	<ul>
+		<li>&copy; Crexyer</li>
+		<li>使用 <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 构建</li>
+		<li>托管于 <a href="https://github.com/" target="_blank">GitHub</a></li>
+		<li><a href="http://www.crexyer.com/archives/270" target="_blank">意见反馈</a></li>
+	</ul>
 	</footer>
 </div>
 <div id="dialogue" class="modal fade">
@@ -151,10 +151,7 @@
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<h4 id="title" class="modal-title">提示</h4>
 			</div>
-			<div class="modal-body">
-				<p id="info">
-				</p>
-			</div>
+			<div class="modal-body" id="info"></div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
 			</div>

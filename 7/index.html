@@ -21,7 +21,7 @@
 		//手机号码检查
 		var reg = new RegExp("[0-9]{11}", "i");
 		if (reg.test(phoneNumber) == false) {
-			document.getElementById("info").innerHTML = "请输入正确的 11 位手机号码。";
+			document.getElementById("info").innerHTML = "<p>请输入正确的 11 位手机号码。</p>";
 			$('#dialogue').modal('show');
 			return false;
 		}
@@ -41,12 +41,11 @@
 			},
 			error: function(XHR, textStatus, errorThrown) {
 				document.getElementById("progress").className = "progress progress-striped active hide";
-				document.getElementById("info").innerHTML = "手机号码输入不正确或网络错误。";
+				document.getElementById("info").innerHTML = "<p>手机号码输入不正确或网络错误。</p>";
 				$('#dialogue').modal('show');
 			}
 		});
 	}
-	
 	function clearInfo() {
 		document.getElementById("result").className = "form-group hide";
 		document.getElementById("phoneNumber").value = "";
@@ -80,73 +79,73 @@
 	</div>
 </div>
 <div class="container">
-  <div class="alert alert-danger fade in hide" id="alert-HTML5">
+	<div class="alert alert-danger fade in hide" id="alert-HTML5">
 		<button class="close" data-dismiss="alert">×</button>
   	你的浏览器不支持 HTML5，请升级或更换浏览器以获得更好的浏览体验。
-  </div>
+	</div>
 	<div class="tab-container">
-	<div class="form-horizontal" role="form">
-		<div class="form-group">
-			<label class="col-sm-2 control-label">手机号码</label>
-			<div class="col-sm-10">
-				<input type="text" class="form-control" id="phoneNumber" placeholder="15012345678" maxlength="11">
+		<div class="form-horizontal" role="form">
+			<div class="form-group">
+				<label class="col-sm-2 control-label">手机号码</label>
+				<div class="col-sm-10">
+					<input type="text" class="form-control" id="phoneNumber" placeholder="15012345678" maxlength="11">
+				</div>
 			</div>
-		</div>
-		<div class="form-group">
-			<div class="col-sm-offset-2 col-sm-10">
-				<button class="btn btn-primary" onclick="getInfo()">查询信息</button>
-				<button class="btn btn-default" onclick="clearInfo()">清空数据</button>
+			<div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<button class="btn btn-primary" onclick="getInfo()">查询信息</button>
+					<button class="btn btn-default" onclick="clearInfo()">清空数据</button>
+				</div>
 			</div>
-		</div>
-		<div class="form-group hide" id="result">
-			<label class="col-sm-2 control-label">查询结果</label>
-			<div class="col-sm-10">
-				<div>
-					<table class="table table-hover">
-					<thead>
-					<tr>
-						<th>
+			<div class="form-group hide" id="result">
+				<label class="col-sm-2 control-label">查询结果</label>
+				<div class="col-sm-10">
+					<div>
+						<table class="table table-hover">
+						<thead>
+						<tr>
+							<th>
 							类型
-						</th>
-						<th>
+							</th>
+							<th>
 							值
-						</th>
-					</tr>
-					</thead>
-					<tbody>
-					<tr>
-						<td>
+							</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>
 							归属地
-						</td>
-						<td id="address">
-						</td>
-					</tr>
-					<tr>
-						<td>
+							</td>
+							<td id="address">
+							</td>
+						</tr>
+						<tr>
+							<td>
 							运营商
-						</td>
-						<td id="corporation">
-						</td>
-					</tr>
-					</tbody>
-					</table>
+							</td>
+							<td id="corporation">
+							</td>
+						</tr>
+						</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div id="progress" class="progress progress-striped active hide">
+				<div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
 				</div>
 			</div>
 		</div>
-		<div id="progress" class="progress progress-striped active hide">
-			<div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-			</div>
-		</div>
 	</div>
-</div>
 	<hr>
 	<footer>
-		<ul>
-			<li>&copy; Crexyer</li>
-			<li>使用 <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 构建</li>
-			<li>托管于 <a href="https://github.com/" target="_blank">GitHub</a></li>
-			<li><a href="http://www.crexyer.com/archives/270" target="_blank">意见反馈</a> </li>
-		</ul>
+	<ul>
+		<li>&copy; Crexyer</li>
+		<li>使用 <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 构建</li>
+		<li>托管于 <a href="https://github.com/" target="_blank">GitHub</a></li>
+		<li><a href="http://www.crexyer.com/archives/270" target="_blank">意见反馈</a></li>
+	</ul>
 	</footer>
 </div>
 <div id="dialogue" class="modal fade">
@@ -156,10 +155,7 @@
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<h4 id="title" class="modal-title">提示</h4>
 			</div>
-			<div class="modal-body">
-				<p id="info">
-				</p>
-			</div>
+			<div class="modal-body" id="info"></div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
 			</div>

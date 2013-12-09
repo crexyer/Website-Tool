@@ -19,7 +19,7 @@
  function getIDCardInfo() {
  	var idCard = document.getElementById("idCard").value;
  	if (isValidFields(idCard) == false) {
- 		document.getElementById("info").innerHTML = "请输入正确的 18 位身份证号码，例如：<br>510411197309161391";
+ 		document.getElementById("info").innerHTML = "<p>请输入正确的 18 位身份证号码，例如：<br>510411197309161391<p>";
  		$('#dialogue').modal('show');
  		$('#dialogue').on('hidden.bs.modal', function() {
  			document.getElementById("idCard").focus();
@@ -109,83 +109,83 @@
 	</div>
 </div>
 <div class="container">
-  <div class="alert alert-danger fade in hide" id="alert-HTML5">
+	<div class="alert alert-danger fade in hide" id="alert-HTML5">
 		<button class="close" data-dismiss="alert">×</button>
   	你的浏览器不支持 HTML5，请升级或更换浏览器以获得更好的浏览体验。
-  </div>
+	</div>
 	<div class="tab-container">
-	<div class="form-horizontal" role="form">
-		<div class="form-group">
-			<label class="col-sm-2 control-label">身份证号码</label>
-			<div class="col-sm-10">
-				<input type="text" class="form-control" id="idCard" placeholder="510411197309161391" maxlength="18">
+		<div class="form-horizontal" role="form">
+			<div class="form-group">
+				<label class="col-sm-2 control-label">身份证号码</label>
+				<div class="col-sm-10">
+					<input type="text" class="form-control" id="idCard" placeholder="510411197309161391" maxlength="18">
+				</div>
 			</div>
-		</div>
-		<div class="form-group">
-			<div class="col-sm-offset-2 col-sm-10">
-				<button class="btn btn-primary" onclick="getIDCardInfo()">查询信息</button>
-				<button class="btn btn-default" onclick="clearIDCard()">清空数据</button>
+			<div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<button class="btn btn-primary" onclick="getIDCardInfo()">查询信息</button>
+					<button class="btn btn-default" onclick="clearIDCard()">清空数据</button>
+				</div>
 			</div>
-		</div>
-		<div class="form-group hide" id="result">
-			<label class="col-sm-2 control-label">查询结果</label>
-			<div class="col-sm-10">
-				<div>
-					<table class="table table-hover">
-					<thead>
-					<tr>
-						<th>
+			<div class="form-group hide" id="result">
+				<label class="col-sm-2 control-label">查询结果</label>
+				<div class="col-sm-10">
+					<div>
+						<table class="table table-hover">
+						<thead>
+						<tr>
+							<th>
 							类型
-						</th>
-						<th>
+							</th>
+							<th>
 							值
-						</th>
-					</tr>
-					</thead>
-					<tbody>
-					<tr>
-						<td>
+							</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>
 							地址
-						</td>
-						<td id="address">
-						</td>
-					</tr>
-					<tr>
-						<td>
+							</td>
+							<td id="address">
+							</td>
+						</tr>
+						<tr>
+							<td>
 							出生日期
-						</td>
-						<td id="birthDate">
-						</td>
-					</tr>
-					<tr>
-						<td>
+							</td>
+							<td id="birthDate">
+							</td>
+						</tr>
+						<tr>
+							<td>
 							性别
-						</td>
-						<td id="sex">
-						</td>
-					</tr>
-					<tr>
-						<td>
+							</td>
+							<td id="sex">
+							</td>
+						</tr>
+						<tr>
+							<td>
 							校验码
-						</td>
-						<td id="checkNumber">
-						</td>
-					</tr>
-					</tbody>
-					</table>
+							</td>
+							<td id="checkNumber">
+							</td>
+						</tr>
+						</tbody>
+						</table>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 	<hr>
 	<footer>
-		<ul>
-			<li>&copy; Crexyer</li>
-			<li>使用 <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 构建</li>
-			<li>托管于 <a href="https://github.com/" target="_blank">GitHub</a></li>
-			<li><a href="http://www.crexyer.com/archives/270" target="_blank">意见反馈</a> </li>
-		</ul>
+	<ul>
+		<li>&copy; Crexyer</li>
+		<li>使用 <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 构建</li>
+		<li>托管于 <a href="https://github.com/" target="_blank">GitHub</a></li>
+		<li><a href="http://www.crexyer.com/archives/270" target="_blank">意见反馈</a></li>
+	</ul>
 	</footer>
 </div>
 <div id="dialogue" class="modal fade">

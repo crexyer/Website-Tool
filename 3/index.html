@@ -17,7 +17,7 @@
 <body>
 <script type="text/javascript">
 	function showTips() {
-		document.getElementById('info').innerHTML = "此工具支持生成四种类型的二维码：文本、网址、名片、短信，选择相应的标签并填写信息即可快速生成。<br><br>如果想保存二维码，右键单击二维码选择另存为即可。<br><br>输入的文本长度不能过长，否则可能会影响识别效果或者无法生成。";
+		document.getElementById('info').innerHTML = "<p>此工具支持生成四种类型的二维码：文本、网址、名片、短信，选择相应的标签并填写信息即可快速生成。</p><p>如果想保存二维码，右键单击二维码选择另存为即可。</p><p>输入的文本长度不能过长，否则可能会影响识别效果或者无法生成。</p>";
 		$('#dialogue').modal('show');
 	}
 	function jqueryQR(text) {
@@ -122,13 +122,13 @@
 	</div>
 </div>
 <div class="container">
-	 <div class="alert alert-danger fade in hide" id="alert-HTML5">
+	<div class="alert alert-danger fade in hide" id="alert-HTML5">
 		<button class="close" data-dismiss="alert">×</button>
   	你的浏览器不支持 HTML5，请升级或更换浏览器以获得更好的浏览体验。
-  </div>
+	</div>
 	<div class="row">
 		<div class="col-lg-8">
-				<div class="tab-container">
+			<div class="tab-container">
 				<ul class="nav nav-tabs">
 					<li class="active"><a href="#text" data-toggle="tab">文本</a></li>
 					<li><a href="#website" data-toggle="tab">网址</a></li>
@@ -141,7 +141,7 @@
 							<div class="form-group">
 								<label class="col-sm-2 control-label">输入文本</label>
 								<div class="col-sm-10">
-									<textarea class="form-control" rows="18" id="qrText"></textarea>
+									<textarea class="form-control" rows="8" id="qrText"></textarea>
 								</div>
 							</div>
 							<div class="form-group">
@@ -223,23 +223,24 @@
 						</div>
 					</div>
 				</div>
-				</div>
+			</div>
 		</div>
 		<div class="col-lg-4">
-				<div class="tab-container">
-							<img id="canvasImg" style="max-width: 100%;" src="">
-							<div id="qrCodeCanvas" style="display: none;"></div>
+			<div class="tab-container">
+				<img id="canvasImg" style="max-width: 100%;" src="">
+				<div id="qrCodeCanvas" style="display: none;">
 				</div>
+			</div>
 		</div>
 	</div>
 	<hr>
 	<footer>
-		<ul>
-			<li>&copy; Crexyer</li>
-			<li>使用 <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 构建</li>
-			<li>托管于 <a href="https://github.com/" target="_blank">GitHub</a></li>
-			<li><a href="http://www.crexyer.com/archives/270" target="_blank">意见反馈</a> </li>
-		</ul>
+	<ul>
+		<li>&copy; Crexyer</li>
+		<li>使用 <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 构建</li>
+		<li>托管于 <a href="https://github.com/" target="_blank">GitHub</a></li>
+		<li><a href="http://www.crexyer.com/archives/270" target="_blank">意见反馈</a></li>
+	</ul>
 	</footer>
 </div>
 <div id="dialogue" class="modal fade">
@@ -249,10 +250,7 @@
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<h4 id="title" class="modal-title">提示</h4>
 			</div>
-			<div class="modal-body">
-				<p id="info">
-				</p>
-			</div>
+			<div class="modal-body" id="info"></div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
 			</div>
