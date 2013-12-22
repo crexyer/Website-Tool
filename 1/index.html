@@ -24,7 +24,7 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 		</button>
-		<a class="navbar-brand" href="http://www.crexyer.com"><span class="glyphicon glyphicon-home"></span> Crexyer&#039;s Blog</a>
+		<a class="navbar-brand" href="http://www.crexyer.com"><span class="glyphicon glyphicon-home"></span> Crexyer's Blog</a>
 	</div>
 	<div class="collapse navbar-collapse navbar-ex1-collapse">
 		<ul class="nav navbar-nav">
@@ -48,20 +48,40 @@
   	你的浏览器不支持 HTML5，请升级或更换浏览器以获得更好的浏览体验。
 	</div>
 	<div class="tab-container">
-		<p>
-			<img src="virustotal.png">
-		</p>
-		<p>
-			此工具为 VirusTotal 的直接访问链接，点击将跳转到 VirusTotal 网站。
-		</p>
-		<p>
-			搜索数据库可以搜索已有的在线数据，查找依据是文件的哈希值。
-		</p>
-		<p>
-			<a href="https://www.virustotal.com/zh-cn/" target="_blank" class="btn btn-primary"><span class="glyphicon glyphicon-file"></span> 扫描文件</a>
-			<a href="https://www.virustotal.com/zh-cn/#url" target="_blank" class="btn btn-primary"><span class="glyphicon glyphicon-globe"></span> 扫描网址</a>
-			<a href="https://www.virustotal.com/zh-cn/#search" target="_blank" class="btn btn-primary"><span class="glyphicon glyphicon-cloud"></span> 搜索数据库</a>
-		</p>
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#file" data-toggle="tab"><span class="glyphicon glyphicon-search"></span> 扫描文件</a></li>
+			<li><a href="#url" data-toggle="tab"><span class="glyphicon glyphicon-globe"></span> 扫描网址</a></li>
+			<li><a href="#search" data-toggle="tab"><span class="glyphicon glyphicon-cloud"></span> 搜索数据库</a></li>
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane fade in active" id="file">
+				<p><img src="virustotal.png"></p>
+				<p>VirusTotal 是一个提供免费的可疑文件分析服务的网站，它与传统杀毒软件的不同之处是它通过多种杀毒引擎（47 种）扫描文件来判断上传的文件是否为恶意软件。</p>
+				<p>值得注意的是，VirusTotal 上的杀毒引擎为指令版本（Command Line Version），与安装在电脑上的杀毒软件侦测结果可能有别，因为电脑版杀毒软件可能会根据防火墙、云文件用户回报、启发式素描等其他组件辅助侦测，而指令版本多只根据病毒库数据作出判断。</p>
+				<a href="https://www.virustotal.com/zh-cn/" target="_blank" class="btn btn-primary">扫描文件</a>
+			</div>
+			<div class="tab-pane fade" id="url">
+				<p><img src="virustotal.png"></p>
+				<p>网址扫描可以针对网址的安全性做出判断，使用 51 个扫描引擎。</p>
+				<a href="https://www.virustotal.com/zh-cn/#url" target="_blank" class="btn btn-primary">扫描网址</a>
+			</div>
+			<div class="tab-pane fade" id="search">
+				<form class="form-horizontal" action="https://www.virustotal.com/zh-cn/search/" method="post" target="_blank">
+					<div class="form-group">
+						<label class="col-sm-2 control-label">文件哈希值</label>
+						<div class="col-sm-10">
+							<input class="form-control" id="query" type="text" name="query" placeholder="支持 MD5、SHA1、SHA256">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<button id="search" class="btn btn-primary" type="submit">搜索数据库</button>
+							<button type="reset" class="btn btn-default">清空内容</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
 	</div>
 	<hr>
 	<footer>
