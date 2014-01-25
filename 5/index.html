@@ -16,70 +16,70 @@
 </head>
 <body>
 <script type="text/javascript">
- function getIDCardInfo() {
- 	var idCard = document.getElementById("idCard").value;
- 	if (isValidFields(idCard) == false) {
- 		document.getElementById("info").innerHTML = "<p>请输入正确的 18 位身份证号码，例如：<br>510411197309161391<p>";
- 		$('#dialogue').modal('show');
- 		$('#dialogue').on('hidden.bs.modal', function() {
- 			document.getElementById("idCard").focus();
+function getIDCardInfo() {
+	var idCard = document.getElementById("idCard").value;
+	if (isValidFields(idCard) == false) {
+		document.getElementById("info").innerHTML = "<p>请输入正确的 18 位身份证号码，例如：<br>510411197309161391</p>";
+		$('#dialogue').modal('show');
+		$('#dialogue').on('hidden.bs.modal', function() {
+			document.getElementById("idCard").focus();
  		});
- 		return false;
- 	};
- 	//读取地址
- 	document.getElementById("address").innerHTML = getAddress(idCard.substring(0, 6)) + " （<a href=\"https://www.google.com/maps?q=" + encodeURI(getAddress(idCard.substring(0, 6)).replace("未知地区", "")) + "\" target=\"_blank\">地图定位<\/a>）";
- 	//读取出生日期
- 	document.getElementById("birthDate").innerHTML = getBirthDate(idCard.substring(6, 14));
- 	//读取性别
- 	document.getElementById("sex").innerHTML = (idCard.substring(16, 17) % 2 == 1) ? "男性" : "女性";
- 	//获取校验码
- 	document.getElementById("checkNumber").innerHTML = (getCheckNumber(idCard) == idCard.substring(17, 18).toUpperCase()) ? "末位为 " + idCard.substring(17, 18) + "，校验正确" : "末位为 " + idCard.substring(17, 18) + "，校验错误，正确应为 " + getCheckNumber(idCard);
- 	//显示结果
- 	document.getElementById("result").className = "form-group";
- }
- function isValidFields(idCard) {
- 	var regex = new RegExp("^[0-9]{17}[0-9x]$", "i");
- 	return regex.test(idCard);
- }
- function getAge(dateString) {
- 	var today = new Date();
- 	var birthDate = new Date(dateString);
- 	var age = today.getFullYear() - birthDate.getFullYear();
- 	var month = today.getMonth() - birthDate.getMonth();
- 	if (month < 0 || (month === 0 && today.getDate() < birthDate.getDate())) {
- 		age--;
- 	}
- 	return age;
- }
- function getCheckNumber(idCard) {
- 	var code = idCard.split("");
- 	//加权因子
- 	var factor = [7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2];
- 	//校验位
- 	var parity = [1, 0, 'X', 9, 8, 7, 6, 5, 4, 3, 2];
- 	//变量初始化
- 	var sum = 0;
- 	var ai = 0;
- 	var wi = 0;
- 	for (var i = 0; i < 17; i++) {
- 		ai = code[i];
- 		wi = factor[i];
- 		sum += ai * wi;
- 	}
- 	return parity[sum % 11];
- }
- function clearIDCard() {
- 	document.getElementById("result").className = "form-group hide";
- 	document.getElementById("idCard").value = "";
- }
- function getBirthDate(date) {
- 	age = getAge([date.substring(4, 6), date.substring(6, 8), date.substring(0, 4)].join("/"))
- 	if (age < 0 || isNaN(age)) {
- 		return "出生日期错误";
- 	} else {
- 		return date.substring(0, 4) + " 年 " + date.substring(4, 6) + " 月 " + date.substring(6, 8) + " 日" + "（" + age + " 岁）";;
- 	}
- }
+		return false;
+	};
+	//读取地址
+	document.getElementById("address").innerHTML = getAddress(idCard.substring(0, 6)) + " （<a href=\"https://www.google.com/maps?q=" + encodeURI(getAddress(idCard.substring(0, 6)).replace("未知地区", "")) + "\" target=\"_blank\">地图定位<\/a>）";
+	//读取出生日期
+	document.getElementById("birthDate").innerHTML = getBirthDate(idCard.substring(6, 14));
+	//读取性别
+	document.getElementById("sex").innerHTML = (idCard.substring(16, 17) % 2 == 1) ? "男性" : "女性";
+	//获取校验码
+	document.getElementById("checkNumber").innerHTML = (getCheckNumber(idCard) == idCard.substring(17, 18).toUpperCase()) ? "末位为 " + idCard.substring(17, 18) + "，校验正确" : "末位为 " + idCard.substring(17, 18) + "，校验错误，正确应为 " + getCheckNumber(idCard);
+	//显示结果
+	document.getElementById("result").className = "form-group";
+	}
+function isValidFields(idCard) {
+	var regex = new RegExp("^[0-9]{17}[0-9x]$", "i");
+	return regex.test(idCard);
+}
+function getAge(dateString) {
+	var today = new Date();
+	var birthDate = new Date(dateString);
+	var age = today.getFullYear() - birthDate.getFullYear();
+	var month = today.getMonth() - birthDate.getMonth();
+	if (month < 0 || (month === 0 && today.getDate() < birthDate.getDate())) {
+		age--;
+	}
+	return age;
+}
+function getCheckNumber(idCard) {
+	var code = idCard.split("");
+	//加权因子
+	var factor = [7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2];
+	//校验位
+	var parity = [1, 0, 'X', 9, 8, 7, 6, 5, 4, 3, 2];
+	//变量初始化
+	var sum = 0;
+	var ai = 0;
+	var wi = 0;
+	for (var i = 0; i < 17; i++) {
+		ai = code[i];
+		wi = factor[i];
+		sum += ai * wi;
+	}
+	return parity[sum % 11];
+}
+function clearIDCard() {
+	document.getElementById("result").className = "form-group hide";
+	document.getElementById("idCard").value = "";
+}
+function getBirthDate(date) {
+	age = getAge([date.substring(4, 6), date.substring(6, 8), date.substring(0, 4)].join("/"))
+	if (age < 0 || isNaN(age)) {
+		return "出生日期错误";
+	} else {
+		return date.substring(0, 4) + " 年 " + date.substring(4, 6) + " 月 " + date.substring(6, 8) + " 日" + "（" + age + " 岁）";;
+	}
+}
 </script>
 <nav class="navbar navbar-inverse navbar-fixed-top">
 <div class="container">
@@ -111,7 +111,7 @@
 <div class="container">
 	<div class="alert alert-danger fade in hide" id="alert-HTML5">
 		<button class="close" data-dismiss="alert">×</button>
-  	你的浏览器不支持 HTML5，请升级或更换浏览器以获得更好的浏览体验。
+		你的浏览器不支持 HTML5，请升级或更换浏览器以获得更好的浏览体验。
 	</div>
 	<div class="tab-container">
 		<div class="form-horizontal" role="form">
@@ -195,9 +195,7 @@
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<h4 id="title" class="modal-title">提示</h4>
 			</div>
-			<div class="modal-body">
-				<p id="info">
-				</p>
+			<div class="modal-body" id="info">
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
