@@ -1,21 +1,40 @@
 @import url('bootstrap.css');
 /* @import url('bootstrap-theme.css'); */
+a:hover {
+	text-decoration: none;
+}
+
+a,.btn,button {
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+}
+
+.table>thead>tr>th,.table>tbody>tr>th,.table>tfoot>tr>th,.table>thead>tr>td,.table>tbody>tr>td,.table>tfoot>tr>td {
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+}
 
 body {
 	/* Move down content because we have a fixed navbar that is 50px tall */
 	padding-top: 50px;
 	padding-bottom: 20px;
-	font-family: 'Microsoft YaHei UI','Microsoft YaHei',DengXian,SimSun,'Segoe UI',Tahoma,Helvetica,sans-serif;
+	font-family: 'Microsoft YaHei UI', 'Microsoft YaHei', DengXian, SimSun,
+		'Segoe UI', Tahoma, Helvetica, sans-serif;
 	line-height: 2;
 	background: #f3f3f2;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Microsoft YaHei UI','Microsoft YaHei',DengXian,SimSun,'Segoe UI',Tahoma,Helvetica,sans-serif;
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Microsoft YaHei UI', 'Microsoft YaHei', DengXian, SimSun,
+		'Segoe UI', Tahoma, Helvetica, sans-serif;
 }
 
 ::selection {
-	background: rgba(65,131,196,0.4);
+	background: rgba(65, 131, 196, 0.4);
 }
 
 .thumbnail {
@@ -36,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 	background: #f3f3f2;
 }
 
-.jumbotron h1, .jumbotron p {
+.jumbotron h1,.jumbotron p {
 	margin-left: 10px;
 }
 
@@ -49,7 +68,7 @@ hr {
 }
 
 footer ul {
-	padding-left: 0;	
+	padding-left: 0;
 }
 
 footer li {
