@@ -22,15 +22,13 @@ body {
 	/* Move down content because we have a fixed navbar that is 50px tall */
 	padding-top: 50px;
 	padding-bottom: 20px;
-	font-family: 'Microsoft YaHei UI', 'Microsoft YaHei', DengXian, SimSun,
-		'Segoe UI', Tahoma, Helvetica, sans-serif;
+	font-family: 'Microsoft YaHei UI', 'Microsoft YaHei', DengXian, SimSun, 'Segoe UI', Tahoma, Helvetica, sans-serif;
 	line-height: 2;
 	background: #f3f3f2;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Microsoft YaHei UI', 'Microsoft YaHei', DengXian, SimSun,
-		'Segoe UI', Tahoma, Helvetica, sans-serif;
+	font-family: 'Microsoft YaHei UI', 'Microsoft YaHei', DengXian, SimSun, 'Segoe UI', Tahoma, Helvetica, sans-serif;
 }
 
 ::selection {
