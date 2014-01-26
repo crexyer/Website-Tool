@@ -1,5 +1,7 @@
 @import url('bootstrap.css');
+/*
 @import url('bootstrap-theme.css');
+*/
 
 body {
 	/* Move down content because we have a fixed navbar that is 50px tall */
@@ -12,6 +14,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Microsoft YaHei UI','Microsoft YaHei',DengXian,SimSun,'Segoe UI',Tahoma,Helvetica,sans-serif;
+}
+
+::selection {
+	background: rgba(65,131,196,0.4);
 }
 
 .thumbnail {
