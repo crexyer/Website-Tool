@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>MSDN 数据库 | Crexyer's Blog 在线工具</title>
+<link href="../css/theme.css" rel="stylesheet">
+<script src="../js/jquery.js" type="text/javascript"></script>
+<script src="../js/bootstrap.js" type="text/javascript"></script>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43111893-3', 'crexyer.com');
+	ga('send', 'pageview');
+</script>
+</head>
+<body>
+<style>
+	.more {
+		float: right;
+	}
+</style>
+<script type="text/javascript">
+	var product = null;
+	$(function() {
+		$("#filter").keyup(function() {
+			$("table tbody tr").hide().filter(":contains('" + ($(this).val()) + "')").show();
+		});
+		$(".product-list-item").click(function() {
+			getProduct($(this).data('id'));
+			$(".product-list-item").removeClass("active");
+			$(this).addClass("active");
+		});
+	})
+	function getProduct(id) {
+		$("#progress").removeClass("hide");
+		$("#result").addClass("hide");
+		document.getElementById("product").innerHTML = "";
+		$.ajax({
+			url: "source/" + id + ".js",
+			dataType: "json",
+			timeout: 3000,
+			success: function(data, status) {
+				if (document.getElementById("product").innerHTML != "") {
+					return false;
+				}
+				product = data;
+				for (var i in product)
+				{
+					document.getElementById("product").innerHTML += "<tr><td>" + String(Number(i) + 1) + "</td><td>" + product[i].name + " <a class=\"more\" data-number=" + i + " href=\"javascript:void(0)\"><span class=\"glyphicon glyphicon-share\"></span> 详细信息</a></td></tr>";
+				}
+				$(".more").click(function() {
+					productDetail($(this).data('number'));
+				});
+				$("#progress").addClass("hide");
+				$("#result").removeClass("hide");
+			},
+			error: function(XHR, textStatus, errorThrown) {
+				if (document.getElementById("product").innerHTML != "") {
+					return false;
+				}
+				document.getElementById("product").innerHTML = "<tr><td>N/A</td><td>没有结果或网络错误</td></tr>";
+				$("#progress").addClass("hide");
+				$("#result").removeClass("hide");
+			}
+		});
+	}
+	function productDetail(number) {
+		document.getElementById("productId").innerHTML = product[number].id;
+		document.getElementById("productLanguage").innerHTML = product[number].language;
+		document.getElementById("productName").innerHTML = product[number].name;
+		document.getElementById("productFileName").innerHTML = product[number].fileName;
+		document.getElementById("productDate").innerHTML = product[number].date;
+		document.getElementById("productSHA1").innerHTML = product[number].SHA1;
+		document.getElementById("productSize").innerHTML = product[number].size;
+		document.getElementById("productDownload").value = product[number].download;
+		$('#dialogue').modal('show');
+	}
+</script>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+		<span class="sr-only">下拉导航</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="http://www.crexyer.com"><span class="glyphicon glyphicon-home"></span> Crexyer&#039;s Blog</a>
+	</div>
+	<div class="collapse navbar-collapse navbar-ex1-collapse">
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="../">在线工具</a></li>
+			<li><a href="../history.html">更新日志</a></li>
+		</ul>
+	</div>
+</div>
+</nav>
+<div class="jumbotron">
+	<div class="container">
+		<h1>MSDN 数据库</h1>
+		<p>
+			在线查询微软的 MSDN 数据库，可以获取各种产品的下载地址和详细信息，所有微软产品均为官方 MSDN 原版。
+		</p>
+	</div>
+</div>
+<div class="container">
+	<div class="tab-container">
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#7ab5f0cb-7607-4bbe-9e88-50716dc43de6">
+									操作系统
+								</a>
+							</h4>
+						</div>
+						<div id="7ab5f0cb-7607-4bbe-9e88-50716dc43de6" class="panel-collapse collapse in">
+							<div class="panel-body">
+								<div class="product-list">
+									<a class="product-list-item" data-id="c894c7fb-6c0d-4f2e-a7f6-1e75e507b1d3" data-loaded="true" data-loading="false" href="javascript:void(0)">Windows 8.1</a>
+									<a class="product-list-item" data-id="9348a2b6-e1d9-4579-a431-23414cbf42f1" data-loaded="true" data-loading="false" href="javascript:void(0)">Windows 7</a>
+									<a class="product-list-item" data-id="2ea80323-a7f4-48cf-a8e5-a3461f25ccc2" data-loaded="true" data-loading="false" href="javascript:void(0)">Windows XP</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#051d75ee-ff53-43fe-80e9-bac5c10fc0fb">
+									应用程序
+								</a>
+							</h4>
+						</div>
+						<div id="051d75ee-ff53-43fe-80e9-bac5c10fc0fb" class="panel-collapse collapse">
+							<div class="panel-body">
+								<div class="product-list">
+									<a class="product-list-item" data-id="f320798a-22b2-45d9-bf28-17225617de99" data-loaded="true" data-loading="false" href="javascript:void(0)">Office 2013</a>
+									<a class="product-list-item" data-id="f675e8fe-f6b9-4276-9dc8-313c359b0d72" data-loaded="true" data-loading="false" href="javascript:void(0)">Office 2010</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p>最后更新 2014-02-09，数据正在逐渐添加中，所列项目不一定完整。</p>
+			</div>
+			<div class="col-lg-9">
+				<div class="form-horizontal" role="form">
+					<div class="form-group">
+						<div class="col-lg-12">
+							<input type="text" class="form-control" id="filter" placeholder="输入文字进行检索">
+						</div>
+					</div>
+					<div class="form-group" id="result">
+						<div class="col-lg-12">
+							<div>
+								<table class="table table-hover">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>名称</th>
+										</tr>
+									</thead>
+									<tbody id="product">
+										<tr><td>N/A</td><td>请在左侧列表中选择项目</td></tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div id="progress" class="progress progress-striped active hide">
+						<div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<footer>
+	<ul>
+		<li>&copy; Crexyer</li>
+		<li>使用 <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 构建</li>
+		<li>托管于 <a href="https://github.com/" target="_blank">GitHub</a></li>
+		<li><a href="http://www.crexyer.com/archives/270" target="_blank">意见反馈</a></li>
+	</ul>
+	</footer>
+</div>
+<div id="dialogue" class="modal fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 id="title" class="modal-title">详细信息</h4>
+			</div>
+			<div class="modal-body">
+				<div class="form-horizontal" style="margin-top:0;">
+					<div class="form-group">
+					<label class="col-sm-2 control-label">名称</label>
+						<div class="col-sm-10">
+							<p class="form-control-static" id="productName"></p>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">文件名</label>
+						<div class="col-sm-10">
+							<p class="form-control-static" id="productFileName"></p>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">语言</label>
+						<div class="col-sm-10">
+							<p class="form-control-static" id="productLanguage"></p>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">发布时间</label>
+						<div class="col-sm-10">
+							<p class="form-control-static" id="productDate"></p>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">ID</label>
+						<div class="col-sm-10">
+							<p class="form-control-static" id="productId"></p>
+					</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">SHA1</label>
+						<div class="col-sm-10">
+							<p class="form-control-static" id="productSHA1"></p>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">文件大小</label>
+						<div class="col-sm-10">
+							<p class="form-control-static" id="productSize"></p>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">下载地址</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="productDownload" onclick="this.select()">
+				    </div>
+				  </div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
