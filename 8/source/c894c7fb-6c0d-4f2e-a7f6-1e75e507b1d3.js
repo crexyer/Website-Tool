@@ -268,5 +268,5 @@
 		"SHA1": "A8A0199EFB1B16DEBF740DC9651299915E56BA2E",
 		"size": "2.68GB",
 		"download": "ed2k://|file|ja_windows_8_1_enterprise_x86_dvd_2791652.iso|2881687552|03FAB96897574FF58B8468EB3A0EEC76|/"
-	},
+	}
 ]
