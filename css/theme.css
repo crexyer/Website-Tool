@@ -116,3 +116,7 @@ a.product-list-item.active, a.product-list-item.active:hover, a.product-list-ite
 	color: #fff;
 	background-color: #428bca;
 }
+
+.form-control-static {
+	word-break: break-all;
+}

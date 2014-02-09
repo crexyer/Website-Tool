@@ -75,7 +75,7 @@
 		document.getElementById("productDate").innerHTML = product[number].date;
 		document.getElementById("productSHA1").innerHTML = product[number].SHA1;
 		document.getElementById("productSize").innerHTML = product[number].size;
-		document.getElementById("productDownload").value = product[number].download;
+		document.getElementById("productDownload").innerHTML = product[number].download;
 		$('#dialogue').modal('show');
 	}
 </script>
@@ -245,7 +245,7 @@
 					<div class="form-group">
 						<label class="col-sm-2 control-label">下载地址</label>
 						<div class="col-sm-10">
-							<input type="text" class="form-control" id="productDownload" onclick="this.select()">
+							<p class="form-control-static" id="productDownload"></p>
 				    </div>
 				  </div>
 				</div>
