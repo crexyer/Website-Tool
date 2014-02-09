@@ -238,5 +238,35 @@
 		"SHA1": "88D0B37EADAB266285FB895E7B123453D11D2647",
 		"size": "2.83GB",
 		"download": "ed2k://|file|tw_windows_8_1_pro_vl_x86_dvd_2972625.iso|3038695424|7DE25C0D24730AFCE31D10168521D897|/"
-	}
+	},
+	{
+		"id": "0451703d-96bb-4886-9d9f-72173ba120ad",
+		"language": "French",
+		"name": "Windows 8.1 (multiple editions) (x64) - DVD (French)",
+		"fileName": "fr_windows_8_1_x64_dvd_2707314.iso",
+		"date": "2013-09-09",
+		"SHA1": "41ECC450BED43F36BF76B4C57F6784729944FA9B",
+		"size": "3.66GB",
+		"download": "ed2k://|file|fr_windows_8_1_x64_dvd_2707314.iso|3932731392|F0D718CCD2797C568977EB7ED9068D13|/"
+	},
+	{
+		"id": "03a84ff5-d97b-48dd-acc0-c30154f8a116",
+		"language": "Japanese",
+		"name": "Windows 8.1 Enterprise (x64) - DVD (Japanese)",
+		"fileName": "ja_windows_8_1_enterprise_x64_dvd_2791178.iso",
+		"date": "2013-09-18",
+		"SHA1": "5DEC01C8DDF7CA722C7AF8AB36A1E7DCF1E74CBF",
+		"size": "3.61GB",
+		"download": "ed2k://|file|ja_windows_8_1_enterprise_x64_dvd_2791178.iso|3872561152|9A0263E0406E5065298DE0844AE1962F|/"
+	},
+	{
+		"id": "9b474544-4922-4796-8b53-ebfc01a2abc5",
+		"language": "Japanese",
+		"name": "Windows 8.1 Enterprise (x86) - DVD (Japanese)",
+		"fileName": "ja_windows_8_1_enterprise_x86_dvd_2791652.iso",
+		"date": "2013-09-18",
+		"SHA1": "A8A0199EFB1B16DEBF740DC9651299915E56BA2E",
+		"size": "2.68GB",
+		"download": "ed2k://|file|ja_windows_8_1_enterprise_x86_dvd_2791652.iso|2881687552|03FAB96897574FF58B8468EB3A0EEC76|/"
+	},
 ]
