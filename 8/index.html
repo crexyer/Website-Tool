@@ -93,11 +93,9 @@
 		$('#dialogue').modal('show');
 	}
 	function writeProductList(product, language) {
-		var time = 0;
 		for (var i in product) {
 			if ((typeof(language) != "undefined" && product[i].language == language && language != "1000") || typeof(language) == "undefined" || language == "1000") {
-				time += 1;
-				$("#product").append("<tr><td>" + String(time) + "</td><td>" + product[i].name + " <a class=\"btn-more\" data-number=" + i + " href=\"javascript:void(0)\"><span class=\"glyphicon glyphicon-share\"></span> 详细信息</a></td></tr>");
+				$("#product").append("<tr><td>" + product[i].name + " <a class=\"btn-more\" data-number=" + i + " href=\"javascript:void(0)\"><span class=\"glyphicon glyphicon-share\"></span> 详细信息</a></td></tr>");
 				languageList[product[i].language] = getLanguage(product[i].language);
 			}
 		}
@@ -237,7 +235,6 @@
 								<table class="table table-hover">
 									<thead>
 										<tr>
-											<th>#</th>
 											<th>名称</th>
 										</tr>
 									</thead>
