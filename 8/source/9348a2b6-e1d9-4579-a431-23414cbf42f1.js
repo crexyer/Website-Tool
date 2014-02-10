@@ -368,5 +368,265 @@
 		"SHA1": "8695F5E6810D84153181695DA78850988A923F4E",
 		"size": "1.45GB",
 		"download": "ed2k://|file|en_windows_software_development_kit_for_windows_7_and_windows_server_2008_r2_x86_dvd_400018.iso|1552508928|DAD7EDAF3147C8AD59F8DDF6E9C30D22|/"
+	},
+	{
+		"id": "4ce0fab3-2c7c-428c-a9d1-b75a5691d9d6",
+		"language": "2052",
+		"name": "Windows 7 Enterprise (x64) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_enterprise_x64_dvd_x15-70741.iso",
+		"date": "2009-08-23",
+		"SHA1": "EE20DAF2CDEDD71C374E241340DEB651728A69C4",
+		"size": "2.98GB",
+		"download": "ed2k://|file|cn_windows_7_enterprise_x64_dvd_x15-70741.iso|3203516416|876DCF115C2EE28D74B178BE1A84AB3B|/"
+	},
+	{
+		"id": "a302f0a9-608d-4915-ae31-3cab0a2467b2",
+		"language": "2052",
+		"name": "Windows 7 Enterprise (x86) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_enterprise_x86_dvd_x15-70737.iso",
+		"date": "2009-08-23",
+		"SHA1": "50F2900D293C8DF63A9D23125AFEEA7662FF9E54",
+		"size": "2.3GB",
+		"download": "ed2k://|file|cn_windows_7_enterprise_x86_dvd_x15-70737.iso|2465783808|41ABFA74E57353B2F35BC33E56BD5202|/"
+	},
+	{
+		"id": "a77fab6d-f39a-4c33-8dc1-f1613b4f4f80",
+		"language": "2052",
+		"name": "Windows 7 Enterprise with Service Pack 1 (x64) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_enterprise_with_sp1_x64_dvd_u_677685.iso",
+		"date": "3.04GB",
+		"SHA1": "9BA5E85596C2F25BE59F7E96139D83D4CB261A62",
+		"size": "2011-05-12",
+		"download": "ed2k://|file|cn_windows_7_enterprise_with_sp1_x64_dvd_u_677685.iso|3265574912|E9DB2607EA3B3540F3FE2E388F8C53C4|/"
+	},
+	{
+		"id": "4c799db0-c097-4dd5-80ce-3518c9ff0f0f",
+		"language": "2052",
+		"name": "Windows 7 Enterprise with Service Pack 1 (x86) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_enterprise_with_sp1_x86_dvd_u_677716.iso",
+		"date": "2011-05-12",
+		"SHA1": "C488B3D72DDC4AC63BCDCA36820BB986A1E670AC",
+		"size": "2.33GB",
+		"download": "ed2k://|file|cn_windows_7_enterprise_with_sp1_x86_dvd_u_677716.iso|2502856704|B3C25EA4DD88D7E54F22D3C3E78C410B|/"
+	},
+	{
+		"id": "f6dd8560-0d92-4168-b2b7-08b431bc34bf",
+		"language": "2052",
+		"name": "Windows 7 Home Basic (x86) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_home_basic_x86_dvd_x15-65975.iso",
+		"date": "2009-08-26",
+		"SHA1": "9996D685A0429060CFDBA99EFF0011EF34A01A82",
+		"size": "2.43GB",
+		"download": "ed2k://|file|cn_windows_7_home_basic_x86_dvd_x15-65975.iso|2604238848|AF82993DCF8F3D7AA08D54693691BB48|/"
+	},
+	{
+		"id": "622a33e9-98e5-4186-a150-6dc6a569f010",
+		"language": "2052",
+		"name": "Windows 7 Home Basic with Service Pack 1 (x86) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_home_basic_with_sp1_x86_dvd_u_676500.iso",
+		"date": "2011-05-12",
+		"SHA1": "2E53EC6E0CD78C23FC51528CC0FED3F6191DDCE6",
+		"size": "2.47GB",
+		"download": "ed2k://|file|cn_windows_7_home_basic_with_sp1_x86_dvd_u_676500.iso|2653276160|843E7A78F2126FAC726CF5342710082D|/"
+	},
+	{
+		"id": "37cdbc0e-8094-4719-a28f-97871b7fc211",
+		"language": "2052",
+		"name": "Windows 7 Home Premium (x64) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_home_premium_x64_dvd_x15-65718.iso",
+		"date": "2009-08-26",
+		"SHA1": "5566AB6F40B0689702F02DE15804BEB32832D6A6",
+		"size": "3.11GB",
+		"download": "ed2k://|file|cn_windows_7_home_premium_x64_dvd_x15-65718.iso|3341268992|9F976045631A6A2162ABE32FC77C8ACC|/"
+	},
+	{
+		"id": "33052deb-f950-42e5-93c8-5ea996208d4f",
+		"language": "2052",
+		"name": "Windows 7 Home Premium (x86) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_home_premium_x86_dvd_x15-65717.iso",
+		"date": "2009-08-26",
+		"SHA1": "CBA410DB30FA1561F874E1CC155E575F4A836B37",
+		"size": "2.43GB",
+		"download": "ed2k://|file|cn_windows_7_home_premium_x86_dvd_x15-65717.iso|2604238848|98E1EB474F92343B06737F227665DF1C|/"
+	},
+	{
+		"id": "6e027fe1-1ff7-4ac4-9bdd-a112ba5483c2",
+		"language": "2052",
+		"name": "Windows 7 Home Premium with Service Pack 1 (x64) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_home_premium_with_sp1_x64_dvd_u_676691.iso",
+		"date": "2011-05-12",
+		"SHA1": "BB5A8A1480FE54C497601AA1DC7BE698A784BE1C",
+		"size": "3.19GB",
+		"download": "ed2k://|file|cn_windows_7_home_premium_with_sp1_x64_dvd_u_676691.iso|3420557312|1A3CF44F3F5E0BE9BBC1A938706A3471|/"
+	},
+	{
+		"id": "63091777-33ff-43fe-9382-62f846efd99d",
+		"language": "2052",
+		"name": "Windows 7 Home Premium with Service Pack 1 (x86) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_home_premium_with_sp1_x86_dvd_u_676770.iso",
+		"date": "2011-05-12",
+		"SHA1": "1B3B55C00CA60CE00D7745BF477D523B192E78DE",
+		"size": "2.47GB",
+		"download": "ed2k://|file|cn_windows_7_home_premium_with_sp1_x86_dvd_u_676770.iso|2653276160|A8E8BD4421174DF34BD14D60750B3CDB|/"
+	},
+	{
+		"id": "280f5baa-52ec-4e84-852d-76e26eadc23d",
+		"language": "2052",
+		"name": "Windows 7 Professional (x64) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_professional_x64_dvd_x15-65791.iso",
+		"date": "2009-08-26",
+		"SHA1": "5669A51195CD79D73CD18161D51E7E8D43DF53D1",
+		"size": "3.11GB",
+		"download": "ed2k://|file|cn_windows_7_professional_x64_dvd_x15-65791.iso|3341268992|3474800521D169FBF3F5E527CD835156|/"
+	},
+	{
+		"id": "91bb7e67-6ad8-49dc-877f-dd46cd70a055",
+		"language": "2052",
+		"name": "Windows 7 Professional (x86) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_professional_x86_dvd_x15-65790.iso",
+		"date": "2009-08-23",
+		"SHA1": "EBD595C3099CCF57C6FF53810F73339835CFBB9D",
+		"size": "2.43GB",
+		"download": "ed2k://|file|cn_windows_7_professional_x86_dvd_x15-65790.iso|2604238848|E812FBE758F05B485C5A858C22060785|/"
+	},
+	{
+		"id": "287cc484-2d4a-47c7-85b9-198cd8cf68bd",
+		"language": "2052",
+		"name": "Windows 7 Professional with Service Pack 1 (x64) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_professional_with_sp1_x64_dvd_u_677031.iso",
+		"date": "2011-05-12",
+		"SHA1": "9B57E67888434C24DD683968A3CE2C72755AB148",
+		"size": "3.19GB",
+		"download": "ed2k://|file|cn_windows_7_professional_with_sp1_x64_dvd_u_677031.iso|3420557312|430BEDC0F22FA18001F717F7AF08C9D5|/"
+	},
+	{
+		"id": "98f5641a-a6e9-41e0-815c-0ceb066858c7",
+		"language": "2052",
+		"name": "Windows 7 Professional with Service Pack 1 (x86) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_professional_with_sp1_x86_dvd_u_677162.iso",
+		"date": "2011-05-12",
+		"SHA1": "7BB512B6AF82632D6B080C1E9C3C10CD0C738F0E",
+		"size": "2.47GB",
+		"download": "ed2k://|file|cn_windows_7_professional_with_sp1_x86_dvd_u_677162.iso|2653276160|08F65018BD9B5BC8D77C1C7C5615A329|/"
+	},
+	{
+		"id": "d4012f63-d3ee-4f27-b941-ab2b9bfd40c1",
+		"language": "2052",
+		"name": "Windows 7 Professional with Service Pack 1, VL Build (x64) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677816.iso",
+		"date": "2011-05-12",
+		"SHA1": "647B26479A3A46C078F5B1364A89003A31F4AADA",
+		"size": "3.04GB",
+		"download": "ed2k://|file|cn_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677816.iso|3266004992|5A52F4CCEFA71797D58389B397038B2F|/"
+	},
+	{
+		"id": "3a3143cc-1e30-4dde-bf6d-c78232acd4db",
+		"language": "2052",
+		"name": "Windows 7 Professional with Service Pack 1, VL Build (x86) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677939.iso",
+		"date": "2011-05-12",
+		"SHA1": "27AE9FBAF9EE076F50F153353E42A3BE74A61FAB",
+		"size": "2.33GB",
+		"download": "ed2k://|file|cn_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677939.iso|2502909952|935E5B4B754527BE3C238FA6ABDD9B86|/"
+	},
+	{
+		"id": "1139dd2c-e904-4a8e-9c6d-ec4d3511c8a4",
+		"language": "2052",
+		"name": "Windows 7 Professional, VL Build (x64) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_professional_vl_build_x64_dvd_x15-71029.iso",
+		"date": "2009-11-12",
+		"SHA1": "2270C4A0715B204282AF1E8E05CBDCFCC776EB46",
+		"size": "2.98GB",
+		"download": "ed2k://|file|cn_windows_7_professional_vl_build_x64_dvd_x15-71029.iso|3203971072|23155387CBD0771CFBA528CB1E7B170F|/"
+	},
+	{
+		"id": "e038900a-6944-463b-bae4-805a12533d6e",
+		"language": "2052",
+		"name": "Windows 7 Professional, VL Build (x86) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_professional_vl_build_x86_dvd_x15-71025.iso",
+		"date": "2009-11-12",
+		"SHA1": "C91EBE17156604336CAB054A9A5186B5162D42A0",
+		"size": "2.3GB",
+		"download": "ed2k://|file|cn_windows_7_professional_vl_build_x86_dvd_x15-71025.iso|2466107392|9EA7E0C2594B5A236FD09D572CA39770|/"
+	},
+	{
+		"id": "654e9ede-461f-40b0-ae30-7a2bb3a17f08",
+		"language": "2052",
+		"name": "Windows 7 Starter (x86) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_starter_x86_dvd_x15-69303.iso",
+		"date": "2009-08-26",
+		"SHA1": "C9B9F3143328AFE62BF3EACA164BE02B17B04532",
+		"size": "2.43GB",
+		"download": "ed2k://|file|cn_windows_7_starter_x86_dvd_x15-69303.iso|2604238848|5A6796B2B6A97B3E372F7C37D3A42AA4|/"
+	},
+	{
+		"id": "a12fbf24-fa33-40ad-960d-f1b0eb0d5f03",
+		"language": "2052",
+		"name": "Windows 7 Starter with Service Pack 1 (x86) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_starter_with_sp1_x86_dvd_u_678536.iso",
+		"date": "2011-05-12",
+		"SHA1": "9522D435348353BAD69047C0161B7A9115A3C2A6",
+		"size": "2.47GB",
+		"download": "ed2k://|file|cn_windows_7_starter_with_sp1_x86_dvd_u_678536.iso|2653276160|B0A788EA28B2491B4587A561A8CB5B19|/"
+	},
+	{
+		"id": "39d8208b-53f4-429a-856f-bc894370f281",
+		"language": "2052",
+		"name": "Windows 7 Ultimate (x64) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_ultimate_x64_dvd_x15-66043.iso",
+		"date": "2009-08-26",
+		"SHA1": "4A98A2F1ED794425674D04A37B70B9763522B0D4",
+		"size": "3.11GB",
+		"download": "ed2k://|file|cn_windows_7_ultimate_x64_dvd_x15-66043.iso|3341268992|7DD7FA757CE6D2DB78B6901F81A6907A|/"
+	},
+	{
+		"id": "6f621055-23a3-410a-9498-d9b84a300bc6",
+		"language": "2052",
+		"name": "Windows 7 Ultimate (x86) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_ultimate_x86_dvd_x15-65907.iso",
+		"date": "2009-08-23",
+		"SHA1": "B589336602E3B7E134E222ED47FC94938B04354F",
+		"size": "2.43GB",
+		"download": "ed2k://|file|cn_windows_7_ultimate_x86_dvd_x15-65907.iso|2604238848|D6F139D7A45E81B76199DDCCDDC4B509|/"
+	},
+	{
+		"id": "a9fbe04c-1b6d-4276-a1e6-c64b21bc8774",
+		"language": "2052",
+		"name": "Windows 7 Ultimate with Service Pack 1 (x64) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso",
+		"date": "2011-05-12",
+		"SHA1": "2CE0B2DB34D76ED3F697CE148CB7594432405E23",
+		"size": "3.19GB",
+		"download": "ed2k://|file|cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso|3420557312|B58548681854236C7939003B583A8078|/"
+	},
+	{
+		"id": "aae7c2e0-fabd-4e88-b64c-9f5d291a9117",
+		"language": "2052",
+		"name": "Windows 7 Ultimate with Service Pack 1 (x86) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_7_ultimate_with_sp1_x86_dvd_u_677486.iso",
+		"date": "2011-05-12",
+		"SHA1": "B92119F5B732ECE1C0850EDA30134536E18CCCE7",
+		"size": "2.47GB",
+		"download": "ed2k://|file|cn_windows_7_ultimate_with_sp1_x86_dvd_u_677486.iso|2653276160|7503E4B9B8738DFCB95872445C72AEFB|/"
+	},
+	{
+		"id": "646ea26e-046f-4b68-bf05-10f63d2c2119",
+		"language": "2052",
+		"name": "Windows Automated Installation Kit for Windows 7 and Windows Server 2008 R2 (x86, x64, ia64) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_automated_installation_kit_for_windows_7_and_windows_server_2008_r2_x86_x64_ia64_dvd_400075.iso",
+		"date": "2009-08-06",
+		"SHA1": "02956D721650D0FFE6D7070315F4D899116E821D",
+		"size": "1.73GB",
+		"download": "ed2k://|file|cn_windows_automated_installation_kit_for_windows_7_and_windows_server_2008_r2_x86_x64_ia64_dvd_400075.iso|1855363072|5DEABD39472D497892703D3D0A9D1C57|/"
+	},
+	{
+		"id": "705410bc-2287-41a3-abb6-67fc3a682934",
+		"language": "2052",
+		"name": "Windows Automated Installation Kit for Windows 7 and Windows Server 2008 R2 Service Pack 1 (x86, x64, ia64) - DVD (Chinese-Simplified)",
+		"fileName": "cn_windows_automated_installation_kit_for_windows_7_and_windows_server_2008_r2_sp1_x86_x64_ia64_dvd_619619.iso",
+		"date": "2011-02-21",
+		"SHA1": "F7C1748AF4BBC5BEAEF1D3F6BEFE7ECB25D805AE",
+		"size": "1.4GB",
+		"download": "ed2k://|file|cn_windows_automated_installation_kit_for_windows_7_and_windows_server_2008_r2_sp1_x86_x64_ia64_dvd_619619.iso|1500217344|994486E3A542CE166219D75C8C86E7D6|/"
 	}
 ]

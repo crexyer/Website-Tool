@@ -36,7 +36,7 @@
 	var languageList = new Array();
 	$(function() {
 		$("#filter").keyup(function() {
-			$("table tbody tr").hide().filter(":contains('" + ($(this).val()) + "')").show();
+			$("table tbody tr").hide().filter(":contains('" + $(this).val() + "')").show();
 		});
 		$(".product-list-item").click(function() {
 			getProduct($(this).data('id'));
@@ -44,11 +44,17 @@
 			$(this).addClass("active");
 		});
 	})
+	function setFilter(string) {
+		$("#filter").val(string);
+		$("table tbody tr").hide().filter(":contains('" + string + "')").show();
+	}
 	function getProduct(id) {
 		$("#progress").removeClass("hide");
 		$("#result").addClass("hide");
 		$("#status").addClass("hide");
 		$("#product").html("");
+		setFilter("");
+		writeLanguageList();
 		$.ajax({
 			url: "source/" + id + ".js",
 			dataType: "json",
@@ -98,8 +104,13 @@
 		$(".btn-more").click(function() {
 			productDetail($(this).data('number'));
 		});
+		setFilter($("#filter").val());
 	}
 	function writeLanguageList(product) {
+		if (typeof(product) == "undefined") {
+			$("#language-list").html("<li><a class=\"language-list-item\" href=\"javascript:void(0)\" data-language=\"1000\">" + getLanguage("1000") + "</a></li>");
+			return false;
+		}
 		var language = new Array();
 		for (var i in product) {
 			language[product[i].language] = getLanguage(product[i].language);
@@ -196,7 +207,12 @@
 				<div class="form-horizontal" role="form">
 					<div class="form-group">
 						<div class="col-lg-12">
-							<input type="text" class="form-control" id="filter" placeholder="在列表中检索">
+							<div class="input-group">
+								<input type="text" class="form-control" id="filter" placeholder="在列表中检索">
+								<span class="input-group-btn">
+									<button type="button" class="btn btn-default" onclick="setFilter('')" >清空检索</button>
+								</span>
+							</div>
 						</div>
 					</div>
 					<div class="form-group">
@@ -204,6 +220,12 @@
 							<div class="btn-group">
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="language-button">所有语言 <span class="caret"></span></button>
 								<ul class="dropdown-menu" id="language-list"></ul>
+							</div>
+							<div class="btn-group">
+								<button type="button" class="btn btn-default" onclick="setFilter('x64')" >64 位</button>
+								<button type="button" class="btn btn-default" onclick="setFilter('x86')" >32 位</button>
+								<button type="button" class="btn btn-default" onclick="setFilter('VL')" >批量授权</button>
+								<button type="button" class="btn btn-default" onclick="setFilter('Language Pack')" >语言包</button>
 							</div>
 						</div>
 					</div>
