@@ -107,6 +107,7 @@
 		setFilter($("#filter").val());
 	}
 	function writeLanguageList(product) {
+		$("#language-button").html(getLanguage("1000") + " <span class=\"caret\"></span>");
 		if (typeof(product) == "undefined") {
 			$("#language-list").html("<li><a class=\"language-list-item\" href=\"javascript:void(0)\" data-language=\"1000\">" + getLanguage("1000") + "</a></li>");
 			return false;
@@ -219,7 +220,9 @@
 						<div class="col-lg-12">
 							<div class="btn-group">
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="language-button">所有语言 <span class="caret"></span></button>
-								<ul class="dropdown-menu" id="language-list"></ul>
+								<ul class="dropdown-menu" id="language-list">
+									<li><a class="language-list-item" href="javascript:void(0)" data-language="1000">所有语言</a></li>
+								</ul>
 							</div>
 							<div class="btn-group">
 								<button type="button" class="btn btn-default" onclick="setFilter('x64')" >64 位</button>
