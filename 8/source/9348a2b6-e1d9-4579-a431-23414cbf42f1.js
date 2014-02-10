@@ -1,7 +1,7 @@
 [
 	{
 		"id": "e1a4a729-4b1d-4750-aad6-dbc404cd3333",
-		"language": "Multiple Languages",
+		"language": "9999",
 		"name": "Windows 7 and Window Server 2008 R2 Service Pack 1 (x86 and x64) - DVD (Multilanguage)",
 		"fileName": "mu_windows_7_and_windows_server_2008_r2_sp1_x86_x64_dvd_619642.iso",
 		"date": "2011-02-16",
@@ -11,7 +11,7 @@
 	},
 	{
 		"id": "4ab2664c-a58d-4109-9205-060afcf2926a",
-		"language": "Multiple Languages",
+		"language": "9999",
 		"name": "Windows 7 Language Pack (x64) - DVD (Multiple Languages)",
 		"fileName": "mu_windows_7_language_pack_x64_dvd_x15-73276.iso",
 		"date": "2009-08-06",
@@ -21,7 +21,7 @@
 	},
 	{
 		"id": "ac638b3f-87dc-4d13-81a8-d778b8c0432b",
-		"language": "Multiple Languages",
+		"language": "9999",
 		"name": "Windows 7 Language Pack (x86) - DVD (Multiple Languages)",
 		"fileName": "mu_windows_7_language_pack_x86_dvd_x15-73272.iso",
 		"date": "2009-08-06",
@@ -31,7 +31,7 @@
 	},
 	{
 		"id": "b6575d75-9f02-4e57-b3fe-e09e05545931",
-		"language": "Multiple Languages",
+		"language": "9999",
 		"name": "Windows 7 Service Pack 1 Language Pack (x64) - DVD (Multilanguage)",
 		"fileName": "mu_windows_7_sp1_language_pack_x64_dvd_619714.iso",
 		"date": "2011-02-16",
@@ -41,7 +41,7 @@
 	},
 	{
 		"id": "dd3b5e88-02b0-415a-9b9e-997cfe03b0df",
-		"language": "Multiple Languages",
+		"language": "9999",
 		"name": "Windows 7 Service Pack 1 Language Pack (x86) - DVD (Multilanguage)",
 		"fileName": "mu_windows_7_sp1_language_pack_x86_dvd_619716.iso",
 		"date": "2011-02-16",
@@ -51,7 +51,7 @@
 	},
 	{
 		"id": "7c785aed-2768-43d3-bf57-49018661fbb3",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Enterprise (x64) - DVD (English)",
 		"fileName": "en_windows_7_enterprise_x64_dvd_X15-70749.iso",
 		"date": "2009-08-06",
@@ -61,7 +61,7 @@
 	},
 	{
 		"id": "5fec273d-e66b-40d1-9fb7-ac6dfffca837",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Enterprise (x86) - DVD (English)",
 		"fileName": "en_windows_7_enterprise_x86_dvd_X15-70745.iso",
 		"date": "2009-08-06",
@@ -71,7 +71,7 @@
 	},
 	{
 		"id": "48597d83-5cdd-4d5e-8760-6a29142ca2fa",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Enterprise with Service Pack 1 (x64) - DVD (English)",
 		"fileName": "en_windows_7_enterprise_with_sp1_x64_dvd_u_677651.iso",
 		"date": "2011-05-12",
@@ -81,7 +81,7 @@
 	},
 	{
 		"id": "d80d7b7c-a0b1-4fb6-895b-74ba8eb40c3a",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Enterprise with Service Pack 1 (x86) - DVD (English)",
 		"fileName": "en_windows_7_enterprise_with_sp1_x86_dvd_u_677710.iso",
 		"date": "2011-05-12",
@@ -91,7 +91,7 @@
 	},
 	{
 		"id": "fa4c5d40-bdc2-4868-a6bd-76c0e599b82e",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Home Basic (x86) - DVD (English)",
 		"fileName": "en_windows_7_home_basic_x86_dvd_x15-65654.iso",
 		"date": "2009-08-06",
@@ -101,7 +101,7 @@
 	},
 	{
 		"id": "b4435b10-0c77-48b2-b738-74c6a598cafd",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Home Basic with Service Pack 1 (x86) - DVD (English)",
 		"fileName": "en_windows_7_home_basic_with_sp1_x86_dvd_u_676470.iso",
 		"date": "2011-05-12",
@@ -111,7 +111,7 @@
 	},
 	{
 		"id": "d8d7f1c4-798b-4829-a817-5173f2f859d0",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Home Premium (x64) - DVD (English)",
 		"fileName": "en_windows_7_home_premium_x64_dvd_x15-65733.iso",
 		"date": "2009-08-06",
@@ -121,7 +121,7 @@
 	},
 	{
 		"id": "e382fb9d-8ab6-4959-8cc8-705ed10c82e6",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Home Premium (x86) - DVD (English)",
 		"fileName": "en_windows_7_home_premium_x86_dvd_x15-65732.iso",
 		"date": "2009-08-06",
@@ -131,7 +131,7 @@
 	},
 	{
 		"id": "26019511-583d-4aee-baf1-24c8df4c0775",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Home Premium with Service Pack 1 (x64) - DVD (English)",
 		"fileName": "en_windows_7_home_premium_with_sp1_x64_dvd_u_676549.iso",
 		"date": "2011-05-12",
@@ -141,7 +141,7 @@
 	},
 	{
 		"id": "6d4311ff-9c9b-4050-86c3-b5ec17cd1b4b",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Home Premium with Service Pack 1 (x86) - DVD (English)",
 		"fileName": "en_windows_7_home_premium_with_sp1_x86_dvd_u_676701.iso",
 		"date": "2011-05-12",
@@ -151,7 +151,7 @@
 	},
 	{
 		"id": "3000daaa-d0f4-4870-87ab-05fdcf3ce676",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Professional (x64) - DVD (English)",
 		"fileName": "en_windows_7_professional_x64_dvd_x15-65805.iso",
 		"date": "2009-08-06",
@@ -161,7 +161,7 @@
 	},
 	{
 		"id": "548cc680-413e-47a5-bc74-25e36ede72b3",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Professional (x86) - DVD (English)",
 		"fileName": "en_windows_7_professional_x86_dvd_x15-65804.iso",
 		"date": "2009-08-06",
@@ -171,7 +171,7 @@
 	},
 	{
 		"id": "602a39c6-3082-4f39-b1e8-fdeaeada7f3d",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Professional with Service Pack 1 (x64) - DVD (English)",
 		"fileName": "en_windows_7_professional_with_sp1_x64_dvd_u_676939.iso",
 		"date": "2011-05-12",
@@ -181,7 +181,7 @@
 	},
 	{
 		"id": "5325e965-b8ba-4784-af59-a4f8f341b40e",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Professional with Service Pack 1 (x86) - DVD (English)",
 		"fileName": "en_windows_7_professional_with_sp1_x86_dvd_u_677056.iso",
 		"date": "2011-05-12",
@@ -191,7 +191,7 @@
 	},
 	{
 		"id": "6e4034cd-4ad0-4f68-a664-284fc8426d74",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Professional with Service Pack 1, VL Build (x64) - DVD (English)",
 		"fileName": "en_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677791.iso",
 		"date": "2011-05-12",
@@ -201,7 +201,7 @@
 	},
 	{
 		"id": "5e2a0ee2-b080-48b4-a76a-242c77d862cb",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Professional with Service Pack 1, VL Build (x86) - DVD (English)",
 		"fileName": "en_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677896.iso",
 		"date": "2011-05-12",
@@ -211,7 +211,7 @@
 	},
 	{
 		"id": "70494076-eaa6-49c4-8387-8b38dadc327c",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Professional, VL Build (x64) - DVD (English)",
 		"fileName": "en_windows_7_professional_vl_build_x64_dvd_x15-71037.iso",
 		"date": "2009-11-12",
@@ -221,7 +221,7 @@
 	},
 	{
 		"id": "428ee044-5be0-42b3-a353-ea30f3150b43",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Professional, VL Build (x86) - DVD (English)",
 		"fileName": "en_windows_7_professional_vl_build_x86_dvd_x15-71033.iso",
 		"date": "2009-11-12",
@@ -231,7 +231,7 @@
 	},
 	{
 		"id": "1d12695e-2ed6-4e49-81e7-0204e377cb1a",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Starter (x86) - DVD (English)",
 		"fileName": "en_windows_7_starter_x86_dvd_x15-68956.iso",
 		"date": "2009-08-06",
@@ -241,7 +241,7 @@
 	},
 	{
 		"id": "07897bb0-36ca-4c1e-abb8-4ed6c44294cd",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Starter with Service Pack 1 (x86) - DVD (English)",
 		"fileName": "en_windows_7_starter_with_sp1_x86_dvd_u_678562.iso",
 		"date": "2011-05-12",
@@ -251,7 +251,7 @@
 	},
 	{
 		"id": "7c534d05-3a63-4e7f-977e-ef7777b64e7d",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Ultimate (x64) - DVD (English)",
 		"fileName": "en_windows_7_ultimate_x64_dvd_X15-65922.iso",
 		"date": "2009-08-06",
@@ -261,7 +261,7 @@
 	},
 	{
 		"id": "fc427ee1-ceae-4767-856c-654881c486d0",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Ultimate (x86) - DVD (English)",
 		"fileName": "en_windows_7_ultimate_x86_dvd_X15-65921.iso",
 		"date": "2009-08-06",
@@ -271,7 +271,7 @@
 	},
 	{
 		"id": "ab1ce8da-f0f4-42c7-9e7d-c1f42500aab9",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Ultimate N (x64) - DVD (English)",
 		"fileName": "en_windows_7_ultimate_n_x64_dvd_x16-13641.iso",
 		"date": "045E966D469E6C9ADC0C5318818FBD0F3D20FD91",
@@ -281,7 +281,7 @@
 	},
 	{
 		"id": "4a20cb68-44bf-4113-88ed-1435d76750ef",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Ultimate N (x86) - DVD (English)",
 		"fileName": "en_windows_7_ultimate_n_x86_dvd_x16-13640.iso",
 		"date": "2009-10-22",
@@ -291,7 +291,7 @@
 	},
 	{
 		"id": "5901358d-dc70-4628-8777-2b2f911fb2b0",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Ultimate with Service Pack 1 (x64) - DVD (English)",
 		"fileName": "en_windows_7_ultimate_with_sp1_x64_dvd_u_677332.iso",
 		"date": "2011-05-12",
@@ -301,7 +301,7 @@
 	},
 	{
 		"id": "ae7bc286-8c11-4f05-8939-b5e4b9f23fed",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 7 Ultimate with Service Pack 1 (x86) - DVD (English)",
 		"fileName": "en_windows_7_ultimate_with_sp1_x86_dvd_u_677460.iso",
 		"date": "2011-05-12",
@@ -311,7 +311,7 @@
 	},
 	{
 		"id": "34dbbfd6-c8bf-4acb-ba7c-c4695a545c78",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows Automated Installation Kit for Windows 7 and Windows Server 2008 R2 (x86, x64, ia64) - DVD (English)",
 		"fileName": "en_windows_automated_installation_kit_for_windows_7_and_windows_server_2008_r2_x86_x64_ia64_dvd_400053.iso",
 		"date": "2009-08-06",
@@ -321,7 +321,7 @@
 	},
 	{
 		"id": "15f5efaa-7d0e-43e5-a32d-1b4398aceb1f",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows Driver Kit for Windows 7 and Windows Server 2008 R2 (x86, x64, ia64) - DVD (English)",
 		"fileName": "en_windows_driver_kit_for_windows_7_and_windows_server_2008_r2_x86_x64_ia64_dvd_400380.iso",
 		"date": "2009-08-06",
@@ -331,7 +331,7 @@
 	},
 	{
 		"id": "33df7f8d-58a2-4086-804f-ef51f57afa5a",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows Driver Kit Version 7.1.0 (x86, x64, and ia64) - DVD (English)",
 		"fileName": "en_windows_driver_kit_version_7.1.0_x86_x64_ia64_dvd_496758.iso",
 		"date": "2010-02-28",
@@ -341,7 +341,7 @@
 	},
 	{
 		"id": "22b2f702-7d66-4f15-a855-860e17282c13",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows Software Development Kit for Windows 7 and Windows Server 2008 R2 (ia64) - DVD (English)",
 		"fileName": "en_windows_software_development_kit_for_windows_7_and_windows_server_2008_r2_ia64_dvd_400020.iso",
 		"date": "2009-08-06",
@@ -351,7 +351,7 @@
 	},
 	{
 		"id": "3227adc5-fd17-44ca-9f63-0ddfc5d76165",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows Software Development Kit for Windows 7 and Windows Server 2008 R2 (x64) - DVD (English)",
 		"fileName": "en_windows_software_development_kit_for_windows_7_and_windows_server_2008_r2_x64_dvd_400021.iso",
 		"date": "2009-08-06",
@@ -361,7 +361,7 @@
 	},
 	{
 		"id": "8a3ecec9-f2b8-4c1d-ba70-3744bd2d7545",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows Software Development Kit for Windows 7 and Windows Server 2008 R2 (x86) - DVD (English)",
 		"fileName": "en_windows_software_development_kit_for_windows_7_and_windows_server_2008_r2_x86_dvd_400018.iso",
 		"date": "2009-08-06",

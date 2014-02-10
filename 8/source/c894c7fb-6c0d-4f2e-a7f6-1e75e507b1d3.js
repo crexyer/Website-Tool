@@ -1,7 +1,7 @@
 [
 	{
 		"id": "3a8c3fec-6c80-42f3-965c-04e888762d79",
-		"language": "Multiple Languages",
+		"language": "9999",
 		"name": "Windows 8.1 Language Pack (x64) - DVD (Multiple Languages)",
 		"fileName": "mu_windows_8_1_language_pack_x64_dvd_2706084.iso",
 		"date": "2013-09-09",
@@ -11,7 +11,7 @@
 	},
 	{
 		"id": "d69acca4-bbb9-402c-8fc1-adafe0a0d672",
-		"language": "Multiple Languages",
+		"language": "9999",
 		"name": "Windows 8.1 Language Pack (x86) - DVD (Multiple Languages)",
 		"fileName": "mu_windows_8_1_language_pack_x86_dvd_2706085.iso",
 		"date": "2013-09-09",
@@ -21,7 +21,7 @@
 	},
 	{
 		"id": "9ce02c83-89b6-47e3-959c-14dff7f15c66",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 8.1 (multiple editions) (x64) - DVD (English)",
 		"fileName": "en_windows_8_1_x64_dvd_2707217.iso",
 		"date": "2013-09-09",
@@ -31,7 +31,7 @@
 	},
 	{
 		"id": "333a333c-c54a-43c7-a3b6-95214654c00a",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 8.1 (multiple editions) (x86) - DVD (English)",
 		"fileName": "en_windows_8_1_x86_dvd_2707392.iso",
 		"date": "2013-09-09",
@@ -41,7 +41,7 @@
 	},
 	{
 		"id": "862cf36c-81e1-4387-a737-d0964aa32ca3",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 8.1 Enterprise (x64) - DVD (English)",
 		"fileName": "en_windows_8_1_enterprise_x64_dvd_2971902.iso",
 		"date": "2013-10-17",
@@ -51,7 +51,7 @@
 	},
 	{
 		"id": "8df060e6-d194-4a51-80c5-750069156ded",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 8.1 Enterprise (x86) - DVD (English)",
 		"fileName": "en_windows_8_1_enterprise_x86_dvd_2972289.iso",
 		"date": "2013-10-17",
@@ -61,7 +61,7 @@
 	},
 	{
 		"id": "ea32ffca-cad8-46dd-b61a-71d3b1f6290d",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 8.1 Pro VL (x64) - DVD (English)",
 		"fileName": "en_windows_8_1_pro_vl_x64_dvd_2971948.iso",
 		"date": "2013-10-17",
@@ -71,7 +71,7 @@
 	},
 	{
 		"id": "d185a83f-f09f-46df-9a19-bd7c9d146caf",
-		"language": "English",
+		"language": "1033",
 		"name": "Windows 8.1 Pro VL (x86) - DVD (English)",
 		"fileName": "en_windows_8_1_pro_vl_x86_dvd_2972633.iso",
 		"date": "2013-10-17",
@@ -81,7 +81,7 @@
 	},
 	{
 		"id": "cee7a0f4-66b9-481e-99e1-9972264777b8",
-		"language": "Chinese-Simplified",
+		"language": "2052",
 		"name": "Windows 8.1 (multiple editions) (x64) - DVD (Chinese-Simplified)",
 		"fileName": "cn_windows_8_1_x64_dvd_2707237.iso",
 		"date": "2013-09-09",
@@ -91,7 +91,7 @@
 	},
 	{
 		"id": "8780d513-9f99-47ac-bc8a-bb616885078f",
-		"language": "Chinese-Simplified",
+		"language": "2052",
 		"name": "Windows 8.1 (multiple editions) (x86) - DVD (Chinese-Simplified)",
 		"fileName": "cn_windows_8_1_x86_dvd_2707405.iso",
 		"date": "2013-09-09",
@@ -101,7 +101,7 @@
 	},
 	{
 		"id": "14f60434-d664-480c-8283-26f7c67a90e8",
-		"language": "Chinese-Simplified",
+		"language": "2052",
 		"name": "Windows 8.1 Enterprise (x64) - DVD (Chinese-Simplified)",
 		"fileName": "cn_windows_8_1_enterprise_x64_dvd_2971863.iso",
 		"date": "2013-10-17",
@@ -111,7 +111,7 @@
 	},
 	{
 		"id": "c811f2bf-1536-420b-ae9c-a125de3a75d5",
-		"language": "Chinese-Simplified",
+		"language": "2052",
 		"name": "Windows 8.1 Enterprise (x86) - DVD (Chinese-Simplified)",
 		"fileName": "cn_windows_8_1_enterprise_x86_dvd_2972257.iso",
 		"date": "2013-10-17",
@@ -121,7 +121,7 @@
 	},
 	{
 		"id": "406ac6ac-0148-4580-9604-9a76bf88e5be",
-		"language": "Chinese-Simplified",
+		"language": "2052",
 		"name": "Windows 8.1 Pro VL (x64) - DVD (Chinese-Simplified)",
 		"fileName": "cn_windows_8_1_pro_vl_x64_dvd_2971907.iso",
 		"date": "2013-10-17",
@@ -131,7 +131,7 @@
 	},
 	{
 		"id": "a5ab35bf-7406-4e44-b42d-4cc29812e766",
-		"language": "Chinese-Simplified",
+		"language": "2052",
 		"name": "Windows 8.1 Pro VL (x86) - DVD (Chinese-Simplified)",
 		"fileName": "cn_windows_8_1_pro_vl_x86_dvd_2972620.iso",
 		"date": "2013-10-17",
@@ -141,7 +141,7 @@
 	},
 	{
 		"id": "b0586217-78eb-462f-afd6-6d845922482d",
-		"language": "Chinese-Hong Kong SAR",
+		"language": "3076",
 		"name": "Windows 8.1 (multiple editions) (x64) - DVD (Chinese-Hong Kong SAR)",
 		"fileName": "hk_windows_8_1_x64_dvd_2707280.iso",
 		"date": "2013-09-09",
@@ -151,7 +151,7 @@
 	},
 	{
 		"id": "f0a38c49-17b2-4f2b-9bca-254ad29793b9",
-		"language": "Chinese-Hong Kong SAR",
+		"language": "3076",
 		"name": "Windows 8.1 (multiple editions) (x86) - DVD (Chinese-Hong Kong SAR)",
 		"fileName": "hk_windows_8_1_x86_dvd_2707435.iso",
 		"date": "2013-09-09",
@@ -161,7 +161,7 @@
 	},
 	{
 		"id": "00cac208-77f6-4b40-b9ab-373bb70755a6",
-		"language": "Chinese-Taiwan",
+		"language": "1028",
 		"name": "Windows 8.1 (multiple editions) (x64) - DVD (Chinese-Taiwan)",
 		"fileName": "tw_windows_8_1_x64_dvd_2707244.iso",
 		"date": "2013-09-09",
@@ -171,7 +171,7 @@
 	},
 	{
 		"id": "f0f98ed8-8b1f-454d-8a6b-93bbdd1686f7",
-		"language": "Chinese-Taiwan",
+		"language": "1028",
 		"name": "Windows 8.1 (multiple editions) (x86) - DVD (Chinese-Taiwan)",
 		"fileName": "tw_windows_8_1_x86_dvd_2707414.iso",
 		"date": "2013-09-09",
@@ -181,7 +181,7 @@
 	},
 	{
 		"id": "5fd29c48-547a-4a8b-b39b-468e454788fd",
-		"language": "Chinese-Taiwan",
+		"language": "1028",
 		"name": "Windows 8.1 Enterprise (x64) - DVD (Chinese-Taiwan)",
 		"fileName": "tw_windows_8_1_enterprise_x64_dvd_2791029.iso",
 		"date": "2013-09-18",
@@ -191,7 +191,7 @@
 	},
 	{
 		"id": "2ad2ab85-5998-4941-837e-45ba79dc5f70",
-		"language": "Chinese-Taiwan",
+		"language": "1028",
 		"name": "Windows 8.1 Enterprise (x86) - DVD (Chinese-Taiwan)",
 		"fileName": "tw_windows_8_1_enterprise_x86_dvd_2791428.iso",
 		"date": "2013-09-18",
@@ -201,7 +201,7 @@
 	},
 	{
 		"id": "90b66751-a6d3-41f6-8d14-478a960a6f8c",
-		"language": "Chinese-Taiwan",
+		"language": "1028",
 		"name": "Windows 8.1 Language Pack (x64) - DVD (Chinese-Taiwan)",
 		"fileName": "tw_windows_8_1_language_pack_x64_dvd_2706086.iso",
 		"date": "2013-09-09",
@@ -211,7 +211,7 @@
 	},
 	{
 		"id": "aa0c27ce-4b08-4873-b96c-51e109294bdc",
-		"language": "Chinese-Taiwan",
+		"language": "1028",
 		"name": "Windows 8.1 Language Pack (x86) - DVD (Chinese-Taiwan)",
 		"fileName": "tw_windows_8_1_language_pack_x86_dvd_2706087.iso",
 		"date": "2013-09-09",
@@ -221,7 +221,7 @@
 	},
 	{
 		"id": "44a202b5-2a60-4624-9173-1c01e2b78f9a",
-		"language": "Chinese-Taiwan",
+		"language": "1028",
 		"name": "Windows 8.1 Pro VL (x64) - DVD (Chinese-Taiwan)",
 		"fileName": "tw_windows_8_1_pro_vl_x64_dvd_2971919.iso",
 		"date": "2013-10-17",
@@ -231,7 +231,7 @@
 	},
 	{
 		"id": "9e3d3bb4-c40a-48df-a760-b982344c3222",
-		"language": "Chinese-Taiwan",
+		"language": "1028",
 		"name": "Windows 8.1 Pro VL (x86) - DVD (Chinese-Taiwan)",
 		"fileName": "tw_windows_8_1_pro_vl_x86_dvd_2972625.iso",
 		"date": "2013-10-17",
@@ -241,7 +241,7 @@
 	},
 	{
 		"id": "0451703d-96bb-4886-9d9f-72173ba120ad",
-		"language": "French",
+		"language": "1036",
 		"name": "Windows 8.1 (multiple editions) (x64) - DVD (French)",
 		"fileName": "fr_windows_8_1_x64_dvd_2707314.iso",
 		"date": "2013-09-09",
@@ -251,7 +251,7 @@
 	},
 	{
 		"id": "03a84ff5-d97b-48dd-acc0-c30154f8a116",
-		"language": "Japanese",
+		"language": "1041",
 		"name": "Windows 8.1 Enterprise (x64) - DVD (Japanese)",
 		"fileName": "ja_windows_8_1_enterprise_x64_dvd_2791178.iso",
 		"date": "2013-09-18",
@@ -261,7 +261,7 @@
 	},
 	{
 		"id": "9b474544-4922-4796-8b53-ebfc01a2abc5",
-		"language": "Japanese",
+		"language": "1041",
 		"name": "Windows 8.1 Enterprise (x86) - DVD (Japanese)",
 		"fileName": "ja_windows_8_1_enterprise_x86_dvd_2791652.iso",
 		"date": "2013-09-18",
