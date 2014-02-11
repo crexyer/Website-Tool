@@ -628,5 +628,215 @@
 		"SHA1": "F7C1748AF4BBC5BEAEF1D3F6BEFE7ECB25D805AE",
 		"size": "1.4GB",
 		"download": "ed2k://|file|cn_windows_automated_installation_kit_for_windows_7_and_windows_server_2008_r2_sp1_x86_x64_ia64_dvd_619619.iso|1500217344|994486E3A542CE166219D75C8C86E7D6|/"
+	},
+	{
+		"id": "e944de18-5854-4829-be81-fd9d50f0a3e6",
+		"language": "3076",
+		"name": "Windows 7 Enterprise (x64) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_enterprise_x64_dvd_x15-70981.iso",
+		"date": "2009-08-21",
+		"SHA1": "20F22C1D06864861AA4BA9C52C7BE68CC031FBB1",
+		"size": "2.96GB",
+		"download": "ed2k://|file|hk_windows_7_enterprise_x64_dvd_x15-70981.iso|3175837696|FA52A6C1B24D945BD4F36AAE6F66DBFE|/"
+	},
+	{
+		"id": "e8fa5909-3dad-4e6c-8ada-99eb70850bb9",
+		"language": "3076",
+		"name": "Windows 7 Enterprise with Service Pack 1 (x64) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_enterprise_with_sp1_x64_dvd_620688.iso",
+		"date": "2011-02-22",
+		"SHA1": "82D59B099333E96A331F867D9A0CFF3CFA1541C9",
+		"size": "3.01GB",
+		"download": "ed2k://|file|hk_windows_7_enterprise_with_sp1_x64_dvd_620688.iso|3235889152|658FF2AD10E2FEB8E90A13A0733E326F|/"
+	},
+	{
+		"id": "b948aed7-47ee-49a8-9b8c-3cf9f6dc09ed",
+		"language": "3076",
+		"name": "Windows 7 Enterprise with Service Pack 1 (x86) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_enterprise_with_sp1_x86_dvd_620147.iso",
+		"date": "2011-02-22",
+		"SHA1": "1523C9532BD7DACDDB0D884B84C07C8BBDCEDE0B",
+		"size": "2.3GB",
+		"download": "ed2k://|file|hk_windows_7_enterprise_with_sp1_x86_dvd_620147.iso|2470856704|3FC5481DE8101784600A5274090A0113|/"
+	},
+	{
+		"id": "92cfad68-00c0-4a04-8bde-03778b49e0b9",
+		"language": "3076",
+		"name": "Windows 7 Home Basic with Service Pack 1 (x86) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_home_basic_with_sp1_x86_dvd_624181.iso",
+		"date": "2011-02-22",
+		"SHA1": "18ECBF90FF07057FC38D0514D83710E1A60648EF",
+		"size": "2.44GB",
+		"download": "ed2k://|file|hk_windows_7_home_basic_with_sp1_x86_dvd_624181.iso|2621298688|A5B68B26ABE6E078A7EA95D98D5C381D|/"
+	},
+	{
+		"id": "6a9f1cc6-27bf-42dd-aa3d-931ecc22433a",
+		"language": "3076",
+		"name": "Windows 7 Home Premium (x64) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_home_premium_x64_dvd_x15-65722.iso",
+		"date": "2009-08-21",
+		"SHA1": "6B6D270829FD83600ED2AB9096D125CE83E45584",
+		"size": "3.09GB",
+		"download": "ed2k://|file|hk_windows_7_home_premium_x64_dvd_x15-65722.iso|3313936384|89A775C883FEC124572040F0C4169155|/"
+	},
+	{
+		"id": "112d8a6a-16f6-49c9-b746-383119f2e870",
+		"language": "3076",
+		"name": "Windows 7 Home Premium (x86) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_home_premium_x86_dvd_x15-65721.iso",
+		"date": "2009-08-21",
+		"SHA1": "9A22859DD52E7E7C30BA2DBFAC1D286FF08AD77A",
+		"size": "2.4GB",
+		"download": "ed2k://|file|hk_windows_7_home_premium_x86_dvd_x15-65721.iso|2574176256|755F421B4E7A9BD6483E86096D0E6216|/"
+	},
+	{
+		"id": "b5d336a1-cb4f-4c01-b3e4-8c437045f2ec",
+		"language": "3076",
+		"name": "Windows 7 Home Premium with Service Pack 1 (x64) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_home_premium_with_sp1_x64_dvd_620781.iso",
+		"date": "2011-02-22",
+		"SHA1": "F95A7C08D352C0AA17D20666D07C5B6C8F22243C",
+		"size": "3.16GB",
+		"download": "ed2k://|file|hk_windows_7_home_premium_with_sp1_x64_dvd_620781.iso|3390910464|F37F7E4637BE71F85094153919BBBDA5|/"
+	},
+	{
+		"id": "d2c9a9b4-ab17-42db-8423-37acc03911d0",
+		"language": "3076",
+		"name": "Windows 7 Home Premium with Service Pack 1 (x86) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_home_premium_with_sp1_x86_dvd_620848.iso",
+		"date": "2011-02-22",
+		"SHA1": "D7CD5CD07DE11FE5C74F3787E250D9ABADEACF45",
+		"size": "2.44GB",
+		"download": "ed2k://|file|hk_windows_7_home_premium_with_sp1_x86_dvd_620848.iso|2621298688|33CB0040A929656DC1BE176E3FF8F00E|/"
+	},
+	{
+		"id": "97a6595d-9156-4544-9742-e10043b54789",
+		"language": "3076",
+		"name": "Windows 7 Professional (x86) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_professional_x86_dvd_x15-65794.iso",
+		"date": "2009-08-21",
+		"SHA1": "9192770CEF28773CCCFA5B1FDCE22E78FF347C3E",
+		"size": "2.4GB",
+		"download": "ed2k://|file|hk_windows_7_professional_x86_dvd_x15-65794.iso|2574176256|EFAB842ABFE8259FD549B7EF70BBDB9B|/"
+	},
+	{
+		"id": "9b3a14b5-7278-4e1f-afa0-475eb8e5dd02",
+		"language": "3076",
+		"name": "Windows 7 Professional with Service Pack 1 (x64) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_professional_with_sp1_x64_dvd_621743.iso",
+		"date": "2011-02-22",
+		"SHA1": "CEDAC185542B47DA2EA3CA9568606A23958C389A",
+		"size": "3.16GB",
+		"download": "ed2k://|file|hk_windows_7_professional_with_sp1_x64_dvd_621743.iso|3390910464|83729D24BC30CEF784129A997FDFCF4B|/"
+	},
+	{
+		"id": "a1ee1909-52eb-43b7-b67e-0dbb18bed350",
+		"language": "3076",
+		"name": "Windows 7 Professional with Service Pack 1 (x86) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_professional_with_sp1_x86_dvd_622563.iso",
+		"date": "2011-02-22",
+		"SHA1": "E566EC7DB6621949F2640F97CE3276940339EE44",
+		"size": "2.44GB",
+		"download": "ed2k://|file|hk_windows_7_professional_with_sp1_x86_dvd_622563.iso|2621298688|E8E92A60F62DC6FDF87C0A84DBAEED4E|/"
+	},
+	{
+		"id": "69bbc516-f24a-4753-a10a-5b9191e59720",
+		"language": "3076",
+		"name": "Windows 7 Professional with Service Pack 1, VL Build (x64) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_professional_with_sp1_vl_build_x64_dvd_622426.iso",
+		"date": "2011-02-22",
+		"SHA1": "2FB8E4E6ABEF30849BAE3811B5327CC770595075",
+		"size": "3.01GB",
+		"download": "ed2k://|file|hk_windows_7_professional_with_sp1_vl_build_x64_dvd_622426.iso|3236292608|5D4406ECB26D88C88A752AC74478C2A3|/"
+	},
+	{
+		"id": "e0afb12d-9884-4126-8a93-696da93d5003",
+		"language": "3076",
+		"name": "Windows 7 Professional with Service Pack 1, VL Build (x86) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_professional_with_sp1_vl_build_x86_dvd_623490.iso",
+		"date": "2011-02-22",
+		"SHA1": "A166CF6CC9CE1BFF2476051FD80B9C35545DBD42",
+		"size": "2.3GB",
+		"download": "ed2k://|file|hk_windows_7_professional_with_sp1_vl_build_x86_dvd_623490.iso|2470885376|5A4416C804A9530F968308EAC85B1558|/"
+	},
+	{
+		"id": "382a4362-690e-44d0-90c4-a4f1ca5fed86",
+		"language": "3076",
+		"name": "Windows 7 Professional, VL Build (x64) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_professional_vl_build_x64_dvd_x15-71268.iso",
+		"date": "2009-11-12",
+		"SHA1": "F9BB70DFE544E458546210832A87CD6C44C95BDC",
+		"size": "2.96GB",
+		"download": "ed2k://|file|hk_windows_7_professional_vl_build_x64_dvd_x15-71268.iso|3176290304|FC68645B2F5B66D45040A7565F1088B4|/"
+	},
+	{
+		"id": "71320780-9707-42ae-ba85-fd864f3faf8d",
+		"language": "3076",
+		"name": "Windows 7 Professional, VL Build (x86) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_professional_vl_build_x86_dvd_x15-71264.iso",
+		"date": "2009-11-12",
+		"SHA1": "20178095631F658B6390BE3753E0265821309758",
+		"size": "2.27GB",
+		"download": "ed2k://|file|hk_windows_7_professional_vl_build_x86_dvd_x15-71264.iso|2435989504|E04E807BB6BA85DD3439C9FA1A8D1589|/"
+	},
+	{
+		"id": "57a326a0-e70b-4c1c-9ba8-969ba8ac232b",
+		"language": "3076",
+		"name": "Windows 7 Starter with Service Pack 1 (x86) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_starter_with_sp1_x86_dvd_624041.iso",
+		"date": "2011-02-22",
+		"SHA1": "AF7BE21900602D4C4592B177EF782EC7CC24C034",
+		"size": "2.44GB",
+		"download": "ed2k://|file|hk_windows_7_starter_with_sp1_x86_dvd_624041.iso|2621298688|FD48BB5B05BDF53F9A2F608F1FA0B748|/"
+	},
+	{
+		"id": "893bea06-c5c7-4e31-900b-aeeda67d3991",
+		"language": "3076",
+		"name": "Windows 7 Ultimate (x64) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_ultimate_x64_dvd_x15-65911.iso",
+		"date": "2009-08-21",
+		"SHA1": "8029CCD9D37807C0E5B15FECD53BB7E02014ED0A",
+		"size": "3.09GB",
+		"download": "ed2k://|file|hk_windows_7_ultimate_x64_dvd_x15-65911.iso|3313936384|917F16D04FBBFDE763A35E2A32595AD9|/"
+	},
+	{
+		"id": "31504a92-4807-43a4-9426-2123a5052e57",
+		"language": "3076",
+		"name": "Windows 7 Ultimate (x86) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_ultimate_x86_dvd_x15-65912.iso",
+		"date": "2009-08-21",
+		"SHA1": "DB866DAAF229CF00DA3E45CE70581C7BC1BB63F6",
+		"size": "2.4GB",
+		"download": "ed2k://|file|hk_windows_7_ultimate_x86_dvd_x15-65912.iso|2574176256|4AA63D85BEA48F5742BD22B8655363B2|/"
+	},
+	{
+		"id": "8443a532-ab65-49ae-ae6b-73d59d77181e",
+		"language": "3076",
+		"name": "Windows 7 Ultimate with Service Pack 1 (x64) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_ultimate_with_sp1_x64_dvd_u_677411.iso",
+		"date": "2011-05-12",
+		"SHA1": "7DC2DB86F2C2304F4F71BC651DA49ADD77076DC6",
+		"size": "3.16GB",
+		"download": "ed2k://|file|hk_windows_7_ultimate_with_sp1_x64_dvd_u_677411.iso|3392374784|C8DFF761AD8DD1B9137887954942B803|/"
+	},
+	{
+		"id": "3cf9c2ca-ced3-4117-ada1-e3020a16310d",
+		"language": "3076",
+		"name": "Windows 7 Ultimate with Service Pack 1 (x86) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_7_ultimate_with_sp1_x86_dvd_u_677487.iso",
+		"date": "2011-05-12",
+		"SHA1": "66CD3D00631DF7EDE1D94331A49B842E1C2D37EF",
+		"size": "2.44GB",
+		"download": "ed2k://|file|hk_windows_7_ultimate_with_sp1_x86_dvd_u_677487.iso|2622672896|2EFFEBFD1E9FEE32929D44866D4B4763|/"
+	},
+	{
+		"id": "ef8e8a06-0ad8-4a12-baab-40fcf4ad2064",
+		"language": "3076",
+		"name": "Windows Automated Installation Kit for Windows 7 and Windows Server 2008 R2 Service Pack 1 (x86, x64, ia64) - DVD (Chinese-Hong Kong SAR)",
+		"fileName": "hk_windows_automated_installation_kit_for_windows_7_and_windows_server_2008_r2_sp1_x86_x64_ia64_dvd_619620.iso",
+		"date": "2011-02-22",
+		"SHA1": "8F963DAF2DED821B2AC5A03FED1C1ED8B42F36B6",
+		"size": "978.62MB",
+		"download": "ed2k://|file|hk_windows_automated_installation_kit_for_windows_7_and_windows_server_2008_r2_sp1_x86_x64_ia64_dvd_619620.iso|1026158592|3A5579C7BA646425E3E8BCCDE9ED24C6|/"
 	}
 ]
