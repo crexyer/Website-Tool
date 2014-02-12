@@ -838,5 +838,825 @@
 		"SHA1": "8F963DAF2DED821B2AC5A03FED1C1ED8B42F36B6",
 		"size": "978.62MB",
 		"download": "ed2k://|file|hk_windows_automated_installation_kit_for_windows_7_and_windows_server_2008_r2_sp1_x86_x64_ia64_dvd_619620.iso|1026158592|3A5579C7BA646425E3E8BCCDE9ED24C6|/"
+	},
+	{
+		"id": "a5a433c7-ded8-4cbf-bb6f-09780b0b1d2c",
+		"language": "1028",
+		"name": "Windows 7 Enterprise (x64) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_enterprise_x64_dvd_x15-70973.iso",
+		"date": "2009-08-21",
+		"SHA1": "08913767DA612B139A67C9625FA833AAB96F688A",
+		"size": "2.96GB",
+		"download": "ed2k://|file|tw_windows_7_enterprise_x64_dvd_x15-70973.iso|3179382784|C438118CF9853C633AFE4E55B1536664|/"
+	},
+	{
+		"id": "68ef1106-2d27-404a-87a4-e751b3e47937",
+		"language": "1028",
+		"name": "Windows 7 Enterprise (x86) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_enterprise_x86_dvd_x15-70969.iso",
+		"date": "2009-08-21",
+		"SHA1": "A505A01BC798CCCD05CE3034D1008869D7FAD975",
+		"size": "2.27GB",
+		"download": "ed2k://|file|tw_windows_7_enterprise_x86_dvd_x15-70969.iso|2439798784|DF2470C42957FC0E8FF0041E145E14C4|/"
+	},
+	{
+		"id": "c3916be2-b79e-4e92-89c0-4a0f9d0529f1",
+		"language": "1028",
+		"name": "Windows 7 Enterprise with Service Pack 1 (x64) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_enterprise_with_sp1_x64_dvd_620173.iso",
+		"date": "2011-02-22",
+		"SHA1": "555EF6300572198EE9B8D262FA22A07DA201A40B",
+		"size": "3.02GB",
+		"download": "ed2k://|file|tw_windows_7_enterprise_with_sp1_x64_dvd_620173.iso|3239794688|16F6BC393119D3D8F1CA35B9FDBE24EE|/"
+	},
+	{
+		"id": "6dad11bd-84cb-4cbc-82e6-b25e63135da4",
+		"language": "1028",
+		"name": "Windows 7 Enterprise with Service Pack 1 (x86) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_enterprise_with_sp1_x86_dvd_620158.iso",
+		"date": "2011-02-22",
+		"SHA1": "0C3429CDC9E11FD288B2CC37D536957EF347C507",
+		"size": "2.3GB",
+		"download": "ed2k://|file|tw_windows_7_enterprise_with_sp1_x86_dvd_620158.iso|2474461184|D0B331A581BCA6161F030CFE09AFE264|/"
+	},
+	{
+		"id": "3722d160-b2cc-4710-95fb-3919aa8fcf0f",
+		"language": "1028",
+		"name": "Windows 7 Home Basic with Service Pack 1 (x86) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_home_basic_with_sp1_x86_dvd_624173.iso",
+		"date": "2011-02-22",
+		"SHA1": "B71BE46275AB5CAF24F212AC22F1E9CB0AD931AF",
+		"size": "2.44GB",
+		"download": "ed2k://|file|tw_windows_7_home_basic_with_sp1_x86_dvd_624173.iso|2624999424|F1F39E08D76CF8A8DF88958EA5367A54|/"
+	},
+	{
+		"id": "ca48ef91-510d-430b-8be5-ee18019d8f6e",
+		"language": "1028",
+		"name": "Windows 7 Home Premium (x64) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_home_premium_x64_dvd_x15-65720.iso",
+		"date": "2009-08-21",
+		"SHA1": "B80D26668E673E08A309036D2AFB700CB20F3A1E",
+		"size": "3.09GB",
+		"download": "ed2k://|file|tw_windows_7_home_premium_x64_dvd_x15-65720.iso|3317223424|99D4299119F1C603315F4FEEEC3869AA|/"
+	},
+	{
+		"id": "cfb46584-c71e-492c-8d94-0280331d5088",
+		"language": "1028",
+		"name": "Windows 7 Home Premium (x86) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_home_premium_x86_dvd_x15-65719.iso",
+		"date": "2009-08-21",
+		"SHA1": "58EAB3AD4606CBBC8D64233A9B738352E202E40C",
+		"size": "2.4GB",
+		"download": "ed2k://|file|tw_windows_7_home_premium_x86_dvd_x15-65719.iso|2578382848|9F2F5BB7DC8ABC3D78A61A21BD85968B|/"
+	},
+	{
+		"id": "b5e9cc67-1110-48d4-b182-e4735371315e",
+		"language": "1028",
+		"name": "Windows 7 Home Premium with Service Pack 1 (x64) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_home_premium_with_sp1_x64_dvd_620802.iso",
+		"date": "2011-02-22",
+		"SHA1": "6DF1EDCC6562E261EE3096BC8EE3F286C42EFF6C",
+		"size": "3.16GB",
+		"download": "ed2k://|file|tw_windows_7_home_premium_with_sp1_x64_dvd_620802.iso|3394678784|9A66D8261B9539D2ED08C0019AF5B844|/"
+	},
+	{
+		"id": "19c20605-f554-41d1-8e86-61a69dc8e6a3",
+		"language": "1028",
+		"name": "Windows 7 Home Premium with Service Pack 1 (x86) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_home_premium_with_sp1_x86_dvd_620862.iso",
+		"date": "2011-02-22",
+		"SHA1": "845289281B1044C037A81378F32268C456A7960B",
+		"size": "2.44GB",
+		"download": "ed2k://|file|tw_windows_7_home_premium_with_sp1_x86_dvd_620862.iso|2624999424|D41FC7E50BF544C4713C32169D782377|/"
+	},
+	{
+		"id": "5602a4d2-b6a7-4779-a19d-5a63a94cc799",
+		"language": "1028",
+		"name": "Windows 7 Language Pack (x64) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_language_pack_x64_dvd_x15-73458.iso",
+		"date": "2009-08-06",
+		"SHA1": "E0B7FEB2812D6B8B240D6E7BBBC385BB283FF1FB",
+		"size": "127.6MB",
+		"download": "ed2k://|file|tw_windows_7_language_pack_x64_dvd_x15-73458.iso|133793792|F976A62B766322181C26CEEA832AC8CE|/"
+	},
+	{
+		"id": "98a9f4ff-1cbf-4afc-910a-0a03be359908",
+		"language": "1028",
+		"name": "Windows 7 Language Pack (x86) - DVD (Chinese-Taiwan)",
+		"fileName": "ct_windows_7_language_pack_x86_dvd_x15-73454.iso",
+		"date": "2009-08-06",
+		"SHA1": "4A9F997BDC5DDBDF0CFF95AA1612133BF2EDBD16",
+		"size": "106.76MB",
+		"download": "ed2k://|file|ct_windows_7_language_pack_x86_dvd_x15-73454.iso|111949824|CA50E73DC8D82DF7F4A45394328D2E7D|/"
+	},
+	{
+		"id": "5f455584-8a33-4e29-9fb2-0928c7d30a62",
+		"language": "1028",
+		"name": "Windows 7 Professional (x64) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_professional_x64_dvd_x15-65793.iso",
+		"date": "2009-08-21",
+		"SHA1": "B46E4DB2830488F8FCC762EE2DFD997C9FDB08F1",
+		"size": "3.09GB",
+		"download": "ed2k://|file|tw_windows_7_professional_x64_dvd_x15-65793.iso|3317223424|3F32F82D50BE93B60E51E195E89E44C9|/"
+	},
+	{
+		"id": "58d1c9cd-c044-42b0-ad2a-40197da98aa1",
+		"language": "1028",
+		"name": "Windows 7 Professional (x86) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_professional_x86_dvd_x15-65792.iso",
+		"date": "2009-08-21",
+		"SHA1": "1DAD70B57AE6E3716491C1B07A78AAA17D789EFE",
+		"size": "2.4GB",
+		"download": "ed2k://|file|tw_windows_7_professional_x86_dvd_x15-65792.iso|2578382848|DFCD4445D74FA22BFA2D745F10346583|/"
+	},
+	{
+		"id": "88a82e4f-5b36-4098-8f3f-4d3dc3280def",
+		"language": "1028",
+		"name": "Windows 7 Professional with Service Pack 1 (x64) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_professional_with_sp1_x64_dvd_621745.iso",
+		"date": "2011-02-22",
+		"SHA1": "A4E4E666A463C367AE550F75730E379AB36ED489",
+		"size": "3.16GB",
+		"download": "ed2k://|file|tw_windows_7_professional_with_sp1_x64_dvd_621745.iso|3394678784|9992BE31A03672FF6FCB8715A92FE0D6|/"
+	},
+	{
+		"id": "657a3527-084f-4c16-a972-997f01005b39",
+		"language": "1028",
+		"name": "Windows 7 Professional with Service Pack 1 (x86) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_professional_with_sp1_x86_dvd_622573.iso",
+		"date": "2011-02-22",
+		"SHA1": "B06C2B2659F27C9333D38D8A7644E68DCA5492C2",
+		"size": "2.44GB",
+		"download": "ed2k://|file|tw_windows_7_professional_with_sp1_x86_dvd_622573.iso|2624999424|D2DF800EB4F16C7EAF45DC79CF43F1A1|/"
+	},
+	{
+		"id": "2611eb74-e3aa-4e1e-b408-40f010d290c0",
+		"language": "1028",
+		"name": "Windows 7 Professional with Service Pack 1, VL Build (x64) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_professional_with_sp1_vl_build_x64_dvd_622435.iso",
+		"date": "2011-02-22",
+		"SHA1": "976DE46BCCC6D8387FF2337D55192B57F35EB8FE",
+		"size": "3.02GB",
+		"download": "ed2k://|file|tw_windows_7_professional_with_sp1_vl_build_x64_dvd_622435.iso|3240210432|D4258BCDA666065FA1C153109F31F7B8|/"
+	},
+	{
+		"id": "ec687f11-86aa-4ce5-8e96-cff3889d1be0",
+		"language": "1028",
+		"name": "Windows 7 Professional with Service Pack 1, VL Build (x86) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_professional_with_sp1_vl_build_x86_dvd_623497.iso",
+		"date": "2011-02-22",
+		"SHA1": "A35204BEAAB01000C990944BFCC3DE5DD0DE0810",
+		"size": "2.3GB",
+		"download": "ed2k://|file|tw_windows_7_professional_with_sp1_vl_build_x86_dvd_623497.iso|2474504192|C6544FA1F645D28DC682C216C054482A|/"
+	},
+	{
+		"id": "6594de23-141c-4828-a874-7a50d6081803",
+		"language": "1028",
+		"name": "Windows 7 Professional, VL Build (x86) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_professional_vl_build_x86_dvd_x15-71256.iso",
+		"date": "2009-11-12",
+		"SHA1": "F41A0CB2FB9D50B7207009C506E090A3DB93BFD3",
+		"size": "2.27GB",
+		"download": "ed2k://|file|tw_windows_7_professional_vl_build_x86_dvd_x15-71256.iso|2440128512|FCA4B94BBFE5CFE0714E7EFC3826BF61|/"
+	},
+	{
+		"id": "fca67de3-58b7-44f8-bf3a-3d537bd8f220",
+		"language": "1028",
+		"name": "Windows 7 Service Pack 1 Language Pack (x64) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_sp1_language_pack_x64_dvd_646888.iso",
+		"date": "2011-02-22",
+		"SHA1": "A20A46BB710559853EDA4409B59D91F7E2727DCD",
+		"size": "140.96MB",
+		"download": "ed2k://|file|tw_windows_7_sp1_language_pack_x64_dvd_646888.iso|147802112|9592B2B28E245B653470BB120C84156D|/"
+	},
+	{
+		"id": "3c57f7cc-b9d1-4ef7-ae3d-070e87119d95",
+		"language": "1028",
+		"name": "Windows 7 Service Pack 1 Language Pack (x86) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_sp1_language_pack_x86_dvd_619609.iso",
+		"date": "2011-02-22",
+		"SHA1": "133E0509422BF5AE116264126E42FE72C1A605C9",
+		"size": "116.79MB",
+		"download": "ed2k://|file|tw_windows_7_sp1_language_pack_x86_dvd_619609.iso|122464256|D5AB20F03A5A93933B67B24331C2773A|/"
+	},
+	{
+		"id": "5d38db7d-1030-44ca-8319-f2bc931ece05",
+		"language": "1028",
+		"name": "Windows 7 Starter with Service Pack 1 (x86) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_starter_with_sp1_x86_dvd_624053.iso",
+		"date": "2011-02-22",
+		"SHA1": "01D060F6968E0E5DC03FBABF4479312D76075C74",
+		"size": "2.44GB",
+		"download": "ed2k://|file|tw_windows_7_starter_with_sp1_x86_dvd_624053.iso|2624999424|4E3734D07D5E7CE9C6A3544925819363|/"
+	},
+	{
+		"id": "6d6276dd-505f-4d6c-bb5a-6c0783640dc8",
+		"language": "1028",
+		"name": "Windows 7 Ultimate (x64) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_ultimate_x64_dvd_x15-65909.iso",
+		"date": "2009-08-21",
+		"SHA1": "20F561F03E83EB8E01B12DA3822D941F4B2AF47C",
+		"size": "3.09GB",
+		"download": "ed2k://|file|tw_windows_7_ultimate_x64_dvd_x15-65909.iso|3317223424|E6C906D22060285BE18929FADBA37F48|/"
+	},
+	{
+		"id": "1198bc95-411c-4e38-983a-840bd680c2cd",
+		"language": "1028",
+		"name": "Windows 7 Ultimate (x86) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_ultimate_x86_dvd_x15-65908.iso",
+		"date": "2009-08-21",
+		"SHA1": "3171F919F1ED5EAF4974C0F89B274DC973C023D5",
+		"size": "2.4GB",
+		"download": "ed2k://|file|tw_windows_7_ultimate_x86_dvd_x15-65908.iso|2578382848|D3570ECAED1D132724FCD399B523DB23|/"
+	},
+	{
+		"id": "dfcc8924-c315-4b39-b9ee-4b79a098cb9a",
+		"language": "1028",
+		"name": "Windows 7 Ultimate with Service Pack 1 (x64) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_ultimate_with_sp1_x64_dvd_u_677414.iso",
+		"date": "2011-05-12",
+		"SHA1": "C580AD0FFCB4C08E4F8C1B1ED8CE22675977BC05",
+		"size": "3.16GB",
+		"download": "ed2k://|file|tw_windows_7_ultimate_with_sp1_x64_dvd_u_677414.iso|3396118528|42FC8F96BD13C18FF09043B474713F1B|/"
+	},
+	{
+		"id": "0d6720b8-2c3e-444d-b3a3-5bd558357b2a",
+		"language": "1028",
+		"name": "Windows 7 Ultimate with Service Pack 1 (x86) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_7_ultimate_with_sp1_x86_dvd_u_677488.iso",
+		"date": "2011-05-12",
+		"SHA1": "C281631B915AA24B93C37F6D5D586AA7B51211D8",
+		"size": "2.45GB",
+		"download": "ed2k://|file|tw_windows_7_ultimate_with_sp1_x86_dvd_u_677488.iso|2626453504|24952BE0F5844062465BD5DCDAC1986F|/"
+	},
+	{
+		"id": "dac0d13f-ce69-4b0b-923d-adb48bec18ff",
+		"language": "1028",
+		"name": "Windows Automated Installation Kit for Windows 7 and Windows Server 2008 R2 Service Pack 1 (x86, x64, ia64) - DVD (Chinese-Taiwan)",
+		"fileName": "tw_windows_automated_installation_kit_for_windows_7_and_windows_server_2008_r2_sp1_x86_x64_ia64_dvd_619621.iso",
+		"date": "2011-02-22",
+		"SHA1": "DBE2DF78EE5B64642115F877E0F791C40E82FC77",
+		"size": "1.4GB",
+		"download": "ed2k://|file|tw_windows_automated_installation_kit_for_windows_7_and_windows_server_2008_r2_sp1_x86_x64_ia64_dvd_619621.iso|1500682240|EF97F297B38BE6BD89B6BF281F3DBA06|/"
+	},
+	{
+		"id": "77afe5e5-d7ee-4749-9c56-b70fba849ab0",
+		"language": "1036",
+		"name": "Windows 7 Enterprise (x64) - DVD (French)",
+		"fileName": "fr_windows_7_enterprise_x64_dvd_x15-70814.iso",
+		"date": "2009-08-14",
+		"SHA1": "163534A862A478FAFCD3D9A0A0F4F009C5FE737D",
+		"size": "2.84GB",
+		"download": "ed2k://|file|fr_windows_7_enterprise_x64_dvd_x15-70814.iso|3051106304|CACD6E90A3A719F8D2950FA58C4D55BF|/"
+	},
+	{
+		"id": "d3bb4bde-526c-4a89-ba9a-054290cda319",
+		"language": "1036",
+		"name": "Windows 7 Home Basic (x86) - DVD (French)",
+		"fileName": "fr_windows_7_home_basic_x86_dvd_x15-65660.iso",
+		"date": "2009-08-14",
+		"SHA1": "72F1513C7DACB12AB7C06257FC98C7342F9E96EE",
+		"size": "2.28GB",
+		"download": "ed2k://|file|fr_windows_7_home_basic_x86_dvd_x15-65660.iso|2448254976|F9C30E143038AF33103E5FA8CFBD59C3|/"
+	},
+	{
+		"id": "5873be5a-5127-4f87-b206-4b2887f6ad41",
+		"language": "1036",
+		"name": "Windows 7 Home Premium (x86) - DVD (French)",
+		"fileName": "fr_windows_7_home_premium_x86_dvd_x15-65738.iso",
+		"date": "2009-08-14",
+		"SHA1": "A141840EF44ADB3F4731D681BE0F0E32F8A68B36",
+		"size": "2.28GB",
+		"download": "ed2k://|file|fr_windows_7_home_premium_x86_dvd_x15-65738.iso|2448254976|65D209D71685C2B5D30AAB89879F2108|/"
+	},
+	{
+		"id": "10e46a38-1d6b-4ff9-9178-f8360a7842d5",
+		"language": "1036",
+		"name": "Windows 7 Professional (x64) - DVD (French)",
+		"fileName": "fr_windows_7_professional_x64_dvd_x15-65811.iso",
+		"date": "2009-08-14",
+		"SHA1": "608BBC966703F42FF3A9C6AD9F162FCAA1BC5D9A",
+		"size": "2.96GB",
+		"download": "ed2k://|file|fr_windows_7_professional_x64_dvd_x15-65811.iso|3176984576|F04811FB8A07637449B06069061EB437|/"
+	},
+	{
+		"id": "5cb470c7-773c-431d-9c8e-d1d7e5dfee1c",
+		"language": "1036",
+		"name": "Windows 7 Professional (x86) - DVD (French)",
+		"fileName": "fr_windows_7_professional_x86_dvd_x15-65810.iso",
+		"date": "2009-08-14",
+		"SHA1": "3DD41ECB795CE6D29DF95E52224CEB18422E240F",
+		"size": "2.28GB",
+		"download": "ed2k://|file|fr_windows_7_professional_x86_dvd_x15-65810.iso|2448254976|27995B4C92932C9DD29C89958ED76634|/"
+	},
+	{
+		"id": "497e43b4-2ec3-482f-bba0-1ea629926ff5",
+		"language": "1036",
+		"name": "Windows 7 Ultimate (x64) - DVD (French)",
+		"fileName": "fr_windows_7_ultimate_x64_dvd_x15-65928.iso",
+		"date": "2009-08-14",
+		"SHA1": "59F15607A6567F5AEF557D16EDEAE2ED5CE09C5D",
+		"size": "2.96GB",
+		"download": "ed2k://|file|fr_windows_7_ultimate_x64_dvd_x15-65928.iso|3176984576|6DDD5913D3A72375C683F2F5F60848D2|/"
+	},
+	{
+		"id": "75623933-1e75-4884-b32c-d0f07f974ab7",
+		"language": "1036",
+		"name": "Windows 7 Ultimate (x86) - DVD (French)",
+		"fileName": "fr_windows_7_ultimate_x86_dvd_x15-65927.iso",
+		"date": "2009-08-14",
+		"SHA1": "D3AA150417507F38F8369DC2A010B37AA1C58A7B",
+		"size": "2.28GB",
+		"download": "ed2k://|file|fr_windows_7_ultimate_x86_dvd_x15-65927.iso|2448254976|4F8948E33F22DC97BFC7AB0A9E2063BD|/"
+	},
+	{
+		"id": "5b320fdf-1606-473b-8582-08cef20c6195",
+		"language": "1031",
+		"name": "Windows 7 Enterprise (x64) - DVD (German)",
+		"fileName": "de_windows_7_enterprise_x64_dvd_x15-70789.iso",
+		"date": "2009-08-14",
+		"SHA1": "791D2A9EADD3BF3E50EABE8077F974D17BD89176",
+		"size": "2.86GB",
+		"download": "ed2k://|file|de_windows_7_enterprise_x64_dvd_x15-70789.iso|3066609664|5B5F3CB56C932AA5EDE7CC1FBCC8585A|/"
+	},
+	{
+		"id": "a9a1affa-f8fb-426c-b986-d553dcb18031",
+		"language": "1031",
+		"name": "Windows 7 Enterprise (x86) - DVD (German)",
+		"fileName": "de_windows_7_enterprise_x86_dvd_x15-70785.iso",
+		"date": "2009-08-14",
+		"SHA1": "358E8E1C62551D15F9B35F1226894908CA6A7C99",
+		"size": "2.18GB",
+		"download": "ed2k://|file|de_windows_7_enterprise_x86_dvd_x15-70785.iso|2340208640|24DB6176B56D0BCCD3D5A97AD9E773AB|/"
+	},
+	{
+		"id": "794db0b1-5345-4d1f-aea1-cb7ac2c0fa46",
+		"language": "1031",
+		"name": "Windows 7 Home Premium (x86) - DVD (German)",
+		"fileName": "de_windows_7_home_premium_x86_dvd_x15-65740.iso",
+		"date": "2009-08-14",
+		"SHA1": "138099F3DDE24AE30E088F2CE51B14BD341E1FAA",
+		"size": "2.29GB",
+		"download": "ed2k://|file|de_windows_7_home_premium_x86_dvd_x15-65740.iso|2463242240|264FB6A9DDF94749E5FAC629BA75B6AA|/"
+	},
+	{
+		"id": "2aed056c-1d3b-48d8-a5d0-43460097db60",
+		"language": "1031",
+		"name": "Windows 7 Ultimate (x64) - DVD (German)",
+		"fileName": "de_windows_7_ultimate_x64_dvd_x15-66046.iso",
+		"date": "2009-08-14",
+		"SHA1": "EA0F94C558C1E6974C8F8C154EBCB5850DC63144",
+		"size": "2.97GB",
+		"download": "ed2k://|file|de_windows_7_ultimate_x64_dvd_x15-66046.iso|3192264704|09FD97FCB3E6CB4B1C6BECB18695C534|/"
+	},
+	{
+		"id": "12a6567c-1e23-4749-ba26-2bee1e7b84d5",
+		"language": "1031",
+		"name": "Windows 7 Ultimate (x86) - DVD (German)",
+		"fileName": "de_windows_7_ultimate_x86_dvd_x15-65929.iso",
+		"date": "2009-08-14",
+		"SHA1": "642B7E172A0E7971FF9C666AEB3EB3D0CC58444B",
+		"size": "2.29GB",
+		"download": "ed2k://|file|de_windows_7_ultimate_x86_dvd_x15-65929.iso|2463242240|F62F4316066E627D8C1A5F363F058EF5|/"
+	},
+	{
+		"id": "58ec70f5-8e70-4d7c-a980-5e940356b56c",
+		"language": "1031",
+		"name": "Windows Automated Installation Kit for Windows 7 and Windows Server 2008 R2 (x86, x64, ia64) - DVD (German)",
+		"fileName": "de_windows_automated_installation_kit_for_windows_7_and_windows_server_2008_r2_x86_x64_ia64_dvd_400065.iso",
+		"date": "2009-08-06",
+		"SHA1": "4FE6CC74296314F6D6DCB63EC8858AECA16C0AED",
+		"size": "1.59GB",
+		"download": "ed2k://|file|de_windows_automated_installation_kit_for_windows_7_and_windows_server_2008_r2_x86_x64_ia64_dvd_400065.iso|1706256384|C2F232A78955BB5BE95B5DEBCC72032B|/"
+	},
+	{
+		"id": "91a0d0d8-9681-4b82-b7a6-c076c1237a89",
+		"language": "1040",
+		"name": "Windows 7 Enterprise (x64) - DVD (Italian)",
+		"fileName": "it_windows_7_enterprise_x64_dvd_x15-70846.iso",
+		"date": "2009-08-14",
+		"SHA1": "8A731FC97A30B5D93B59B8F6F5DBFFFBA4DDC281",
+		"size": "2.79GB",
+		"download": "ed2k://|file|it_windows_7_enterprise_x64_dvd_x15-70846.iso|2990690304|8262E21BDB2D0FD77812588CA4752BAD|/"
+	},
+	{
+		"id": "265c6b2f-36e2-4ce5-a632-8ae9a276b5c8",
+		"language": "1040",
+		"name": "Windows 7 Enterprise (x86) - DVD (Italian)",
+		"fileName": "it_windows_7_enterprise_x86_dvd_x15-70842.iso",
+		"date": "2009-08-14",
+		"SHA1": "4A57CA63C6302EB98B9CB15809B402B06CC1385A",
+		"size": "2.11GB",
+		"download": "ed2k://|file|it_windows_7_enterprise_x86_dvd_x15-70842.iso|2264743936|9C4DC0E4C2F4F33B55581B89105589E3|/"
+	},
+	{
+		"id": "5bfc52ce-24aa-4009-b721-e4aa02c83ea9",
+		"language": "1040",
+		"name": "Windows 7 Professional (x86) - DVD (Italian)",
+		"fileName": "it_windows_7_professional_x86_dvd_x15-65820.iso",
+		"date": "2009-08-14",
+		"SHA1": "1249BBB74950A6C246A1DA06AB643E512B003520",
+		"size": "2.22GB",
+		"download": "ed2k://|file|it_windows_7_professional_x86_dvd_x15-65820.iso|2387083264|A77F5F8AA0BD05EF449063064A807690|/"
+	},
+	{
+		"id": "a73845b3-e420-4988-80a7-88dd7407c71a",
+		"language": "1040",
+		"name": "Windows 7 Ultimate (x64) - DVD (Italian)",
+		"fileName": "it_windows_7_ultimate_x64_dvd_x15-65938.iso",
+		"date": "2009-08-14",
+		"SHA1": "8AF30CC44CEB9A369CDA4BA5F54F67DE8A684477",
+		"size": "2.9GB",
+		"download": "ed2k://|file|it_windows_7_ultimate_x64_dvd_x15-65938.iso|3115681792|2341FC27B101B164800968BAB9E47A5E|/"
+	},
+	{
+		"id": "1583cfab-54e2-4c8e-9cf2-7fb949f2b124",
+		"language": "1040",
+		"name": "Windows 7 Ultimate (x86) - DVD (Italian)",
+		"fileName": "it_windows_7_ultimate_x86_dvd_x15-65937.iso",
+		"date": "2009-08-14",
+		"SHA1": "DFCA36EEAE8728634535FF17CA202CD501C5BD10",
+		"size": "2.22GB",
+		"download": "ed2k://|file|it_windows_7_ultimate_x86_dvd_x15-65937.iso|2387083264|6BD33859D128D326A326C2FFA38EDF9C|/"
+	},
+	{
+		"id": "06496ca1-192b-4f91-a400-86f91b5ed706",
+		"language": "1040",
+		"name": "Windows 7 Ultimate with Service Pack 1 (x86) - DVD (Italian)",
+		"fileName": "it_windows_7_ultimate_with_sp1_x86_dvd_619122.iso",
+		"date": "2011-02-21",
+		"SHA1": "6CB84FE6BBDF39A662A8D7B62E2EE09A9CD5EDFE",
+		"size": "2.26GB",
+		"download": "ed2k://|file|it_windows_7_ultimate_with_sp1_x86_dvd_619122.iso|2430539776|366D87E791699ACBAAB1E84CDCDE7453|/"
+	},
+	{
+		"id": "7359cb51-84ae-4ffd-852d-4db673fe8d06",
+		"language": "1041",
+		"name": "Windows 7 Enterprise (x64) - DVD (Japanese)",
+		"fileName": "ja_windows_7_enterprise_x64_dvd_x15-70854.iso",
+		"date": "2009-08-11",
+		"SHA1": "C5DDDAAF2103DBBC082948049932AA0D66AE63B9",
+		"size": "2.89GB",
+		"download": "ed2k://|file|ja_windows_7_enterprise_x64_dvd_x15-70854.iso|3103090688|C0341C288FA79D623BAEA6A43E81E2E8|/"
+	},
+	{
+		"id": "1c07bb9f-a706-4c0a-b0d5-73dd002e0e1b",
+		"language": "1041",
+		"name": "Windows 7 Enterprise (x86) - DVD (Japanese)",
+		"fileName": "ja_windows_7_enterprise_x86_dvd_x15-70850.iso",
+		"date": "2009-08-11",
+		"SHA1": "6B73FBD4582FE6E1A15E998CD0A94FF84FE10FC1",
+		"size": "2.2GB",
+		"download": "ed2k://|file|ja_windows_7_enterprise_x86_dvd_x15-70850.iso|2364174336|8A493EAC828FE4DF2573CBEFBB79E4CD|/"
+	},
+	{
+		"id": "d95d8ba9-fd98-480e-94de-dbdfdcc61e14",
+		"language": "1041",
+		"name": "Windows 7 Ultimate (x64) - DVD (Japanese)",
+		"fileName": "ja_windows_7_ultimate_x64_dvd_x15-65940.iso",
+		"date": "2009-08-11",
+		"SHA1": "64C34A3E0542F278A8FCE232D09A62793F023AAF",
+		"size": "3.02GB",
+		"download": "ed2k://|file|ja_windows_7_ultimate_x64_dvd_x15-65940.iso|3241390080|826D4EF10382972267E39ECC011B81BA|/"
+	},
+	{
+		"id": "6cf5b452-c2cd-4eae-a810-f246be141367",
+		"language": "1041",
+		"name": "Windows 7 Ultimate (x86) - DVD (Japanese)",
+		"fileName": "ja_windows_7_ultimate_x86_dvd_x15-65939.iso",
+		"date": "2009-08-11",
+		"SHA1": "31E8C0182DCB6F9F060195A7F1EF0F2AE2722DE5",
+		"size": "2.33GB",
+		"download": "ed2k://|file|ja_windows_7_ultimate_x86_dvd_x15-65939.iso|2503079936|B02221E9B203CD065155D395B8C56E7F|/"
+	},
+	{
+		"id": "f30dd71e-7d4f-4d3a-8fc5-970f7c60c000",
+		"language": "1041",
+		"name": "Windows 7 Ultimate with Service Pack 1 (x64) - DVD (Japanese)",
+		"fileName": "ja_windows_7_ultimate_with_sp1_x64_dvd_618242.iso",
+		"date": "2011-02-18",
+		"SHA1": "2832FB01B054C9CA127BABD5BF59B82B2A9BA135",
+		"size": "3.09GB",
+		"download": "ed2k://|file|ja_windows_7_ultimate_with_sp1_x64_dvd_618242.iso|3321335808|7A72D24CAC2A92BA2616B656304BC8BD|/"
+	},
+	{
+		"id": "f08cfdbe-d583-4f6d-8583-35f1e04a4919",
+		"language": "1041",
+		"name": "Windows 7 Ultimate with Service Pack 1 (x86) - DVD (Japanese)",
+		"fileName": "ja_windows_7_ultimate_with_sp1_x86_dvd_619129.iso",
+		"date": "2011-02-18",
+		"SHA1": "D93189099A785508BD0BA2793F110BDEF81FF954",
+		"size": "2.38GB",
+		"download": "ed2k://|file|ja_windows_7_ultimate_with_sp1_x86_dvd_619129.iso|2552571904|84DCD0F7410ACD6AFDA57D103535832A|/"
+	},
+	{
+		"id": "bfff6a3b-dbd8-413a-b18d-db6fce6b1467",
+		"language": "1042",
+		"name": "Windows 7 Enterprise K (x64) - DVD (Korean)",
+		"fileName": "ko_windows_7_enterprise_k_x64_dvd_x15-72824.iso",
+		"date": "2009-08-28",
+		"SHA1": "194DA113F9ACCFCA5F27D66CB187631E24BE244E",
+		"size": "2.84GB",
+		"download": "ed2k://|file|ko_windows_7_enterprise_k_x64_dvd_x15-72824.iso|3044374528|2725573ECA6368427542C96C16F59586|/"
+	},
+	{
+		"id": "dfb6b323-63ad-49ff-a4e5-7e8d9a540f92",
+		"language": "1042",
+		"name": "Windows 7 Enterprise K (x86) - DVD (Korean)",
+		"fileName": "ko_windows_7_enterprise_k_x86_dvd_x15-72823.iso",
+		"date": "2009-08-28",
+		"SHA1": "F46C9599AF3DDE0436A16AE64992458DF5D52640",
+		"size": "2.15GB",
+		"download": "ed2k://|file|ko_windows_7_enterprise_k_x86_dvd_x15-72823.iso|2305773568|BF0E46F1CD402BA971751382B2CECE19|/"
+	},
+	{
+		"id": "73558188-1a3a-4980-9e01-146293eb3711",
+		"language": "1042",
+		"name": "Windows 7 Enterprise KN (x86) - DVD (Korean)",
+		"fileName": "ko_windows_7_enterprise_kn_x86_dvd_x15-71520.iso",
+		"date": "2009-08-28",
+		"SHA1": "FA77F6D2207DA3B65B18F31F4BECDAF3D83FFAF4",
+		"size": "1.88GB",
+		"download": "ed2k://|file|ko_windows_7_enterprise_kn_x86_dvd_x15-71520.iso|2020864000|0543DFAFCEC588968C1DA65D9613E4C1|/"
+	},
+	{
+		"id": "a03eaf58-f546-467a-a10d-3142c5f9d78f",
+		"language": "1042",
+		"name": "Windows 7 Home Premium K (x86) - DVD (Korean)",
+		"fileName": "ko_windows_7_home_premium_k_x86_dvd_x15-65780.iso",
+		"date": "2009-08-28",
+		"SHA1": "7AB010D84A320D339A9CD7A082F8960B2DF3A7C9",
+		"size": "2.28GB",
+		"download": "ed2k://|file|ko_windows_7_home_premium_k_x86_dvd_x15-65780.iso|2443837440|B11AD642BD3DB45CB2614E5F15264485|/"
+	},
+	{
+		"id": "ba19503d-2934-4323-8b92-1fddeb94c264",
+		"language": "1042",
+		"name": "Windows 7 Ultimate K (x64) - DVD (Korean)",
+		"fileName": "ko_windows_7_ultimate_k_x64_dvd_x15-65970.iso",
+		"date": "2009-08-28",
+		"SHA1": "16138814DA9ACD515085CEED4E5F6ADBB02156A3",
+		"size": "2.96GB",
+		"download": "ed2k://|file|ko_windows_7_ultimate_k_x64_dvd_x15-65970.iso|3181856768|D37B5901E8DAC8D533B34096ED47DEC4|/"
+	},
+	{
+		"id": "32e14c33-3f5f-47f6-babc-924087d3deb1",
+		"language": "1042",
+		"name": "Windows 7 Ultimate K (x86) - DVD (Korean)",
+		"fileName": "ko_windows_7_ultimate_k_x86_dvd_x15-65969.iso",
+		"date": "2009-08-28",
+		"SHA1": "55053DEAF98C218FC2FAEDF6A2C51E8442DA2F03",
+		"size": "2.28GB",
+		"download": "ed2k://|file|ko_windows_7_ultimate_k_x86_dvd_x15-65969.iso|2443837440|0ABDA26606E73E08A4119FC94B656850|/"
+	},
+	{
+		"id": "1593fd37-eb04-4004-809d-3ec09bc5f3d4",
+		"language": "1042",
+		"name": "Windows 7 Ultimate KN (x64) - DVD (Korean)",
+		"fileName": "ko_windows_7_ultimate_kn_x64_dvd_x15-65972.iso",
+		"date": "2009-08-28",
+		"SHA1": "2F995058464CBFB419C3A698AEFAB8FB30764739",
+		"size": "2.64GB",
+		"download": "ed2k://|file|ko_windows_7_ultimate_kn_x64_dvd_x15-65972.iso|2836623360|17E82151C9EDD09CD3F2F2816B80F8BA|/"
+	},
+	{
+		"id": "c523d4aa-ff05-4b8a-90d9-e7ae8f954f9d",
+		"language": "1042",
+		"name": "Windows 7 Ultimate KN (x86) - DVD (Korean)",
+		"fileName": "ko_windows_7_ultimate_kn_x86_dvd_x15-65971.iso",
+		"date": "2009-08-28",
+		"SHA1": "0EA665F086E85069CDC0F632C1AD6469D80A8C08",
+		"size": "2GB",
+		"download": "ed2k://|file|ko_windows_7_ultimate_kn_x86_dvd_x15-65971.iso|2151153664|545E059C5D9B1D29EB2ECC18E95D50DF|/"
+	},
+	{
+		"id": "e8e7dc69-0990-4df7-94e2-5c599086a543",
+		"language": "1046",
+		"name": "Windows 7 Enterprise (x86) - DVD (Portuguese-Brazil)",
+		"fileName": "pt_windows_7_enterprise_x86_dvd_x15-70729.iso",
+		"date": "2009-08-25",
+		"SHA1": "E55DCEFA2630969ABCAB752653F6A47ADDE45EAF",
+		"size": "2.11GB",
+		"download": "ed2k://|file|pt_windows_7_enterprise_x86_dvd_x15-70729.iso|2266695680|6CEC99375A7FEE3D4BA03B00BBC078B7|/"
+	},
+	{
+		"id": "edcdf0ae-3ea3-42a1-9593-a290d2ac6e4e",
+		"language": "1046",
+		"name": "Windows 7 Ultimate (x64) - DVD (Portuguese-Brazil)",
+		"fileName": "pt_windows_7_ultimate_x64_dvd_x15-65902.iso",
+		"date": "2009-08-25",
+		"SHA1": "4BBA03EA96D52A8DB243F37DBC3821CB53D97586",
+		"size": "2.9GB",
+		"download": "ed2k://|file|pt_windows_7_ultimate_x64_dvd_x15-65902.iso|3118131200|07B3DF0297BFA0BBFFC66F6D678898D4|/"
+	},
+	{
+		"id": "d0a4ec9c-e2f6-4321-aa8e-3d9a25a0409f",
+		"language": "1046",
+		"name": "Windows 7 Ultimate (x86) - DVD (Portuguese-Brazil)",
+		"fileName": "pt_windows_7_ultimate_x86_dvd_x15-65903.iso",
+		"date": "2009-08-25",
+		"SHA1": "4F2882301AC269BD6C65A7208BB72844E0BE5EB5",
+		"size": "2.23GB",
+		"download": "ed2k://|file|pt_windows_7_ultimate_x86_dvd_x15-65903.iso|2389719040|8B7427E86CDD124C7994A7BEBABF923F|/"
+	},
+	{
+		"id": "52106d87-4c7a-40f7-8ea7-11e4b06ef66a",
+		"language": "2070",
+		"name": "Windows 7 Ultimate (x64) - DVD (Portuguese-Portugal)",
+		"fileName": "pp_windows_7_ultimate_x64_dvd_x15-65948.iso",
+		"date": "2009-08-28",
+		"SHA1": "89502FF0BA9628536E1D1B1A0640EDE1C27BC64C",
+		"size": "2.9GB",
+		"download": "ed2k://|file|pp_windows_7_ultimate_x64_dvd_x15-65948.iso|3115857920|CB55CDD565DFC3A71D78918A283420FC|/"
+	},
+	{
+		"id": "d146bfb0-261c-4b99-a3f2-05f055f55640",
+		"language": "2070",
+		"name": "Windows 7 Ultimate (x86) - DVD (Portuguese-Portugal)",
+		"fileName": "pp_windows_7_ultimate_x86_dvd_x15-65947.iso",
+		"date": "2009-08-28",
+		"SHA1": "650B4CC9EF192573D681ACEB33D4A1C6EDF7541C",
+		"size": "2.22GB",
+		"download": "ed2k://|file|pp_windows_7_ultimate_x86_dvd_x15-65947.iso|2387181568|74B24A9E09A827CF68698DD532298F5A|/"
+	},
+	{
+		"id": "4c9b4142-1986-4c69-8865-708224d12336",
+		"language": "1049",
+		"name": "Windows 7 Professional (x86) - DVD (Russian)",
+		"fileName": "ru_windows_7_professional_x86_dvd_x15-65834.iso",
+		"date": "2009-08-29",
+		"SHA1": "A536412DD31A65396880677B72343AAD2650C625",
+		"size": "2.26GB",
+		"download": "ed2k://|file|ru_windows_7_professional_x86_dvd_x15-65834.iso|2426210304|8390113312835FDA9D10921C9C973F19|/"
+	},
+	{
+		"id": "751926cd-904d-44d9-b2ef-cc349133c5a0",
+		"language": "1049",
+		"name": "Windows 7 Ultimate (x64) - DVD (Russian)",
+		"fileName": "ru_windows_7_ultimate_x64_dvd_x15-65952.iso",
+		"date": "2009-08-29",
+		"SHA1": "81A09A02F0084BD0F5813F494F82A8B6426AA34A",
+		"size": "2.94GB",
+		"download": "ed2k://|file|ru_windows_7_ultimate_x64_dvd_x15-65952.iso|3153283072|2B723A953EBCA711FE9A4C419D1C81A9|/"
+	},
+	{
+		"id": "ad31c6e4-1475-4a15-bbd1-5d35e9ac62c8",
+		"language": "1049",
+		"name": "Windows 7 Ultimate (x86) - DVD (Russian)",
+		"fileName": "ru_windows_7_ultimate_x86_dvd_x15-65951.iso",
+		"date": "2009-08-29",
+		"SHA1": "65F13D79C4C6260B83F74C764DFDCE14C2AC2634",
+		"size": "2.26GB",
+		"download": "ed2k://|file|ru_windows_7_ultimate_x86_dvd_x15-65951.iso|2426210304|CEA24347613026671A2FE18A3F5F6660|/"
+	},
+	{
+		"id": "48baec97-0321-4596-8700-c7db87c1a907",
+		"language": "1034",
+		"name": "Windows 7 Enterprise (x86) - DVD (Spanish)",
+		"fileName": "es_windows_7_enterprise_x86_dvd_x15-70801.iso",
+		"date": "2009-08-14",
+		"SHA1": "595A8B27FB9EB5CE241C6A1EABECA2130BB3B23B",
+		"size": "2.17GB",
+		"download": "ed2k://|file|es_windows_7_enterprise_x86_dvd_x15-70801.iso|2325080064|4B0AE9D4BDB951EB6A287EB12634E54E|/"
+	},
+	{
+		"id": "dfe0fbb5-889f-4a9d-88a7-90cfb6624cc6",
+		"language": "1034",
+		"name": "Windows 7 Ultimate (x64) - DVD (Spanish)",
+		"fileName": "es_windows_7_ultimate_x64_dvd_x15-65960.iso",
+		"date": "2009-08-14",
+		"SHA1": "E5627CF450FBEDC452FEA3A858A11F075F8F5045",
+		"size": "2.96GB",
+		"download": "ed2k://|file|es_windows_7_ultimate_x64_dvd_x15-65960.iso|3176308736|16D1C168ABDA701C29DE0CD6526E2DA1|/"
+	},
+	{
+		"id": "e13702c5-f45f-4d91-bb08-aa952348eff4",
+		"language": "1034",
+		"name": "Windows 7 Ultimate (x86) - DVD (Spanish)",
+		"fileName": "es_windows_7_ultimate_x86_dvd_x15-65959.iso",
+		"date": "2009-08-14",
+		"SHA1": "1F927E8665C0464D07460EF98E9804EF9468352F",
+		"size": "2.28GB",
+		"download": "ed2k://|file|es_windows_7_ultimate_x86_dvd_x15-65959.iso|2447534080|A3A91001F5957D3DB0F3CB2A9A020FDB|/"
+	},
+	{
+		"id": "c8f34df2-5fe3-4bdb-acec-b0b96e1e458d",
+		"language": "1043",
+		"name": "Windows 7 Ultimate (x64) - DVD (Dutch)",
+		"fileName": "nl_windows_7_ultimate_x64_dvd_x15-65920.iso",
+		"date": "2009-08-25",
+		"SHA1": "57DBADBDE273CD8D3E3CA384FCA0550A36447DC5",
+		"size": "2.91GB",
+		"download": "ed2k://|file|nl_windows_7_ultimate_x64_dvd_x15-65920.iso|3119224832|1C8EC24A61024A8C926B3017D865DDF5|/"
+	},
+	{
+		"id": "87951daf-ade4-4ed0-8d88-ad9a6f4ab276",
+		"language": "1043",
+		"name": "Windows 7 Ultimate (x86) - DVD (Dutch)",
+		"fileName": "nl_windows_7_ultimate_x86_dvd_x15-65919.iso",
+		"date": "2009-08-25",
+		"SHA1": "21EB29BDF09069E33F02BCC733AAECDF2ADAF402",
+		"size": "2.23GB",
+		"download": "ed2k://|file|nl_windows_7_ultimate_x86_dvd_x15-65919.iso|2390310912|5E4BB589BCBAE01620167CA41FB39F94|/"
+	},
+	{
+		"id": "2dd64aa1-591b-4034-a973-df8799297120",
+		"language": "1037",
+		"name": "Windows 7 Ultimate (x64) - DVD (Hebrew)",
+		"fileName": "he_windows_7_ultimate_x64_dvd_x15-65934.iso",
+		"date": "2009-08-28",
+		"SHA1": "A1C83048AD21FF02899E656911261566191D012C",
+		"size": "2.92GB",
+		"download": "ed2k://|file|he_windows_7_ultimate_x64_dvd_x15-65934.iso|3133542400|A80D9EA9F45B28D16B4758DA2B96F515|/"
+	},
+	{
+		"id": "c687b937-6ee6-48a9-beb0-0817c3045109",
+		"language": "1037",
+		"name": "Windows 7 Ultimate (x86) - DVD (Hebrew)",
+		"fileName": "he_windows_7_ultimate_x86_dvd_x15-65933.iso",
+		"date": "2009-08-28",
+		"SHA1": "83DBFC5D4C9F8661481EE141E6F74F8BC88D3CB0",
+		"size": "2.24GB",
+		"download": "ed2k://|file|he_windows_7_ultimate_x86_dvd_x15-65933.iso|2408157184|1CC5E4591D9EFB27A1AFD89B63706D77|/"
+	},
+	{
+		"id": "7c619767-8916-4e50-9f9f-2f02d28bef7c",
+		"language": "1038",
+		"name": "Windows 7 Ultimate (x64) - DVD (Hungarian)",
+		"fileName": "hu_windows_7_ultimate_x64_dvd_x15-65936.iso",
+		"date": "2009-08-29",
+		"SHA1": "EB8FA1BA703385F93BCDE7840909B4738B29E4C6",
+		"size": "2.9GB",
+		"download": "ed2k://|file|hu_windows_7_ultimate_x64_dvd_x15-65936.iso|3115091968|F35C41D64708A3CF2C2AE07B9ED6D8A9|/"
+	},
+	{
+		"id": "a51e1ba0-9a31-4a05-a29d-5f8e9ef93a0a",
+		"language": "1038",
+		"name": "Windows 7 Ultimate (x86) - DVD (Hungarian)",
+		"fileName": "hu_windows_7_ultimate_x86_dvd_x15-65935.iso",
+		"date": "2009-08-29",
+		"SHA1": "BD797E6E156DD381592FF154D0C3E3C542F45D48",
+		"size": "2.22GB",
+		"download": "ed2k://|file|hu_windows_7_ultimate_x86_dvd_x15-65935.iso|2386423808|3C29AE292BB1A2D9F3DA5D337C7C8713|/"
+	},
+	{
+		"id": "f1e87d41-77bc-44f3-8ca6-c74d5f5c056d",
+		"language": "1045",
+		"name": "Windows 7 Ultimate (x64) - DVD (Polish)",
+		"fileName": "pl_windows_7_ultimate_x64_dvd_x15-65946.iso",
+		"date": "2009-08-28",
+		"SHA1": "B8888801B3EE236C1DD5D63CF71FB1E2491008E5",
+		"size": "2.91GB",
+		"download": "ed2k://|file|pl_windows_7_ultimate_x64_dvd_x15-65946.iso|3124578304|ECE8FE536FFE61690B548A834B4652E0|/"
+	},
+	{
+		"id": "6a127fe1-97f0-4c41-a181-aac395202292",
+		"language": "1045",
+		"name": "Windows 7 Ultimate (x86) - DVD (Polish)",
+		"fileName": "pl_windows_7_ultimate_x86_dvd_x15-65945.iso",
+		"date": "2009-08-28",
+		"SHA1": "12DBAEE42ABA6C5C0C17491C403BF2C1C206D4D8",
+		"size": "2.23GB",
+		"download": "ed2k://|file|pl_windows_7_ultimate_x86_dvd_x15-65945.iso|2395904000|6F875E677E5AE3B3242B5B28128D0C9A|/"
+	},
+	{
+		"id": "a09e6c0a-dfab-4f17-a06d-72bf74fe29dc",
+		"language": "1055",
+		"name": "Windows 7 Ultimate (x64) - DVD (Turkish)",
+		"fileName": "tr_windows_7_ultimate_x64_dvd_x15-65966.iso",
+		"date": "2009-08-29",
+		"SHA1": "2A478A2875FF375A9BC98B67C7050E162AF2889D",
+		"size": "2.9GB",
+		"download": "ed2k://|file|tr_windows_7_ultimate_x64_dvd_x15-65966.iso|3110756352|C9789E78CFA806DCB5BA5D7E923CAAD6|/"
+	},
+	{
+		"id": "bd5f0e88-8651-45fd-9ceb-947f62ee23ad",
+		"language": "1055",
+		"name": "Windows 7 Ultimate (x86) - DVD (Turkish)",
+		"fileName": "tr_windows_7_ultimate_x86_dvd_x15-65965.iso",
+		"date": "2009-08-29",
+		"SHA1": "1B9DD4D398549B430D8B757B2EC2586E6A18E290",
+		"size": "2.22GB",
+		"download": "ed2k://|file|tr_windows_7_ultimate_x86_dvd_x15-65965.iso|2382473216|DEC31C7787820EF98BD41E62BEFEA944|/"
+	},
+	{
+		"id": "2e1d5eef-d41f-47d1-8af3-cf3c8efe0c9b",
+		"language": "1058",
+		"name": "Windows 7 Ultimate (x64) - DVD (Ukrainian)",
+		"fileName": "uk_windows_7_ultimate_x64_dvd_x15-65967.iso",
+		"date": "2009-08-29",
+		"SHA1": "52DB06892F86DB2FC811FEB9270615C6B0DD2048",
+		"size": "2.91GB",
+		"download": "ed2k://|file|uk_windows_7_ultimate_x64_dvd_x15-65967.iso|3127914496|8CBADBFFEE2FBF49F53BD9FE6D1A5855|/"
+	},
+	{
+		"id": "bb030f4a-4872-4f84-848a-a193b3b375d2",
+		"language": "1058",
+		"name": "Windows 7 Ultimate (x86) - DVD (Ukrainian)",
+		"fileName": "uk_windows_7_ultimate_x86_dvd_x15-65968.iso",
+		"date": "2009-08-29",
+		"SHA1": "E354E719E2889759F4709A5DC0193279B0361E08",
+		"size": "2.24GB",
+		"download": "ed2k://|file|uk_windows_7_ultimate_x86_dvd_x15-65968.iso|2404720640|9BB34C2F3DEBDFF02A405C4225D2AB58|/"
 	}
 ]
