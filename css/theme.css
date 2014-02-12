@@ -1,21 +1,49 @@
-@import url('bootstrap.css');
-/* @import url('bootstrap-theme.css'); */
 a:hover, a:active, a:visited, a:link {
 	text-decoration: none;
 }
 
 a, .btn, button {
-	transition: color 0.2s ease, background 0.2s ease;
-	-webkit-transition: color 0.2s ease, background 0.2s ease;
-	-moz-transition: color 0.2s ease, background 0.2s ease;
-	-o-transition: color 0.2s ease, background 0.2s ease;
+	transition: color 0.2s ease, background 0.2s ease, border 0.2s ease;
+	-webkit-transition: color 0.2s ease, background 0.2s ease, border 0.2s ease;
+	-moz-transition: color 0.2s ease, background 0.2s ease, border 0.2s ease;
+	-o-transition: color 0.2s ease, background 0.2s ease, border 0.2s ease;
+}
+
+.btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+	background-position: 0 0 !important;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.125) 100%) !important;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.125) 100%) !important;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active {
+	background-color: #f0f0f0;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+	background-color: #2d6ca2;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active {
+	background-color: #49AB49;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active {
+	background-color: #3FB5D9;
+}
+
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active {
+	background-color: #ED9F31;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active {
+	background-color: #D33B36;
 }
 
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
-	transition: color 0.2s ease, background 0.2s ease;
-	-webkit-transition: color 0.2s ease, background 0.2s ease;
-	-moz-transition: color 0.2s ease, background 0.2s ease;
-	-o-transition: color 0.2s ease, background 0.2s ease;
+	transition: background 0.2s ease;
+	-webkit-transition: background 0.2s ease;
+	-moz-transition: background 0.2s ease;
+	-o-transition: background 0.2s ease;
 }
 
 body {
@@ -56,11 +84,8 @@ h1, h2, h3, h4, h5, h6 {
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
 	color: #FFF;
 	background-color: #428bca;
-}
-
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-	color: #FFF;
-	background-color: #428bca;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.125));
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.125) 100%);
 }
 
 .jumbotron h1, .jumbotron p {
@@ -87,9 +112,11 @@ footer li {
 .tab-container {
 	background-color: #ffffff;
 	border: 1px solid #e0e0e0;
+	border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
-	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
 	padding: 20px;
 	margin-bottom: 10px;
 }
@@ -109,10 +136,6 @@ footer li {
 	display: block;
 	cursor: auto;
 	color: #555;
-	/*border-width: 1px 0px 1px 0px;
-	border-style: solid;
-	border-color: #ddd;
-	margin-bottom: -1px;*/
 }
 
 a.product-list-item:hover, a.product-list-item:focus {
@@ -122,6 +145,8 @@ a.product-list-item:hover, a.product-list-item:focus {
 }
 
 a.product-list-item.active, a.product-list-item.active:hover, a.product-list-item.active:focus {
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.125));
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.125));
 	z-index: 2;
 	color: #fff;
 	background-color: #428bca;
