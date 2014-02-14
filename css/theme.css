@@ -3,7 +3,7 @@ a:hover, a:active, a:visited, a:link {
 }
 
 *:focus {
-	outline:none !important;
+	outline: none !important;
 }
 
 a, .btn, button {
