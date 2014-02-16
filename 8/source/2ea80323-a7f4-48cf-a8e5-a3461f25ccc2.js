@@ -598,5 +598,365 @@
 		"SHA1": "31DA9C6D716AF4DC788496077709E274F8DE6820",
 		"size": "222.27MB",
 		"download": "ed2k://|file|sc_winxp_tablet_2005_CD2.iso|233066496|F691BBA9A376B281CDE19FD2E6EF36F9|/"
+	},
+	{
+		"id": "4435a90b-dc7b-4ef2-a336-675a1d03788c",
+		"language": "3076",
+		"name": "Windows XP Professional with Service Pack 2 - VL (Traditional Chinese - Hong Kong SAR)",
+		"fileName": "hk_windows_xp_professional-vl_cd_x86_x12-15646.iso",
+		"date": "2008-10-20",
+		"SHA1": "77E4F136CE0AE953F96DDD5C1A4F45B4FB394CC9",
+		"size": "603.66MB",
+		"download": "ed2k://|file|hk_windows_xp_professional-vl_cd_x86_x12-15646.iso|632983552|F7DC0EB99B1A9E3ED262297655C534D3|/"
+	},
+	{
+		"id": "0c416818-4f13-4796-9094-6e4c98618f1c",
+		"language": "3076",
+		"name": "Windows XP Professional with Service Pack 3 (x86) - CD (Chinese-Hong Kong SAR)",
+		"fileName": "zh-hk_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74075.iso",
+		"date": "2008-05-09",
+		"SHA1": "71A02D0B14DA7AD12EAA0EC17187B80D114DFEC1",
+		"size": "604.53MB",
+		"download": "ed2k://|file|zh-hk_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74075.iso|633896960|338748B7839B12B763B5ACF190B130D1|/"
+	},
+	{
+		"id": "fe257c7e-021b-4087-86c7-89c6b4c1c48b",
+		"language": "3076",
+		"name": "Windows XP Service Pack 3 (x86) - CD (Chinese-Hong Kong SAR)",
+		"fileName": "zh-hk_windows_xp_service_pack_3_x86_cd_x14-60562.iso",
+		"date": "2008-06-30",
+		"SHA1": "68FBEA55A4D9E1C62F1559C39F69BF1B9069C97E",
+		"size": "384.14MB",
+		"download": "ed2k://|file|zh-hk_windows_xp_service_pack_3_x86_cd_x14-60562.iso|402798592|C91DA7CFE3C1585AA4B10E6B079F35B0|/"
+	},
+	{
+		"id": "0b720b0f-dba4-4be8-971a-d941638b031a",
+		"language": "1028",
+		"name": "Windows XP Home with Service Pack 3 (x86) - CD (Chinese-Taiwan)",
+		"fileName": "zh-tw_windows_xp_home_with_service_pack_3_x86_cd_x14-92409.iso",
+		"date": "2008-05-08",
+		"SHA1": "5F26037E36855B685011F257E06F8360CCC12698",
+		"size": "586.98MB",
+		"download": "ed2k://|file|zh-tw_windows_xp_home_with_service_pack_3_x86_cd_x14-92409.iso|615497728|8FA3D560E46E15EC1F2C2C1C7442D09C|/"
+	},
+	{
+		"id": "f5d0bb38-2691-4753-b356-df7677db680c",
+		"language": "1028",
+		"name": "Windows XP Professional with Service Pack 3 (x86) - CD (Chinese-Taiwan)",
+		"fileName": "zh-tw_windows_xp_professional_with_service_pack_3_x86_cd_x14-80408.iso",
+		"date": "2008-05-08",
+		"SHA1": "CE63C1B72E058E121DB9D58F81623DA3E7401FBF",
+		"size": "604.56MB",
+		"download": "ed2k://|file|zh-tw_windows_xp_professional_with_service_pack_3_x86_cd_x14-80408.iso|633925632|3733A2F4EABA6B93F1ABCDBF835FB3F4|/"
+	},
+	{
+		"id": "64e2fe56-08ce-4ca6-b26e-3bc28c316c69",
+		"language": "1028",
+		"name": "Windows XP Professional with Service Pack 3 (x86) - CD VL (Chinese-Taiwan)",
+		"fileName": "zh-tw_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74140.iso",
+		"date": "2008-05-09",
+		"SHA1": "591B197429DA2614ABB6CB3915C20A5938A03321",
+		"size": "604.56MB",
+		"download": "ed2k://|file|zh-tw_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74140.iso|633923584|211E3CAF470B0E246B46035D77DB0F67|/"
+	},
+	{
+		"id": "9fb33595-4fc0-471b-b2fc-99d1729485b4",
+		"language": "1028",
+		"name": "Windows XP Service Pack 3 (x86) - CD (Chinese-Taiwan)",
+		"fileName": "zh-tw_windows_xp_service_pack_3_x86_cd_x14-60564.iso",
+		"date": "2008-06-30",
+		"SHA1": "94B06880DE3A5889000A06FE64034DC69D6EE646",
+		"size": "384.14MB",
+		"download": "ed2k://|file|zh-tw_windows_xp_service_pack_3_x86_cd_x14-60564.iso|402804736|2944EBC5C58CBE66DFE87595F51C8732|/"
+	},
+	{
+		"id": "47410b36-7ae1-451e-a79a-84c8d4484122",
+		"language": "1028",
+		"name": "Windows XP Professional with Service Pack 2- VL (Traditional Chinese)",
+		"fileName": "cht_win_xp_pro_with_sp2_vl.iso",
+		"date": "2004-09-20",
+		"SHA1": "77E4F136CE0AE953F96DDD5C1A4F45B4FB394CC9",
+		"size": "603.66MB",
+		"download": "ed2k://|file|cht_win_xp_pro_with_sp2_vl.iso|632983552|F7DC0EB99B1A9E3ED262297655C534D3|/"
+	},
+	{
+		"id": "1abbf4ce-6389-4d2c-90a9-25a278a20bfb",
+		"language": "1028",
+		"name": "Windows XP Tablet PC Edition 2005 CD 1 - VL (Tradional Chinese)",
+		"fileName": "cht_win_xp_tabletpc_2005_disc1_vl.iso",
+		"date": "2005-05-18",
+		"SHA1": "77E4F136CE0AE953F96DDD5C1A4F45B4FB394CC9",
+		"size": "603.66MB",
+		"download": "ed2k://|file|cht_win_xp_tabletpc_2005_disc1_vl.iso|632983552|F7DC0EB99B1A9E3ED262297655C534D3|/"
+	},
+	{
+		"id": "005ea195-962c-4e8d-8f1c-d2ed7f5e9821",
+		"language": "1028",
+		"name": "Windows XP Tablet PC Edition CD1 (Traditional Chinese) - VL",
+		"fileName": "cht_winxp_tablet_vl_cd1.iso",
+		"date": "2002-11-12",
+		"SHA1": "77E4F136CE0AE953F96DDD5C1A4F45B4FB394CC9",
+		"size": "603.66MB",
+		"download": "ed2k://|file|cht_winxp_tablet_vl_cd1.iso|632983552|F7DC0EB99B1A9E3ED262297655C534D3|/"
+	},
+	{
+		"id": "66b1ee83-c860-4556-adab-99e3815dea52",
+		"language": "1036",
+		"name": "Windows XP Professional with Service Pack 3 (x86) - CD (French)",
+		"fileName": "fr_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73982.iso",
+		"date": "2008-05-02",
+		"SHA1": "187FA9EE4E682FCE20BE6BC5BC092EFCB6AAFD11",
+		"size": "592.14MB",
+		"download": "ed2k://|file|fr_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73982.iso|620908544|CCDB1A47B2530905C72C52BBC263E70C|/"
+	},
+	{
+		"id": "7331f589-91b5-4cc5-9601-e69ed50dde48",
+		"language": "1036",
+		"name": "Windows XP Service Pack 3 (x86) - CD (French)",
+		"fileName": "fr_windows_xp_service_pack_3_x86_cd_x14-61494.iso",
+		"date": "2008-06-30",
+		"SHA1": "7E38C035D1D483B69B34683D286A5A7961D099EE",
+		"size": "372.28MB",
+		"download": "ed2k://|file|fr_windows_xp_service_pack_3_x86_cd_x14-61494.iso|390365184|D8E2F86C256B746CB115CA2954CAA613|/"
+	},
+	{
+		"id": "aa7a8f03-ab8b-479f-a586-6a5f119d3855",
+		"language": "1031",
+		"name": "Windows XP Professional with Service Pack 3 (x86) - CD (German)",
+		"fileName": "de_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73985.iso",
+		"date": "2008-05-02",
+		"SHA1": "55AD061BA1054DA5EC800924B03337674E5A1262",
+		"size": "591.06MB",
+		"download": "ed2k://|file|de_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73985.iso|619769856|C4058BC4BDE934D0A03D66BD7AF933FE|/"
+	},
+	{
+		"id": "0dc1324c-e748-4bbe-bc88-b7c318cc4fd6",
+		"language": "1031",
+		"name": "Windows XP Service Pack 3 (x86) - CD (German)",
+		"fileName": "de_windows_xp_service_pack_3_x86_cd_x14-61430.iso",
+		"date": "2008-06-30",
+		"SHA1": "7FC8E171DCC3F0401F809A7EC2D0951AE90AFF7F",
+		"size": "376.23MB",
+		"download": "ed2k://|file|de_windows_xp_service_pack_3_x86_cd_x14-61430.iso|394506240|B096762F46D0ECC6CF656683F84FFA01|/"
+	},
+	{
+		"id": "7f8a3e25-98c3-4f98-9171-7e783bde2658",
+		"language": "1040",
+		"name": "Windows XP Professional with Service Pack 3 (x86) - CD (Italian)",
+		"fileName": "it_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73994.iso",
+		"date": "2008-05-02",
+		"SHA1": "A04D68B0FC8B97EEC1DA9277E5D8126F318596DC",
+		"size": "586.23MB",
+		"download": "ed2k://|file|it_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73994.iso|614705152|F98636A0516727900135C03A53F33511|/"
+	},
+	{
+		"id": "e96dba64-a8a6-4965-a6ca-6abe0f78785e",
+		"language": "1040",
+		"name": "Windows XP Service Pack 3 (x86) - CD (Italian)",
+		"fileName": "it_windows_xp_service_pack_3_x86_cd_x14-61463.iso",
+		"date": "2008-06-30",
+		"SHA1": "F189E2372FBA3335650A76205E152EC2F54FAA6C",
+		"size": "371.45MB",
+		"download": "ed2k://|file|it_windows_xp_service_pack_3_x86_cd_x14-61463.iso|389490688|C15861085B7D6CEE5C7825C957DD7839|/"
+	},
+	{
+		"id": "8addab47-9ca4-4f65-924c-2b411794fc0b",
+		"language": "1041",
+		"name": "Update Rollup 2 for Windows XP Media Center Edition 2005 (Japanese)",
+		"fileName": "jp_winxp_mce_2005_update2.iso",
+		"date": "2005-10-13",
+		"SHA1": "2674552C5987FF6DDB7FD21E2B0895CD6D0257AE",
+		"size": "29.06MB",
+		"download": "ed2k://|file|jp_winxp_mce_2005_update2.iso|30472192|596ECBB7A83CBAD285312C5DA28E39F1|/"
+	},
+	{
+		"id": "6630e929-2829-4a17-9517-5afb6dbe3cbe",
+		"language": "1041",
+		"name": "Windows XP Professional with Service Pack 3 (x86) - DVD (Japanese)",
+		"fileName": "ja_windows_xp_professional_with_service_pack_3_x86_dvd_vl_x14-74058.iso",
+		"date": "2008-05-02",
+		"SHA1": "8719219C7A77756A904F4BB9FD2F32781F091C22",
+		"size": "630.21MB",
+		"download": "ed2k://|file|ja_windows_xp_professional_with_service_pack_3_x86_dvd_vl_x14-74058.iso|660817920|7ED467245A5B820E2432C211EE389D4F|/"
+	},
+	{
+		"id": "dfb9f29f-ab28-4e7b-9a96-ce05576a3967",
+		"language": "1041",
+		"name": "Windows XP Service Pack 3 (x86) - CD (Japanese)",
+		"fileName": "ja_windows_xp_service_pack_3_x86_cd_x14-62552.iso",
+		"date": "2008-06-30",
+		"SHA1": "41C5187B23FD4BEA64E4CF2132522668CFC24A88",
+		"size": "388.64MB",
+		"download": "ed2k://|file|ja_windows_xp_service_pack_3_x86_cd_x14-62552.iso|407521280|54C5B1B2EB2342E35CE239CC3193D01C|/"
+	},
+	{
+		"id": "4f4c15dd-da32-4970-bda9-ca21120af4d0",
+		"language": "1042",
+		"name": "Windows XP Professional K with Service Pack 3 (x86) - CD (Korean)",
+		"fileName": "ko_windows_xp_professional_k_with_service_pack_3_x86_cd_vl_x14-87427.iso",
+		"date": "2008-05-02",
+		"SHA1": "AA00D0E694E0D885D654241D74E9654373F222EB",
+		"size": "634.25MB",
+		"download": "ed2k://|file|ko_windows_xp_professional_k_with_service_pack_3_x86_cd_vl_x14-87427.iso|665059328|07E5F192C15F3CC7850CF08385794347|/"
+	},
+	{
+		"id": "64d5c76d-3d8b-4aee-b2ea-84c7d73bcdf5",
+		"language": "1042",
+		"name": "Windows XP Professional KN with Service Pack 3 (x86) - CD (Korean)",
+		"fileName": "ko_windows_xp_professional_kn_with_service_pack_3_x86_cd_vl_x14-78419.iso",
+		"date": "2008-05-02",
+		"SHA1": "723F0206CF09E5C8693DE5EEAEE7DA849E734BC8",
+		"size": "615.45MB",
+		"download": "ed2k://|file|ko_windows_xp_professional_kn_with_service_pack_3_x86_cd_vl_x14-78419.iso|645347328|706DD7CF89DDBFE79FC05F63B6425937|/"
+	},
+	{
+		"id": "91114bd1-7bda-4a8b-b59c-661cb38e6d3d",
+		"language": "1042",
+		"name": "Windows XP Service Pack 3 (x86) - CD (Korean)",
+		"fileName": "ko_windows_xp_service_pack_3_x86_cd_x14-60565.iso",
+		"date": "2008-06-30",
+		"SHA1": "0560FF2C8BFDCF583614B2A94A0E9F97E14663F0",
+		"size": "378.29MB",
+		"download": "ed2k://|file|ko_windows_xp_service_pack_3_x86_cd_x14-60565.iso|396662784|F28CC94043659241B95CF81E4B23300F|/"
+	},
+	{
+		"id": "b67d05f1-e7f1-4a8a-a388-7e83b1e1e1e2",
+		"language": "1046",
+		"name": "Windows XP Professional with Service Pack 3 (x86) - CD (Portuguese-Brazil)",
+		"fileName": "pt-br_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74137.iso",
+		"date": "2008-05-02",
+		"SHA1": "015F13F28655957C93FE20D287EA62A50BE64A95",
+		"size": "587.23MB",
+		"download": "ed2k://|file|pt-br_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74137.iso|615757824|3CC5F897AB54009C0279517F6AF86057|/"
+	},
+	{
+		"id": "61445a6c-4a0f-4c35-b27f-6b12d79783c8",
+		"language": "1046",
+		"name": "Windows XP Service Pack 3 (x86) - CD (Portuguese-Brazil)",
+		"fileName": "pt-br_windows_xp_service_pack_3_x86_cd_x14-60493.iso",
+		"date": "2008-06-30",
+		"SHA1": "D2054A679E825C916DE5A8CD5E55C0EB8F0675D6",
+		"size": "365.41MB",
+		"download": "ed2k://|file|pt-br_windows_xp_service_pack_3_x86_cd_x14-60493.iso|383156224|F811E6459EE7B81345398E46435BE839|/"
+	},
+	{
+		"id": "02d030ef-d5ad-4452-bb22-288e94b01655",
+		"language": "2070",
+		"name": "Windows XP Professional with Service Pack 3 (x86) - CD (Portuguese-Portugal)",
+		"fileName": "pt-pt_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74006.iso",
+		"date": "2008-05-14",
+		"SHA1": "BE01482B44A70384C84A1C3D174547434DED071B",
+		"size": "587.73MB",
+		"download": "ed2k://|file|pt-pt_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74006.iso|616284160|E42CBDD3E2F24E24E3E3CB870424525E|/"
+	},
+	{
+		"id": "eaa66216-2377-46d2-bac8-45897196f3c9",
+		"language": "2070",
+		"name": "Windows XP Service Pack 3 (x86) - CD (Portuguese-Portugal)",
+		"fileName": "pt-pt_windows_xp_service_pack_3_x86_cd_x14-61475.iso",
+		"date": "2008-06-30",
+		"SHA1": "31F198BA1259289FB35A54EEAD5DACA8A5568AED",
+		"size": "369.76MB",
+		"download": "ed2k://|file|pt-pt_windows_xp_service_pack_3_x86_cd_x14-61475.iso|387723264|6F729EBF7FAE619C4F314433FCC7C0FF|/"
+	},
+	{
+		"id": "63d3ab7b-fd17-4527-9031-048d901c659b",
+		"language": "1049",
+		"name": "Windows XP Professional with Service Pack 3 (x86) - CD (Russian)",
+		"fileName": "ru_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74146.iso",
+		"date": "2008-05-09",
+		"SHA1": "B7E0DD8B8832E4966E61A9EC3CCD9E7EF3EAD1B3",
+		"size": "593.04MB",
+		"download": "ed2k://|file|ru_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74146.iso|621848576|18F9F41B53DDEDE851DF967585878BED|/"
+	},
+	{
+		"id": "1f995b85-be0b-47dd-9edf-ce6027fbe4c2",
+		"language": "1049",
+		"name": "Windows XP Service Pack 3 (x86) - CD (Russian)",
+		"fileName": "ru_windows_xp_service_pack_3_x86_cd_x14-61485.iso",
+		"date": "2008-06-30",
+		"SHA1": "31AEFAEB6B51CCCEA2E2E1B282E84ACF0FE29EF3",
+		"size": "367.04MB",
+		"download": "ed2k://|file|ru_windows_xp_service_pack_3_x86_cd_x14-61485.iso|384874496|654D73726FA62919133FDFB85BFC3BCA|/"
+	},
+	{
+		"id": "b1f9e3eb-8f04-4829-a87a-1c1f99139d99",
+		"language": "1034",
+		"name": "Windows XP Professional with Service Pack 3 (x86) - CD (Spanish)",
+		"fileName": "es_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74009.iso",
+		"date": "2008-05-02",
+		"SHA1": "A47603256D7645A2F2788466153FFCD058F77C56",
+		"size": "590.51MB",
+		"download": "ed2k://|file|es_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74009.iso|619194368|09C54FE4F66E7423412CF02C27ED10DB|/"
+	},
+	{
+		"id": "ff69a99a-28eb-4874-98c9-771230ceaf52",
+		"language": "1034",
+		"name": "Windows XP Service Pack 3 (x86) - CD (Spanish)",
+		"fileName": "es_windows_xp_service_pack_3_x86_cd_x14-61495.iso",
+		"date": "2008-06-30",
+		"SHA1": "70F79D586D9CA45D6E07DDC0D0D4F7E5E1CF2D2C",
+		"size": "371.61MB",
+		"download": "ed2k://|file|es_windows_xp_service_pack_3_x86_cd_x14-61495.iso|389662720|E1BBBCBC384EF7F353ECE9D4C8417A3D|/"
+	},
+	{
+		"id": "f4fc7242-beb5-452b-894f-bb99c132bbad",
+		"language": "1025",
+		"name": "Windows XP Professional with Service Pack 3 (x86) - CD (Arabic)",
+		"fileName": "ar_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74065.iso",
+		"date": "2008-05-09",
+		"SHA1": "664E85AF15AAB89AE172FCDAE9F3566A572BDAB8",
+		"size": "587.96MB",
+		"download": "ed2k://|file|ar_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74065.iso|616515584|C75B6DA9C35DC9D304A379BDD5A0B6C5|/"
+	},
+	{
+		"id": "063089e9-6635-416f-bd77-b80f468e4ff6",
+		"language": "1025",
+		"name": "Windows XP Service Pack 3 (x86) - CD (Arabic)",
+		"fileName": "ar_windows_xp_service_pack_3_x86_cd_x14-61410.iso",
+		"date": "2008-06-30",
+		"SHA1": "BF0DDF4E47705010956B8D399EE09FE7346FE34D",
+		"size": "364.98MB",
+		"download": "ed2k://|file|ar_windows_xp_service_pack_3_x86_cd_x14-61410.iso|382713856|F6D43D39A80A7615CBF7C0A39A03D8DF|/"
+	},
+	{
+		"id": "fe3d22a5-eae7-4ccf-be95-348d1a24e9c7",
+		"language": "1029",
+		"name": "Windows XP Professional with Service Pack 3 (x86) - CD (Czech)",
+		"fileName": "cs_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73965.iso",
+		"date": "2008-05-09",
+		"SHA1": "0FD3FBFA46D32F0D64A08D58F38C0C5E0AD2FC83",
+		"size": "592.19MB",
+		"download": "ed2k://|file|cs_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73965.iso|620951552|44B18DF25F5712F573315C93EC8F0FF9|/"
+	},
+	{
+		"id": "cf6f8ea4-2411-4943-b014-476bb8633965",
+		"language": "1029",
+		"name": "Windows XP Service Pack 3 (x86) - CD (Czech)",
+		"fileName": "cs_windows_xp_service_pack_3_x86_cd_x14-61417.iso",
+		"date": "2008-06-30",
+		"SHA1": "311C7E2DA4D6610362F6EF88558952FD660DD188",
+		"size": "370.73MB",
+		"download": "ed2k://|file|cs_windows_xp_service_pack_3_x86_cd_x14-61417.iso|388739072|848455E6D7132022F0825DE81726C141|/"
+	},
+	{
+		"id": "b43d5429-8751-4edc-a1d2-666ddf8924ab",
+		"language": "1030",
+		"name": "Windows XP Professional with Service Pack 3 (x86) - CD (Danish)",
+		"fileName": "da_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73968.iso",
+		"date": "2008-05-09",
+		"SHA1": "DEF17B2C6AE30653AB39AEC0F6566C36073BDAFB",
+		"size": "586.41MB",
+		"download": "ed2k://|file|da_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73968.iso|614893568|F75D613F898326633EE7D2021381B204|/"
+	},
+	{
+		"id": "2157166a-607a-488b-a093-30cf5c17de8b",
+		"language": "1030",
+		"name": "Windows XP Service Pack 3 (x86) - CD (Danish)",
+		"fileName": "da_windows_xp_service_pack_3_x86_cd_x14-61418.iso",
+		"date": "2008-06-30",
+		"SHA1": "75426399DE2A3EE816A24B9D0DFD5D68E6773101",
+		"size": "368.95MB",
+		"download": "ed2k://|file|da_windows_xp_service_pack_3_x86_cd_x14-61418.iso|386869248|F742C19F4534C65F2A766E558F4A1D76|/"
 	}
 ]
