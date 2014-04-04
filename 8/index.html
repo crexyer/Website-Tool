@@ -50,16 +50,15 @@
 
 		//禁用筛选器大小写
 		$.expr[':'].Contains = function(a, i, m) {
-  	return $(a).text().toLowerCase()
-      .indexOf(m[3].toLowerCase()) >= 0;
+			return $(a).text().toLowerCase().indexOf(m[3].toLowerCase()) >= 0;
 		};
 
 		$.expr[':'].contains = function(a, i, m) {
-  		return $(a).text().toLowerCase()
-			.indexOf(m[3].toLowerCase()) >= 0;
+			return $(a).text().toLowerCase().indexOf(m[3].toLowerCase()) >= 0;
 		};
 
 	})
+
 	function setFilter(string) {
 		$("#filter").val(string);
 		$("table tbody tr").hide().filter(":contains('" + string + "')").show();
@@ -72,7 +71,7 @@
 		$("#product").html("");
 		writeLanguageList();
 		$.ajax({
-			url: "source/" + id + ".js",
+			url: "source/" + id + ".json",
 			dataType: "json",
 			timeout: 3000,
 			success: function(data, status) {
@@ -98,15 +97,38 @@
 	}
 
 	function productDetail(number) {
-		$("#productId").html(product[number].id);
-		$("#productLanguage").html(getLanguage(product[number].language));
-		$("#productName").html(product[number].name);
-		$("#productFileName").html(product[number].fileName);
-		$("#productDate").html(product[number].date);
-		$("#productSHA1").html(product[number].SHA1);
-		$("#productSize").html(product[number].size);
-		$("#productDownload").html(product[number].download);
+		//语言
+		$("#product-language").html(getLanguage(product[number].language));
+		//名称
+		$("#product-name").html(product[number].name);
+		//文件名
+		$("#product-fileName").html(product[number].fileName);
+		//SHA1
+		$("#product-SHA1").html(product[number].SHA1);
+		//发布时间
+		var d = new Date();
+		d.setTime(product[number].date)
+		$("#productDate").html(d.toLocaleString() + " (UTC)");
+		//大小
+		$("#product-size").html(getSize(parseInt(product[number].size)));
+		//下载地址
+		$("#product-download").html(product[number].download);
+		//弹出 Model
 		$('#dialogue').modal('show');
+	}
+
+	function getSize(size) {
+		var unit = new Array("Byte", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB", "BB", "NB", "DB");
+		var i = 0;
+		while (size > 1024) {
+			size = size / 1024;
+			i++;
+		}
+		if (i == 0) {
+			return (size + " " + unit[i]);
+		} else {
+			return (size.toFixed(2) + " " + unit[i]);
+		}
 	}
 
 	function writeProductList(product, language) {
@@ -185,17 +207,17 @@
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							<h4 class="panel-title">
-								<a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#7ab5f0cb-7607-4bbe-9e88-50716dc43de6">
+								<a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#74D02455-1288-479A-8495-5DF687F32F4D">
 									操作系统
 								</a>
 							</h4>
 						</div>
-						<div id="7ab5f0cb-7607-4bbe-9e88-50716dc43de6" class="panel-collapse collapse in">
+						<div id="74D02455-1288-479A-8495-5DF687F32F4D" class="panel-collapse collapse in">
 							<div class="panel-body">
 								<div class="product-list">
-									<a class="product-list-item" data-id="c894c7fb-6c0d-4f2e-a7f6-1e75e507b1d3" data-loaded="true" data-loading="false" href="javascript:void(0)">Windows 8.1</a>
-									<a class="product-list-item" data-id="9348a2b6-e1d9-4579-a431-23414cbf42f1" data-loaded="true" data-loading="false" href="javascript:void(0)">Windows 7</a>
-									<a class="product-list-item" data-id="2ea80323-a7f4-48cf-a8e5-a3461f25ccc2" data-loaded="true" data-loading="false" href="javascript:void(0)">Windows XP</a>
+									<a class="product-list-item" data-id="113EEBB9-4941-474E-BADD-0C07D7E4CA37" data-loaded="true" data-loading="false" href="javascript:void(0)">Windows 8.1</a>
+									<a class="product-list-item" data-id="49BC65D5-7AD5-424B-9F72-D4FB96820E75" data-loaded="true" data-loading="false" href="javascript:void(0)">Windows 7</a>
+									<a class="product-list-item" data-id="6FF0782B-4748-4BAE-9B4E-DAE5AC4C454D" data-loaded="true" data-loading="false" href="javascript:void(0)">Windows XP</a>
 								</div>
 							</div>
 						</div>
@@ -203,22 +225,22 @@
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							<h4 class="panel-title">
-								<a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#051d75ee-ff53-43fe-80e9-bac5c10fc0fb">
+								<a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#D52F68EE-EF17-4F8D-A0C7-01B6EAC86816">
 									应用程序
 								</a>
 							</h4>
 						</div>
-						<div id="051d75ee-ff53-43fe-80e9-bac5c10fc0fb" class="panel-collapse collapse">
+						<div id="D52F68EE-EF17-4F8D-A0C7-01B6EAC86816" class="panel-collapse collapse">
 							<div class="panel-body">
 								<div class="product-list">
-									<a class="product-list-item" data-id="f320798a-22b2-45d9-bf28-17225617de99" data-loaded="true" data-loading="false" href="javascript:void(0)">Office 2013</a>
-									<a class="product-list-item" data-id="f675e8fe-f6b9-4276-9dc8-313c359b0d72" data-loaded="true" data-loading="false" href="javascript:void(0)">Office 2010</a>
+									<a class="product-list-item" data-id="B6BCD793-EA6D-4344-8E01-8AEF6EC46A2F" data-loaded="true" data-loading="false" href="javascript:void(0)">Office 2013</a>
+									<a class="product-list-item" data-id="4CCBABBC-C8D8-425F-A6BA-12BAE22FFB33" data-loaded="true" data-loading="false" href="javascript:void(0)">Office 2010</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<p>最后更新 2014-02-12，数据正在逐渐添加中。Windows 8.1 和 Windows 7 已经添加完毕。</p>
+				<p>此工具为测试版，数据正在添加中。</p>
 			</div>
 			<div class="col-lg-9">
 				<div class="form-horizontal" role="form">
@@ -303,19 +325,19 @@
 					<div class="form-group">
 					<label class="col-sm-2 control-label">名称</label>
 						<div class="col-sm-10">
-							<p class="form-control-static" id="productName"></p>
+							<p class="form-control-static" id="product-name"></p>
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="col-sm-2 control-label">文件名</label>
 						<div class="col-sm-10">
-							<p class="form-control-static" id="productFileName"></p>
+							<p class="form-control-static" id="product-fileName"></p>
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="col-sm-2 control-label">语言</label>
 						<div class="col-sm-10">
-							<p class="form-control-static" id="productLanguage"></p>
+							<p class="form-control-static" id="product-language"></p>
 						</div>
 					</div>
 					<div class="form-group">
@@ -325,27 +347,21 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-sm-2 control-label">ID</label>
-						<div class="col-sm-10">
-							<p class="form-control-static" id="productId"></p>
-					</div>
-					</div>
-					<div class="form-group">
 						<label class="col-sm-2 control-label">SHA1</label>
 						<div class="col-sm-10">
-							<p class="form-control-static" id="productSHA1"></p>
+							<p class="form-control-static" id="product-SHA1"></p>
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="col-sm-2 control-label">文件大小</label>
 						<div class="col-sm-10">
-							<p class="form-control-static" id="productSize"></p>
+							<p class="form-control-static" id="product-size"></p>
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="col-sm-2 control-label">下载地址</label>
 						<div class="col-sm-10">
-							<p class="form-control-static" id="productDownload"></p>
+							<p class="form-control-static" id="product-download"></p>
 				    </div>
 				  </div>
 				</div>
