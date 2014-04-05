@@ -1,0 +1,44 @@
+[
+	{
+		"id": "4416b4cd-dc09-4a6d-b80a-3afd8429a903",
+		"language": "",
+		"name": "Windows 8.1 Enterprise with Update (x64) - DVD (English)
+",
+		"fileName": "en_windows_8.1_enterprise_with_update_x64_dvd_4065178.iso",
+		"date": "1396431671803",
+		"SHA1": "8FB332A827998F807A1346BEF55969C6519668B9",
+		"size": "3955961856",
+		"download": "ed2k://|file|en_windows_8.1_enterprise_with_update_x64_dvd_4065178.iso|3955961856|053DDD7B1D05F31D695EF102688F44B1|/"
+	},
+	{
+		"id": "d18e429b-d836-42f1-9e4f-b5098b20094a",
+		"language": "",
+		"name": "Windows 8.1 Enterprise with Update (x86) - DVD (English)",
+		"fileName": "en_windows_8.1_enterprise_with_update_x86_dvd_4065185.iso",
+		"date": "1396431671803",
+		"SHA1": "FE43558B4708B4B786BC3286924813B0AAD21106",
+		"size": "2946463744",
+		"download": "ed2k://|file|en_windows_8.1_enterprise_with_update_x86_dvd_4065185.iso|2946463744|75AEE50CB3E3513762BBFE971894CFD9|/"
+	},
+	{
+		"id": "7eeb5d53-5222-4ad3-9d52-88296105d3f3",
+		"language": "",
+		"name": "Windows 8.1 with Update (multiple editions) (x64) - DVD (English)",
+		"fileName": "en_windows_8.1_with_update_x64_dvd_4065090.iso",
+		"date": "1396431671803",
+		"SHA1": "4652DC6EBFEBE02C6A63E167C36E3FAEDFB93999",
+		"size": "4115013632",
+		"download": "ed2k://|file|en_windows_8.1_with_update_x64_dvd_4065090.iso|4115013632|8ED6272AAE321628AF6A16AA12CE63C8|/"
+	},
+	{
+		"id": "4995a973-90b0-41fb-8959-3559d21d4a96",
+		"language": "",
+		"name": "Windows 8.1 with Update (multiple editions) (x86) - DVD (English)
+",
+		"fileName": "en_windows_8.1_with_update_x86_dvd_4065105.iso",
+		"date": "1396431671803",
+		"SHA1": "54B8572556B316A6BECE54C5033564E3296F5951",
+		"size": "3076220928",
+		"download": "ed2k://|file|en_windows_8.1_with_update_x86_dvd_4065105.iso|3076220928|A5BF500F7739E8052E75D2365119DC11|/"
+	}
+]
